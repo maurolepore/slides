@@ -64,8 +64,37 @@ git push -u origin master
 
 ```
 
+- Paste what you just copied in a shell. Get the shell from R Studio (tools/shell). You need internet connection. You will need to provide the shell with your login and password to acess gitHub.
 
-- Push changes to git(Hub)
+Done! From now on, new commits (in your master branch) can be pushed from RStudio to gitHub.
+
+
+
+## Try git in RStudio
+
+- Explore all you can do from RStudio
+
+- Discuss alternative state of files, find help in 
+
+- See history of commits, 
+
+- interprate diff in each file and line
+
+- revert a file or line
+
+
+
+
+
+## More power from the shell
+
+- tag
+
+- branch
+
+
+
+
 
 
 
