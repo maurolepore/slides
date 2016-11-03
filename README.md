@@ -8,5 +8,5 @@ This repository contains a number of presentations on topics related to data sci
 
 - [Why and how to use git(Hub) - my opinion](https://github.com/maurolepore/slides/edit/master/git_and_gitHub.Rmd)
 
-Feel free to use and propose edits to this slides.
+The slides are published at http://rpubs.com/maurolepore and can be edited following each of the links above. Feel free to use and to propose edits to this material.
 
