@@ -2,4 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-git_and_gitHub_why.html
+
+*.html
