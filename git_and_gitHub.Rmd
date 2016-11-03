@@ -1,7 +1,7 @@
 ---
-title: "Manageing and Sharing Data"
-author: "Abby and Mauro  | slides at: rpubs.com/maurolepore/share"
-date: "Presented on 2016-08-24 and reviewed on 2016-08-25"
+title: "Why and how to use git(Hub)"
+author: "rpubs.com/maurolepore/git"
+date: "2016-11-04"
 output:
   ioslides_presentation:
     widescreen: false
@@ -14,14 +14,49 @@ library(dplyr)
 
 ## Outline
 
-1. Show a curated list of resources
+1. Provide resources and suggestions to learn
 
 2. Overview why and how using git(Hub)
 
 3. How I use git(Hub) 
 
 
-# 1. Show a curated list of resources
+# 1. Provide resources and suggestions to learn
+
+## A curated list of resources is this:
+
+1. Learn why using git and gitHub:  [webinar](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
+
+2. Learn how to use git and gitHub: [webinar](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-part-2/)
+
+3. Learn common actions using RStudio + git + gitHub: [chapter in R packages book](http://r-pkgs.had.co.nz/git.html)
+
+4. Get quick help on both git and gitHub: [gitHub help](https://help.github.com/)
+
+
+5. Learn any topic to the greatest possible detail: [book Pro Git](https://git-scm.com/book/en/v2)
+
+
+
+## To learn, pick a plan that suits you
+
+### Quick but painful 
+
+Gets you started quickly but is boring and hurts your brain. Risks of frustration and quitting are high.
+
+- Use resource 3 and try git(Hub) as you read. Use other resources as needed.
+
+### Slowest but smoothest
+
+Slowest but most effective. Your brain has sufficient time to digest the content and, before you forget, the content is refreshed from a slightly different angle. The chances to quit are vey low and it can even be fun!
+
+- Whatch resource 1 one day, then watch 2 the next day, then read 3 the next day AND try git(Hub) as you read. When you struggle, use resource 4 and 5 as needed.
+
+### Inbetween
+
+- Watch resource 2 first, then use the **Quick but painful** plan.
+
+
 
 # 2. Overview why and how using git(Hub)
 
@@ -36,6 +71,13 @@ library(dplyr)
 - **To show easier.**it provides a website for your project
 
 - **To collaborate easier.**it provides a system for others to contribute to your work.
+
+
+## How to use git
+
+- **From RStudio.** Start using git(Hub) from R studio, even if your project does not use R. You will gain a lot of important features in a very user-friendly way. Your will become familiar with how R Studio and git(hub) interact and, by the time your project uses R, you will be ready to go!
+
+- **From the bash shell. ** Continue using git(Hub) from the shell to unleash the full power of git. For example, create tags and branches.
 
 
 
@@ -125,50 +167,6 @@ devtools::install_github("maurolepore/coral")
 - take risks safely
 
 - collaborate effectively
-
-
-## Curated resources
-
-1. Learn why using git and gitHub:  [webinar](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
-
-2. Learn how to use git and gitHub: [webinar](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-part-2/)
-
-3. Get quick help on both git and gitHub: [gitHub help](https://help.github.com/)
-
-4. Learn common actions using RStudio + git + gitHub: [chapter in R packages book](http://r-pkgs.had.co.nz/git.html)
-
-
-5. Learn any topic to the greatest possible detail: [book Pro Git](https://git-scm.com/book/en/v2)
-
-
-
-## To learn, pick a plan
-
-### Quick but painful 
-
-Gets you started quickly but hurts on your brain and comes with a lot of frustration. High risk of quitting.
-
-- Use resource 3 and try git(Hub) as you watch. Use other resources as needed.
-
-### Slowest but smoothest
-
-Slowest but most effective. Your brain has sufficient time to digest the content and, before it forgets, the content is refreshed from a slightly different angle. The chances to quit are vey low and it can even be fun!
-
-- Whatch resource 1 one day, then 2 the next day, then read 3 the next day AND try git(Hub) as you read. When you struggle, use resource 4 and 5.
-
-
-
-
-
-## Manageing and Sharing Data Privately
-
-`?install\_github(auth\_token = )`
-
-> `auth\_token`: To install from a private repo, generate a personal access token (PAT) in https://github.com/settings/tokens and supply to this argument. This is safer than using a password because you can easily delete a PAT without affecting any others. Defaults to the GITHUB_PAT environment variable.
-
-
-
-
 
 
 
