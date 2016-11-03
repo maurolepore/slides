@@ -1,0 +1,56 @@
+
+## Why hosting work on github? To share easy
+
+If it is hosted on github, your work is easy to share.
+
+E.g., to get the `coral` R package do this:
+
+```{r, echo=TRUE, eval=FALSE}
+install.packages("devtools")  # if you don't have it already
+
+devtools::install_github("maurolepore/coral")
+```
+
+
+
+## Why hosting work on github? To control versions
+
+### Version control allows you to:
+
+- travel in time,
+
+- take risks safely
+
+- collaborate effectively
+
+
+## Curated resources
+
+1. Learn why using git and gitHub:  [webinar](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
+
+2. Learn how to use git and gitHub: [webinar](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-part-2/)
+
+3. Get quick help on both git and gitHub: [gitHub help](https://help.github.com/)
+
+4. Learn common actions using RStudio + git + gitHub: [chapter in R packages book](http://r-pkgs.had.co.nz/git.html)
+
+
+5. Learn any topic to the greatest possible detail: [book Pro Git](https://git-scm.com/book/en/v2)
+
+
+
+## To learn, pick a plan
+
+### Quick but painful 
+
+Gets you started quickly but hurts on your brain and comes with a lot of frustration. High risk of quitting.
+
+- Use resource 3 and try git(Hub) as you watch. Use other resources as needed.
+
+### Slowest but smoothest
+
+Slowest but most effective. Your brain has sufficient time to digest the content and, before it forgets, the content is refreshed from a slightly different angle. The chances to quit are vey low and it can even be fun!
+
+- Whatch resource 1 one day, then 2 the next day, then read 3 the next day AND try git(Hub) as you read. When you struggle, use resource 4 and 5.
+
+

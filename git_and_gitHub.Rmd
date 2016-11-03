@@ -1,0 +1,159 @@
+---
+title: "Manageing and Sharing Data"
+author: "Abby and Mauro  | slides at: rpubs.com/maurolepore/share"
+date: "Presented on 2016-08-24 and reviewed on 2016-08-25"
+output:
+  ioslides_presentation:
+    widescreen: false
+---
+
+```{r setup_slides, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA)
+library(dplyr)
+```
+
+## Outline
+
+1. Show a curated list of resources
+
+2. Overview why and how using git(Hub)
+
+3. How I use git(Hub) 
+
+
+# 1. Show a curated list of resources
+
+# 2. Overview why and how using git(Hub)
+
+## Why using git(Hub)
+
+- **to work safer.** It heps you work more safely so you can take more risks (not using git(Hub) is like free climbing)
+
+- **to work neater** It helps you to organise your work better by using consistent structure and procedure
+
+- **to work more effectively**. it helps you achieve goals easier by focusing on compleating small incremental steps (particular tasks) towards that goal
+
+- **To show easier.**it provides a website for your project
+
+- **To collaborate easier.**it provides a system for others to contribute to your work.
+
+
+
+
+# 3. How I use git(Hub) 
+
+- Install git, open an account in gitHub, link git(Hub) to RStudio
+
+See section *Git and GitHub / Initial set up* [here](http://r-pkgs.had.co.nz/git.html)
+
+- Create projects in R studio (R packages are projects). R Studio projects come with 
+
+- Add some very basic components of the project
+
+- Make an initial commit changes in R Studio
+
+- Create a new repo in gitHub at https://github.com/new 
+
+    + name the project exactly the same as its local version
+    + click `create repository`
+    + copy to clipboard what it says under **…or push an existing repository from the command line** which looks like this:
+
+```
+git remote add origin https://github.com/maurolepore/slides.git
+git push -u origin master
+
+```
+
+
+- Push changes to git(Hub)
+
+
+
+- Create a dev branch
+
+
+
+Why hosting work on github? To share easy
+
+If it is hosted on github, your work is easy to share.
+
+E.g., to get the `coral` R package do this:
+
+```{r, echo=TRUE, eval=FALSE}
+install.packages("devtools")  # if you don't have it already
+
+devtools::install_github("maurolepore/coral")
+```
+
+
+
+## Why hosting work on github? To control versions
+
+### Version control allows you to:
+
+- travel in time,
+
+- take risks safely
+
+- collaborate effectively
+
+
+## Curated resources
+
+1. Learn why using git and gitHub:  [webinar](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
+
+2. Learn how to use git and gitHub: [webinar](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-part-2/)
+
+3. Get quick help on both git and gitHub: [gitHub help](https://help.github.com/)
+
+4. Learn common actions using RStudio + git + gitHub: [chapter in R packages book](http://r-pkgs.had.co.nz/git.html)
+
+
+5. Learn any topic to the greatest possible detail: [book Pro Git](https://git-scm.com/book/en/v2)
+
+
+
+## To learn, pick a plan
+
+### Quick but painful 
+
+Gets you started quickly but hurts on your brain and comes with a lot of frustration. High risk of quitting.
+
+- Use resource 3 and try git(Hub) as you watch. Use other resources as needed.
+
+### Slowest but smoothest
+
+Slowest but most effective. Your brain has sufficient time to digest the content and, before it forgets, the content is refreshed from a slightly different angle. The chances to quit are vey low and it can even be fun!
+
+- Whatch resource 1 one day, then 2 the next day, then read 3 the next day AND try git(Hub) as you read. When you struggle, use resource 4 and 5.
+
+
+
+
+
+## Manageing and Sharing Data Privately
+
+`?install\_github(auth\_token = )`
+
+> `auth\_token`: To install from a private repo, generate a personal access token (PAT) in https://github.com/settings/tokens and supply to this argument. This is safer than using a password because you can easily delete a PAT without affecting any others. Defaults to the GITHUB_PAT environment variable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

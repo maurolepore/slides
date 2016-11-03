@@ -56,41 +56,7 @@ map()
 
 
 
-## Why hosting R packages on github? To share easy
 
-If they are hosted on github, R packages are easy to share.
-
-E.g., to get the `coral`package do this:
-
-```{r, echo=TRUE, eval=FALSE}
-install.packages("devtools")  # if you don't have it already
-
-devtools::install_github("maurolepore/coral")
-```
-
-
-
-## Why hosting R packages on github? To control versions
-
-### Version control allows you to:
-
-- travel in time,
-
-- take risks on separate branches of your project,
-
-- collaborate safely.
-
-To learn more see this [intro to Git and Github](http://r-pkgs.had.co.nz/git.html))
-
-
-
-## Why hosting R packages on github? To get web pages
-
-Github repositories come with:
-
-- [a web page to introduce each repository](https://maurolepore.github.io/coral/)
-
-- [a web page of each repository](https://github.com/maurolepore/coral)
 
 
 
