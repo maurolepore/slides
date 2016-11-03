@@ -1,0 +1,78 @@
+---
+title: "Manageing and Sharing Data"
+author: "Abby and Mauro  | slides at: rpubs.com/maurolepore/share"
+date: "Presented on 2016-08-24 and reviewed on 2016-08-25"
+output:
+  ioslides_presentation:
+    widescreen: false
+---
+
+```{r setup_slides, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA)
+library(dplyr)
+```
+
+
+
+## Outline
+
+1. Data should be tidy
+2. To manage/share data easily we can use R packages
+3. Scratchpads: What  has Abby learned so far
+
+_15 min talk + 5 discusison  |  English (Q&A Spanish)_
+
+
+
+# 1. Data should be tidy
+
+```{r, child="tidy.Rmd"}
+
+```
+
+
+
+
+# 2. To manage/share data easily we can use R packages hosted on Github
+
+```{r, child="packages.Rmd"}
+
+```
+
+
+
+
+# 3. Scratchpads: What I've learned so far
+
+Go to [Abby's slides](https://docs.google.com/presentation/d/1pK3lb_rYjsHGSHaNnEFsDDxXUu8y9tyayp05dB7R3AM/edit?usp=sharing)
+
+
+
+# Extras
+
+## Manageing and Sharing Data Privately
+
+`?install\_github(auth\_token = )`
+
+> `auth\_token`: To install from a private repo, generate a personal access token (PAT) in https://github.com/settings/tokens and supply to this argument. This is safer than using a password because you can easily delete a PAT without affecting any others. Defaults to the GITHUB_PAT environment variable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,342 @@
+---
+title: "Data should be tidy"
+author: "maurolepore@gmail.com"
+date: "2016-08-24"
+output: ioslides_presentation
+---
+
+```{r setup_tidy, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA)
+source("tidy_load.R")
+```
+
+
+
+## Outline
+
+- Why data should be tidy?
+- What is tidy data?
+- What is not-tidy data?
+- How to collect tidy data?
+- How to wrangle (clean) not-tidy data?
+
+
+
+## Why data should be tidy?
+
+We spend a huge amount of time collecting and preparing data, before it can be explored for useful information.
+
+### Rerefences
+
+The conceptual framework is developed by [Wickham ( 2014)](http://vita.had.co.nz/papers/tidy-data.html):
+
+> "Tidy datasets are easy to manipulate, model and visualize"
+
+Borer et. al (2009) provide [Some simple guidelines for effective data management](https://www.nceas.ucsb.edu/files/news/ESAdatamng09.pdf)
+
+This webinar explains [how not to collect data](https://www.dataone.org/webinars/how-not-collect-data-organizing-data-long-term-use-and-re-use)
+
+
+## What is tidy data?: Structure
+
+> "[Tidy datasets] ... have a specific structure" [Wickham ( 2014)](http://vita.had.co.nz/papers/tidy-data.html).
+
+[See extra slides 1](https://github.com/maurolepore/tidy/blob/master/tidy-presentation/01wrangle.pdf)
+
+
+
+## What is tidy data?: Style
+
+Follow some style, e.g. [Advanced R](http://adv-r.had.co.nz/Style.html):
+
+Variable...names should be:
+
+- lowercase
+- generally nouns (not verbs)
+- concise
+- meaningful
+
+Use an underscore (_) to separate words within a name.
+
+> "[good]...style is like using correct punctuation. You can manage without it, but it sure makes things easier to read"
+
+
+
+## What is tidy data?: Documentation
+
+Define variable names, e.g.:
+
+- [variable definitions of the coral project](https://docs.google.com/spreadsheets/d/1utCB2GPaU4L0JT0wQFHgTODIzslln__qFFotnBYHpq4/edit?usp=sharing)
+
+- [Darwin Core Terms: A quick reference guide](http://rs.tdwg.org/dwc/terms/index.htm)
+
+
+
+## What is not-tidy data?
+
+[See extra slides 2](https://github.com/maurolepore/tidy/blob/master/tidy-presentation/01wrangle.pdf)
+
+
+
+## What is not-tidy data?
+
+Example from the [Holocene sample database](https://docs.google.com/spreadsheets/d/14-rcXfavKJA03M-xQVqcpGGUKkpfhmq-3s6bpjYpSKE/edit?usp=sharing)
+
+**Each variable should be a column**, but:
+
+- there are two variables in one column: "Lat" has values of "Long" and "Lat" (see column N 228:251), and
+
+- there are two columns for one variable: "Lat" is in columns N and BT.
+
+
+
+## What is not-tidy data?
+
+Example from the [Holocene sample database](https://docs.google.com/spreadsheets/d/14-rcXfavKJA03M-xQVqcpGGUKkpfhmq-3s6bpjYpSKE/edit?usp=sharing)
+
+**Each observation should be a row**, but:
+
+- the variable "Location" records observations from "Cañon de **Buho**" and from "Cañon de **Buo**" separately.
+
+
+
+## What is not-tidy data?
+
+Example from the [Holocene sample database](https://docs.google.com/spreadsheets/d/14-rcXfavKJA03M-xQVqcpGGUKkpfhmq-3s6bpjYpSKE/edit?usp=sharing)
+
+**Each type of observational unit should be a table**, but:
+
+- observations of geographic position of the samples are mixed with observations of the abundance of some taxa in the samples
+
+
+
+## What is not-tidy data?
+
+Example from the [Holocene sample database](https://docs.google.com/spreadsheets/d/14-rcXfavKJA03M-xQVqcpGGUKkpfhmq-3s6bpjYpSKE/edit?usp=sharing)
+
+**Some style should be followed**, but:
+
+- the style is inconsistent: variable names are upper and lower case, and contain special characters (such as "/") that are problematic.
+
+
+
+## What is not-tidy data?
+
+Example from the [Holocene sample database](https://docs.google.com/spreadsheets/d/14-rcXfavKJA03M-xQVqcpGGUKkpfhmq-3s6bpjYpSKE/edit?usp=sharing)
+
+**Variables definitions should be documented clearly**, but:
+
+- variables are defined as comments, which are cryptic and difficult to extract, and
+
+- Variables have a grouping structure that is easy to loose when the data is shared.
+
+
+
+## How to collect tidy data using Google?
+
+Collect tidy data with [Google forms](https://www.google.com/forms/about/) and [store responses in a spreadsheet](https://support.google.com/docs/answer/2917686?hl=en).
+
+- Users enter data indirectly (no mess)
+
+- You describe each variable clearly (no confusion)
+
+- You validate each variable (no error)
+
+    + Example [form](https://goo.gl/forms/K6RBTNnU7MtrEjfF3) and [sheet](https://docs.google.com/spreadsheets/d/1DC5wEuw7SCAABeGHzdwNfpu23mYNfVj7ot-BoO45_Wo/edit#gid=418160425) to track coral samples
+
+
+
+## How to wrangle not-tidy data?
+
+[See extra slides 3, 4](https://github.com/maurolepore/tidy/blob/master/tidy-presentation/01wrangle.pdf)
+
+And how to get the most of tidy data: [See extra slides 5, 6](https://github.com/maurolepore/tidy/blob/master/tidy-presentation/01wrangle.pdf)
+
+
+
+## How to wrangle not-tidy data using R?
+
+Learn [how to wrangle data with R and RStudio](https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/).
+
+
+
+## Conclusions
+
+- A tidy structure helps get the most out of the data
+
+- Collecting data with a tidy structure should be facilitated
+
+- Not-tidy data should be made tidy
+
+## Discussion
+
+See next slides >>>
+
+## Dataset `pollution` is not problematic
+
+(Comment by Michele)
+
+```{r, echo=TRUE}
+pollution
+```
+
+## Dataset `pollution` is not problematic
+
+Michelle is right! In fact the variable `size` of the dataset `pollution` can be very useful. For example, to facet the data by `size` (example of code here and example of plot on the next slide).
+
+```{r, echo=TRUE}
+# Create a plot faceted by size
+plot_by_size <- pollution %>%
+  ggplot(aes(x = city, y = amount)) + 
+  geom_bar(stat = "identity") + 
+  # This is possible thanks to the variable "size"
+  facet_grid(.~size)
+```
+
+## Dataset `pollution` is not problematic
+
+```{r, echo=TRUE}
+# Plot pollution data faceted by size
+plot_by_size
+```
+
+
+## Dataset `pollution` is not problematic
+
+Even more, shifting from a long to a wide format is trivial.
+
+```{r, echo=TRUE}
+# From long to wide
+wide <- pollution %>% spread(key = size, value = amount)
+wide
+```
+
+## Dataset `pollution` is not problematic
+
+Also, shifting from wide to long format is trivial.
+
+```{r, echo=TRUE}
+# From wide to long
+long <- wide %>% gather(key = city)
+long
+```
+
+
+
+## The wide format is oftern very useful
+
+(Comment by Paola)
+
+Paola is right! Tabular data is oftern easier to interpret when its format is wide than when its format is long. For example, the `wide` version of `pullution` is easy to read.
+
+```{r}
+wide
+```
+
+And because shifting from wide to long format is trivial (see previous slides), we can choose to collect the data in the format (i.e. wide or long) that is more convenient to us.
+
+
+## Joining datasets may create NA's
+
+(Comment by Paola)
+
+The third principle of tidy data is that _Each "type" of observation should be stored in a single table_ [Wickham (2014)](http://vita.had.co.nz/papers/tidy-data.html).
+
+When values that exist in one dataset are missing in another dataset, then, NA's will be introduced.
+
+Consider the example of the next slide.
+
+
+## Joining datasets may create NA's
+
+```{r, echo=TRUE}
+artists  # George and Ringo play instruments
+```
+
+```{r, echo=TRUE}
+songs  # ...but they did not write songs. Now, see next slide >>>
+```
+
+
+
+## Joining datasets may create NA's
+
+Joining datasets may introduce NA's are in some rows...
+
+```{r, echo=TRUE}
+left_join(artists, songs)  # George and Ringo have NA in variable song
+```
+
+see next slide >>>
+
+## Joining datasets may create NA's
+
+...but filtering out rows with NA's is trivial.
+
+```{r, echo=TRUE}
+left_join(artists, songs) %>% filter(!is.na(song))  # "!" means NOT
+```
+
+
+
+## Not-tidy data is more than its format
+
+(Comment by Aaron)
+
+Aaron is right! The format of the data is easy to change and I have demonstrated this point on the few previous slides. There are other type of problems that are much more difficult and time consuming to solve. Those are the problems that should be avoided. Eexamples of such bigger problems were mentioned on slide 10 and 11. But I failed to show examples. So I will show examples over the next few slides.
+
+
+## More seriously not-tidy data: e.g. 1
+
+
+What is the problem with the variable `lat`?
+
+```{r}
+lat <- hsd %>% select(sample, lat) %>% unique
+lat[76:81, ]
+```
+
+Remember, each variable should be saved in its own column. Here, rows 5-6 of `lat` contain data of both latitude and longitude. This is not-tidy.
+
+
+
+## More seriously not-tidy data: e.g. 2
+
+What is the problem with the variable `sample`?
+
+```{r}
+loc.collect <- hsd %>% select(loc.collect, sample) %>% unique
+loc.collect[137:143, ]
+```
+
+Rows 6-7 of `sample` contain information of `sample` and `loc.collect`. This problem can be difficult to detect.
+
+
+
+## More seriously not-tidy data: e.g. 3
+
+What is the problem with the variable `loc.collect`?
+
+```{r}
+loc.collect <- hsd %>% 
+  select(loc.collect, sample) %>% 
+  unique %>% 
+  filter(grepl("Buo|Buho", loc.collect))
+loc.collect[4:9, ]
+```
+
+Here, the same location has been spelled differently in `loc.collect`. The sampe location has been called *Buo and *Buho. This is not-tidy.
+
+
+## Google forms are inflexible
+
+(Comment by Aaron)
+
+Aaron is right! Amending Google forms associated to google sheets seems problematic. 
+
+I have not used this approach sufficiently enough to speak with authority. But here is good advice about how to make changes in the way google forms and google spreadsheets are linked: https://support.google.com/docs/answer/2917686?hl=en
+
+I expect the difficulties in making changes to be outbalanced by the benefits of having a well-thought structure for collecting tidy data.
+
+
+

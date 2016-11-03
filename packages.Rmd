@@ -1,0 +1,177 @@
+---
+title: "To manage/share data easily we can use R packages hosted on Github"
+author: "maurolepore@gmail.com"
+date: "2016-08-24"
+output: ioslides_presentation
+---
+
+```{r setup_packages, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, comment = NA)
+library(dplyr)
+library(coral)
+```
+
+
+
+## Outline
+
+- Why using R packages?
+- Why hosting R packages on github?
+- What is an R package?
+- How to build an R package?
+- What if I don't use R?
+- Examples of this approach
+
+
+
+## Why using R packages?
+
+To store and share data, functions and documentation.
+
+E.g.:
+
+```{r, eval=FALSE, echo=TRUE}
+library(coral)
+# Do this  |  To see documentation of:
+?coral        # the package
+?georef       # one dataset
+?map          # one function
+```
+
+
+
+## Why using R packages? To share georef
+
+```{r}
+georef %>% select(region, time_interval, collected_from, sample_name)
+```
+
+
+
+## Why using R packages? To share map()
+
+```{r}
+map()
+```
+
+
+
+## Why hosting R packages on github? To share easy
+
+If they are hosted on github, R packages are easy to share.
+
+E.g., to get the `coral`package do this:
+
+```{r, echo=TRUE, eval=FALSE}
+install.packages("devtools")  # if you don't have it already
+
+devtools::install_github("maurolepore/coral")
+```
+
+
+
+## Why hosting R packages on github? To control versions
+
+### Version control allows you to:
+
+- travel in time,
+
+- take risks on separate branches of your project,
+
+- collaborate safely.
+
+To learn more see this [intro to Git and Github](http://r-pkgs.had.co.nz/git.html))
+
+
+
+## Why hosting R packages on github? To get web pages
+
+Github repositories come with:
+
+- [a web page to introduce each repository](https://maurolepore.github.io/coral/)
+
+- [a web page of each repository](https://github.com/maurolepore/coral)
+
+
+
+## What is an R package?
+
+[See extra slide](https://github.com/maurolepore/tidy/blob/master/tidy-presentation/02packages.pdf)
+
+A collection of folders and files with specific structure:
+
+```
+- data/:         data
+- data-raw/:     code that cleans the raw data
+- inst/extdata:  raw data
+- man/:          documentation
+- R/:            code of functions to share
+- R/sysdata.rda: sata that the functions need but not the user
+- R/utils.R:     code of handy functions not meant to be shared
+- vignettes/:    docs mixing narrative and analyses (e.g. a paper)
+- ...
+```
+
+
+
+## How to build an R package?
+
+[Package writing in RStudio](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-programming-part-3/)
+
+[R packages (free online) book](http://r-pkgs.had.co.nz/) (Wickham, 2015).
+
+
+Building a package is easy, really. For example:
+
+- to create an R package, do this:
+
+```{r, echo=TRUE, eval=FALSE}
+devtools::create(path)
+```
+
+- to add data to the package, do this: 
+
+```{r, echo=TRUE, eval=FALSE}
+devtools::use_data(data)
+```
+
+
+
+## What if I don't use R?
+
+Then, interact with the data using Shiny apps. They let you:
+
+- [explore data](http://shiny.rstudio.com/gallery/datatables-demo.html)
+
+- [summarize data](example http://shiny.rstudio.com/gallery/widgets.html)
+
+- [download data](http://shiny.rstudio.com/gallery/file-download.html)
+
+- [and much more](http://shiny.rstudio.com/gallery/), e.g. [a cool MDS](https://gallery.shinyapps.io/LDAelife/)
+
+Learn more: http://shiny.rstudio.com/tutorial/
+
+
+
+## Examples of this approach
+
+- STRI's [ForestGEO](http://ctfs.si.edu/Public/CTFSRPackage/)
+
+- [The Smithsonian Conservation Biology Institute](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1458748)
+
+- The [coral](https://maurolepore.github.io/coral/) project
+
+
+
+## Discussion
+
+
+
+
+
+
+
+
+
+
+
