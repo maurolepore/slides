@@ -1,4 +1,4 @@
-# Welcome to `slides`
+# Welcome to `slides`.
 
 This repository contains a number of presentations on topics related to data science.
 
