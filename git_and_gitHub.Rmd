@@ -54,7 +54,7 @@ Gets you started quickly but is boring and hurts your brain. Risks of frustratio
 
 Slowest but most effective. Your brain has sufficient time to digest the content and, before you forget, the content is refreshed from a slightly different angle. The chances to quit are vey low and it can even be fun!
 
-- Whatch resource 1 one day, then watch 2 the next day, then read 3 the next day AND try git(Hub) as you read. When you struggle, use other resources as needed.
+- Watch resource 1 one day, then watch 2 the next day, then read 3 the next day AND try git(Hub) as you read. When you struggle, use other resources as needed.
 
 
 
