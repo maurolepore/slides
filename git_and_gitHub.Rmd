@@ -1,5 +1,5 @@
 ---
-title: "Why and how to use git(Hub) - my opinion"
+title: "Why and how to use git with R Studio"
 author: "rpubs.com/maurolepore/git"
 date: "2016-11-04"
 output:
@@ -14,25 +14,26 @@ library(dplyr)
 
 ## Outline
 
-1. Curated resources and plans to learn git(Hub)
+1. Curated resources and plans to learn git
 
-2. Why and how to use git(Hub)
+2. Why and how to use git
 
 3. Let's do it!
 
-4. Explore git(Hub)
+4. Explore git
 
-This is all based on my personal experience and opinion.
+Git and GitHub are two components of a system. I call both **git**.
+
+This presentation focuses on users of R Studio. It bases on my personal experience and opinion.
 
 
-
-# 1. Curated resources and plans to learn git(Hub)
+# 1. Curated resources and plans to learn git
 
 ## Curated list of resources:
 
-1. Learn WHY using git and gitHub:  [webinar](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
+1. Learn WHY using git and gitHub:  [< 1h webinar](https://www.rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
 
-2. Learn HOW to use git and gitHub: [webinar](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-part-2/)
+2. Learn HOW to use git and gitHub: [< 1h webinar](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-part-2/)
 
 3. Learn common actions using RStudio + git + gitHub: [chapter in R packages book](http://r-pkgs.had.co.nz/git.html)
 
@@ -42,33 +43,12 @@ This is all based on my personal experience and opinion.
 
 
 
-## Plan to learn: Fastest
 
-Gets you started quickly but is boring and hurts your brain. Risks of frustration and quitting are high.
+# 2. Why and how to use git
 
-- Use resource 3 and try git(Hub) as you read. Use other resources as needed.
+## Why using git
 
-
-
-## Plan to learn: Most effective
-
-Slowest but most effective. Your brain has sufficient time to digest the content and, before you forget, the content is refreshed from a slightly different angle. The chances to quit are vey low and it can even be fun!
-
-- Watch resource 1 one day, then watch 2 the next day, then read 3 the next day AND try git(Hub) as you read. When you struggle, use other resources as needed.
-
-
-
-## Plan to learn: Balanced
-
-- Watch resource 2 first, then use the **Fastest** plan.
-
-
-
-# 2. Why and how to use git(Hub)
-
-## Why using git(Hub)
-
-- **to work more safely. **It heps you work more safely so you can take more risks (not using git(Hub) is like free climbing)
+- **to work more safely. **It heps you work more safely so you can take more risks (not using git is like free climbing)
 
 - **to work more neatly. **It helps you to organise your work better by using consistent structure and procedure
 
@@ -81,18 +61,19 @@ Slowest but most effective. Your brain has sufficient time to digest the content
 
 ## How to use git
 
-- **From RStudio.** Start using git(Hub) from R studio, even if your project does not use R. You will gain a lot of important features in a very user-friendly way. Your will become familiar with how R Studio and git(hub) interact and, by the time your project uses R, you will be ready to go!
+- **From RStudio.** R Studio interacts with git and gitHub simply--in a user-friendly way. The system is useful even for projects that do not use code or R. Only the most commonly used features of git are available from R Studio.
 
-- **From the bash shell. ** Continue using git(Hub) from the shell to unleash the full power of git. For example, create tags and branches.
+- **From a shell such as bash. **The shell lets you use the full power of git. For example, create tags and branches.
 
-I extend on this topic in the next section.
+- **From a GUI. ** A list of software that provides a Graphical User Interphase for git is [here](https://git-scm.com/downloads/guis). GUIs likely let you use more of the functionality that git has than R Studio but less than the shell.
+
 
 
 # 3. Let's do it!
 
-## Set up git(Hub)
+## Set up git
 
-- Install git, open an account in gitHub, link git(Hub) to RStudio.
+- Install git, open an account in gitHub, link git to RStudio.
 
 See section *Git and GitHub / Initial set up* [here](http://r-pkgs.had.co.nz/git.html).
 
@@ -100,7 +81,7 @@ See section *Git and GitHub / Initial set up* [here](http://r-pkgs.had.co.nz/git
 
 ## Set up a project locally
 
-- Create a new project in R studio (all R packages are projects but not the opposite); check the box to use git.
+- Create a new project in R Studio (all R packages are projects but not the opposite); check the box to use git.
 
 ### Optionaly
 
@@ -109,7 +90,7 @@ See section *Git and GitHub / Initial set up* [here](http://r-pkgs.had.co.nz/git
 - Make an initial commit changes in R Studio.
 
 
-## Set up the project remotely, on git(Hub)
+## Set up the project remotely, on gitHub
 
 - Create a new repo in gitHub (https://github.com/new)
 
@@ -124,19 +105,19 @@ git push -u origin master
 ```
 
 
-## Set up the project remotely, on the shell
+## Set up the project remotely, from the shell
 
-- Paste what you just copied in a shell. 
+- Paste what you just copied in a shell at the directory of your local project. 
 
-Get the shell from R Studio (tools/shell). You need internet connection. You will need to provide the shell with your login and password to acess gitHub.
+Open the shell from R Studio at `tools/shell`. You need internet connection. You will need to provide the shell with your login and password to acess gitHub.
 
-Done! From now on, new commits (in your `master` branch) can be pushed from RStudio to gitHub.
+Done! From now on, new commits (in your `master` branch) can be pushed to gitHub from the shell with `git push` or from RStudio clicking the green arrow.
 
 
 
-# 4. Explore git(Hub)
+# 4. Explore git and gitHub
 
-## Try git in RStudio
+## Some cool features to explore
 
 - Explore what RStudio allows doing,
 
@@ -148,27 +129,16 @@ Done! From now on, new commits (in your `master` branch) can be pushed from RStu
 
 - Revert a file or line (before commiting it).
 
-<<<<<<< HEAD
 - Go to gitHub from RStudio
 
-- Show how to commit and push
+- Add new issues on gitHub and examine what you can do with it
 
-- Add new issues and examine what you can do with it
+- Including `Closes #<issue-number>` in a commit message closes an issue; or just refer to`#<issue number>`.
 
-- Discuss pull requests (introduce branches)
-
-||||||| merged common ancestors
-=======
-- Go to gitHub from RStudio
-
-- Add new issues and examine what you can do with it
-
-- Discuss pull requests (introduce branches)
-
->>>>>>> 94df8cba63451e9618ccbbb7a5b1d0b9b2ac2588
+- Pull requests (related to branching and merging, which comes later).
 
 
-## More power from the shell: tag
+## More power from the shell (or GUIs): tag
 
 You can use tags to tag meaningful points along the history of the project so that later you can check out the project at those points very quickly.
 
@@ -182,14 +152,14 @@ Have a look at the history of the repository and note the new including tag.
 
 You can check out (travel to) any tagged point in the history like this `git checkout mytag`. To go back to the master branch do `git checkout master`. Note how you move along the hisotry of the project.
 
-## More power from the shell: branch
+## More power from the shell (or GUIs): branch
 
 You can use branches to develop versions of your project that differ from the main branch (`master`). You can try risky things and if your change is  finally useful, you can merge it into the main branch. Otherwise you can simply discard the branch.
 
 From R Studio you can check out any branch but RStudio does NOT provide the tools to create, merge or delete branches. You need to do it from the shell (tools/shell in RStudio).
 
 
-## More power from the shell: add branch
+## More power from the shell (or GUIs): add branch
 
 To crate a new branch (`-b`) called `"newbranch"` do this: 
 
@@ -209,7 +179,7 @@ Or, to see the history including branches do this (close the window when you are
 gitk
 ```
 
-## More power from the shell: merge branch
+## More power from the shell (or GUIs): merge branch
 
 After one or more useful commits you can merge the branch into the master branch. First you need to move to the `master` branch and, from there, you merge the `newbranch`, like this:
 
@@ -226,12 +196,12 @@ git branch
 
 
 
-## More power from the shell: delete branch
+## More power from the shell (or GUIs): delete branch
 
 If you no longer need the `newbranch` you can simply delete it (`-d`) with `git branch -d newbranch`. If the `newbranch` has not been merged into the `master` branch, say, because noting useful come out from it, you can remove it with this slightly different command: `git branch -D newbranch` (note it that `D` is capitalized).
 
 
-## More headakes from the shell: merge conflict
+## More headakes from the shell (or GUIs): merge conflict
 
 With more poser come more problems. Merge conflics are common. If you want to start experimenting with branches, I strongly recommend you to read more about merge conflicts. For example see the section **Git and GitHub / Working with others** of [this book](http://r-pkgs.had.co.nz/git.html).
 
