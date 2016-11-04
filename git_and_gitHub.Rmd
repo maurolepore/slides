@@ -148,6 +148,7 @@ Done! From now on, new commits (in your `master` branch) can be pushed from RStu
 
 - Revert a file or line (before commiting it).
 
+<<<<<<< HEAD
 - Go to gitHub from RStudio
 
 - Show how to commit and push
@@ -156,6 +157,15 @@ Done! From now on, new commits (in your `master` branch) can be pushed from RStu
 
 - Discuss pull requests (introduce branches)
 
+||||||| merged common ancestors
+=======
+- Go to gitHub from RStudio
+
+- Add new issues and examine what you can do with it
+
+- Discuss pull requests (introduce branches)
+
+>>>>>>> 94df8cba63451e9618ccbbb7a5b1d0b9b2ac2588
 
 
 ## More power from the shell: tag
