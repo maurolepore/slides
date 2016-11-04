@@ -18,9 +18,9 @@ library(dplyr)
 
 2. Why and how to use git(Hub)
 
-3. How I use git(Hub) 
+3. Let's do it!
 
-4. Try git(Hub)
+4. Explore git(Hub)
 
 This is all based on my personal experience and opinion.
 
@@ -88,7 +88,7 @@ Slowest but most effective. Your brain has sufficient time to digest the content
 I extend on this topic in the next section.
 
 
-# 3. How I use git(Hub) 
+# 3. Let's do it!
 
 ## Set up git(Hub)
 
@@ -100,7 +100,9 @@ See section *Git and GitHub / Initial set up* [here](http://r-pkgs.had.co.nz/git
 
 ## Set up a project locally
 
-- Create projects in R studio (R packages are projects) and check the box to use git.
+- Create a new project in R studio (all R packages are projects but not the opposite); check the box to use git.
+
+### Optionaly
 
 - Add some very basic components of the project.
 
@@ -109,14 +111,14 @@ See section *Git and GitHub / Initial set up* [here](http://r-pkgs.had.co.nz/git
 
 ## Set up the project remotely, on git(Hub)
 
-- Create a new repo in gitHub at https://github.com/new 
+- Create a new repo in gitHub (https://github.com/new)
 
-    + name the project exactly the same as its local version,
-    + click `create repository`,
-    + copy to clipboard what it says under **…or push an existing repository from the command line** which looks like this:
+    + (MUST) name the project exactly the same as its local version,
+    + `create repository`,
+    + click the `copy to clipboard` button under `…or push an existing repository from the command line`. This is what you will be copying:
 
 ```
-git remote add origin https://github.com/maurolepore/slides.git
+git remote add origin https://github.com/maurolepore/<newrepo>.git
 git push -u origin master
 
 ```
@@ -124,13 +126,15 @@ git push -u origin master
 
 ## Set up the project remotely, on the shell
 
-- Paste what you just copied in a shell. Get the shell from R Studio (tools/shell). You need internet connection. You will need to provide the shell with your login and password to acess gitHub.
+- Paste what you just copied in a shell. 
 
-Done! From now on, new commits (in your master branch) can be pushed from RStudio to gitHub.
+Get the shell from R Studio (tools/shell). You need internet connection. You will need to provide the shell with your login and password to acess gitHub.
+
+Done! From now on, new commits (in your `master` branch) can be pushed from RStudio to gitHub.
 
 
 
-# Try
+# 4. Explore git(Hub)
 
 ## Try git in RStudio
 
@@ -143,6 +147,12 @@ Done! From now on, new commits (in your master branch) can be pushed from RStudi
 - Examine diff in each file and line,
 
 - Revert a file or line (before commiting it).
+
+- Go to gitHub from RStudio
+
+- Add new issues and examine what you can do with it
+
+- Discuss pull requests (introduce branches)
 
 
 
