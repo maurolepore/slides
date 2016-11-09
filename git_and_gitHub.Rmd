@@ -1,7 +1,6 @@
 ---
 title: "Why and how to use git with R Studio"
 author: "rpubs.com/maurolepore/git"
-date: "2016-11-04"
 output:
   ioslides_presentation:
     widescreen: false
@@ -14,6 +13,8 @@ library(dplyr)
 
 ## Outline
 
+### (Last update: `r Sys.time()`)
+
 1. Curated resources and plans to learn git
 
 2. Why and how to use git
@@ -25,6 +26,7 @@ library(dplyr)
 Git and GitHub are two components of a system. I call both **git**.
 
 This presentation focuses on users of R Studio. It bases on my personal experience and opinion.
+
 
 
 # 1. Curated resources and plans to learn git
@@ -68,6 +70,18 @@ This presentation focuses on users of R Studio. It bases on my personal experien
 - **From a GUI. ** A list of software that provides a Graphical User Interphase for git is [here](https://git-scm.com/downloads/guis). GUIs likely let you use more of the functionality that git has than R Studio but less than the shell.
 
 
+## Workflow
+
+
+Simple workflow model adviced by github
+
+- https://guides.github.com/introduction/flow/
+
+- http://scottchacon.com/2011/08/31/github-flow.html
+
+General models, including those not adviced by github
+
+- https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
 
 # 3. Let's do it!
 
