@@ -1,0 +1,112 @@
+---
+title: "Interview"
+author: "maurolepore@gmail.com"
+date: "12 January 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Outline
+
+### The application
+
+- Before you apply
+
+- When you apply
+
+- After you apply
+
+### The interview
+
+- Before you interview
+
+- The day of the interview
+
+- When you interview
+
+- After you interview
+
+### References
+
+-	[Getting more](xxxinsert link)
+
+-	[Convince them in 90 seconds](xxxinsert link)
+
+# The application
+
+## Before you apply
+
+## When you apply
+
+## After you apply
+
+# The interview
+
+## Before you interview
+
+## The day of the interview
+
+## When you interview
+
+## After you interview
+
+
+
+
+### Deposit
+
+Before the interview, do research
+
+Find who the interviewer is, Facebook, twitter, google, insitution account, linked in, where did they study, do they have children? Find common enemies and allies (useful for the chit chat). Find out about some recent news they may use to chit chat with your. Something about your country, the weather, etc.
+
+What are they likely going to ask? Prepare answers
+
+Prove what you claim you are
+
+Justify your deficiencies.
+
+The day of the meeting
+
+First impression
+Dress mixing authority and approachability
+Dress for your next job, not the one you have
+
+When meeting
+
+They will ask themselves:
+-	Do you have the skills I need
+-	Can I put up with you?
+
+Pick a helpful attitude not an unhelpful one and really “wear it”. Think of a time when you felt that emotion, and bring it back.
+
+Pick a tone of voice that matches the attitude
+
+Take a moment to see how they want to greet, (they may not shake hands)
+
+Chit chat (prepare, common enemies, allies).
+
+NLP
+Mirror tone of voice, volume, movements, way of sitting. They won’t note.
+Open your body and point your heart to the other person’s hart
+Look straight into the eye and make an mental note about the colour of their eyes.
+Remember the name (prepare, find who you will meet)
+
+Think that a lot happens outside of the interview time.
+
+Find third parties
+
+
+
+
+Employer’s needs
+Ask questions more than make statements, the helps understand needs
+Reduce perceived risk
+Look straight into the eye, note colour of eyes
+
+After the meeting
+
+Follow up
+
