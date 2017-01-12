@@ -30,7 +30,7 @@ Books about connecting with people and persuading them:
 
 ## Outline
 
-#### ~~The application~~ (**IN DEVELOPMENT**)
+### ~~The application~~ (**IN DEVELOPMENT**)
 
 ~~Before you apply~~
 
@@ -38,7 +38,7 @@ Books about connecting with people and persuading them:
 
 ~~After you apply~~
 
-#### The interview
+### The interview
 
 - Before you interview
 
@@ -50,47 +50,88 @@ Books about connecting with people and persuading them:
 
 # The interview
 
-## Find what connects you to them?
 
-- Friends, colleagues,
 
-- institutions, communities,
+## Before:find connections
 
-- hobbies,
+What connects you to them?
 
-- life experiences (e.g. cities you lived, places you studied),
+- friends, colleagues;
 
-- etc.
+- institutions, communities;
+
+- hobbies;
+
+- life experiences (e.g. cities you lived, places you studied);
+
+- something else?
 
 Use e.g. google, linkedin, twitter, facebook
 
 (It's OK to say you researched their profesional life, not their personal life--do it but don't say you did it).
 
-## Find out about yourself
+## Find about yourself
+
+What will they find about you if they look you up?
+
+- I that what you want to show?
+
+- Is there anything missing/innapropriate?
+
+- Is there anything ?
+
+
+What will your personal references or people in common tell them?
+
+- how will the message depart from the source and arrive to your interviewer?
+
+(E.g. a letter of refference written by an american vs. a german may be very different, and will tell different things to an american or a german reader.)
+
+- is that fair? if not, prepare a polite defense
+
+## Reduce percieved risk
+
+A deal is more likely as it risk lowers
+
+- What can you do to reduce the risk they perceive in hiring you?
+
+    - prove skills based on past experience or a test
+    - provide personal/professional refferences
+    - be flexible to accept a casual contract
+    - lower the salary
+    - volunteer
+    - anyting else
 
 xxxnext
 
-- How will the interviewer percieve you?
 
-They may do the same you are doing. Great!
 
-Based on what they know about you,  how will they perceive  you?
+## What do they need?
 
-- Third  parties
+Consider the job offer advertised.
 
-- What will they say aboout  you? And how will  the interviewer take it based on their background (compare Asian, American, UK, German, etc.)
+What needs they have?
 
-If you  have to defend yourself, prepare a strong and polite argument
+- one by one match the needs (role description) they have with the skills you have. Demonstrate them with examples. Lots of examples. Otherwise, they are empty claims. Think carefully. It is hard but the examples will come. It can be  compleately outside the role. 
 
-- How will the interviewer percieve you?
+E.g. prove leadership with an example where you led a soccer team.
 
-What information are they going to have about you
+xxxfind article in nature science  i read recently. about skills.
+
+Prove that your skills match their need
+
+
+to your skills. 
 
 What are they likely going to ask? Prepare answers
 
 Prove what you claim you are
 
 Justify your deficiencies.
+
+## Expand the cake
+
+- What else can you offer that they may be interested in but are not directly asking for?
 
 ## When you interview
 
