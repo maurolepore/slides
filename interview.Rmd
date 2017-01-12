@@ -11,20 +11,22 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Prove your skills and personality
 
-Your interviewer seeks to answer two questions:
+Your interviewers seek to answer two questions (\*):
 
 1. Do you have the skills we need?
-2. Can we put up with you?
+2. Can we put up with you? Or better: **do we like you?**
 
-You most likely know how to prove 1. Here I focus on 2.
+You most likely know how to prove 1. Here I **focus** on 2.
 
-### Source of ideas
+(\*) In other words, [Can we respect (1) and trust (2) you?](http://www.businessinsider.com/harvard-psychologist-amy-cuddy-how-people-judge-you-2016-1)
+
+## Source of ideas
 
 Books about connecting with people and persuading them:
 
--	[Getting more](https://gettingmore.com/)
+-	[*Getting more*](https://gettingmore.com/)
 
--	**Convince them in 90 seconds** ([video](https://www.youtube.com/watch?v=bUQ1WkjsxSY): watch 1:35-4:00 sec)
+-	*Convince them in 90 seconds* ([watch](https://www.youtube.com/watch?v=bUQ1WkjsxSY) from 1:35-4:00 sec)
 
 ## Outline
 
@@ -44,68 +46,29 @@ Books about connecting with people and persuading them:
 
 - After you interview
 
-# The application
-
-## Before you apply
-
-## When you apply
-
-## After you apply
+# ~~The application~~ (**IN DEVELOPMENT**)
 
 # The interview
 
-## What connects you to them?
+## Find what connects you to them?
 
-- third parties
+- Friends, colleagues,
 
-- institutions
+- institutions, communities,
 
-- communities
+- hobbies,
 
-- cities
+- life experiences (e.g. cities you lived, places you studied),
 
-- hobbies
+- etc.
 
-- family
+Use e.g. google, linkedin, twitter, facebook
 
-- enemies
-
-## Before you interview
-
-Find out about
-
-- the organization
-
-- the interviewer
-
-
-Answer
-
-- What are their proffesional interests?
-
-- What are their personal interests?
-
-Personal interests help you to connect personally (so they like you more)
-
-
-Check for example
-
-- Professional and focused: websites, linkedin, 
-
-- General: google, twitter, blogs
-
-- Personal: facebook
-
-Specifically, find interests that match. People like the alike.
-
-Latter you can use this information 
-
-Find what you have in common. Some information will help  you to connect personally. WARNING: don´t show you investigated personal information. 
-
-It is ok to say that you looked them un in linkedin and maybe a professional facebook, but not a personal facebook.
-
+(It's OK to say you researched their profesional life, not their personal life--do it but don't say you did it).
 
 ## Find out about yourself
+
+xxxnext
 
 - How will the interviewer percieve you?
 
@@ -119,21 +82,15 @@ Based on what they know about you,  how will they perceive  you?
 
 If you  have to defend yourself, prepare a strong and polite argument
 
-
 - How will the interviewer percieve you?
 
-
 What information are they going to have about you
-
 
 What are they likely going to ask? Prepare answers
 
 Prove what you claim you are
 
 Justify your deficiencies.
-
-
-## The day of the interview
 
 ## When you interview
 
@@ -142,15 +99,15 @@ Justify your deficiencies.
 
 
 
-### Deposit
+# Deposit
 
-### The day of the meeting
+## The day of the meeting
 
 First impression
 Dress mixing authority and approachability
 Dress for your next job, not the one you have
 
-### When meeting
+## When meeting
 
 They will ask themselves:
 -	Do you have the skills I need
