@@ -31,9 +31,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### References
 
--	[Getting more](xxxinsert link)
+This slides digest lessons
 
--	[Convince them in 90 seconds](xxxinsert link)
+-	in [Getting more](xxxinsert link)
+
+-	in [Convince them in 90 seconds](xxxinsert link)
+
+- learned from about a dozen applications and two interviews--one successful.
 
 # The application
 
@@ -47,6 +51,62 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Before you interview
 
+Find out about
+
+- the organization
+
+- the interviewer
+
+
+Answer
+
+- What are their proffesional interests?
+
+- What are their personal interests?
+
+Personal interests help you to connect personally (so they like you more)
+
+
+Check for example
+
+- Professional and focused: websites, linkedin, 
+
+- General: google, twitter, blogs
+
+- Personal: facebook
+
+Specifically, find interests that match. People like the alike.
+
+Latter you can use this information 
+
+Find what you have in common. Some information will help  you to connect personally. WARNING: don´t show you investigated personal information. 
+
+It is ok to say that you looked them un in linkedin and maybe a professional facebook, but not a personal facebook.
+
+
+
+
+points do you have in common
+
+
+What information, linked in, where did they study, do they have children? Find common enemies and allies (useful for the chit chat). Find out about some recent news they may use to chit chat with your. Something about your country, the weather, etc.
+
+
+## Before you interview
+
+Find out about
+
+- yourself
+
+
+
+What are they likely going to ask? Prepare answers
+
+Prove what you claim you are
+
+Justify your deficiencies.
+
+
 ## The day of the interview
 
 ## When you interview
@@ -58,23 +118,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Deposit
 
-Before the interview, do research
-
-Find who the interviewer is, Facebook, twitter, google, insitution account, linked in, where did they study, do they have children? Find common enemies and allies (useful for the chit chat). Find out about some recent news they may use to chit chat with your. Something about your country, the weather, etc.
-
-What are they likely going to ask? Prepare answers
-
-Prove what you claim you are
-
-Justify your deficiencies.
-
-The day of the meeting
+### The day of the meeting
 
 First impression
 Dress mixing authority and approachability
 Dress for your next job, not the one you have
 
-When meeting
+### When meeting
 
 They will ask themselves:
 -	Do you have the skills I need
@@ -106,7 +156,7 @@ Ask questions more than make statements, the helps understand needs
 Reduce perceived risk
 Look straight into the eye, note colour of eyes
 
-After the meeting
+### After the meeting
 
 Follow up
 
