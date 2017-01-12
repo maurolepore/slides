@@ -1,5 +1,5 @@
 ---
-title: "Interview"
+title: "Tips for interviews"
 author: "maurolepore@gmail.com"
 date: "12 January 2017"
 output: ioslides_presentation
@@ -9,35 +9,40 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Prove your skills and personality
+
+Your interviewer seeks to answer two questions:
+
+1. Do you have the skills we need?
+2. Can we put up with you?
+
+You most likely know how to prove 1. Here I focus on 2.
+
+### Source of ideas
+
+Books about connecting with people and persuading them:
+
+-	[Getting more](https://gettingmore.com/)
+
+-	**Convince them in 90 seconds** ([video](https://www.youtube.com/watch?v=bUQ1WkjsxSY): watch 1:35-4:00 sec)
+
 ## Outline
 
-### The application
+#### ~~The application~~ (**IN DEVELOPMENT**)
 
-- Before you apply
+~~Before you apply~~
 
-- When you apply
+~~When you apply~~
 
-- After you apply
+~~After you apply~~
 
-### The interview
+#### The interview
 
 - Before you interview
-
-- The day of the interview
 
 - When you interview
 
 - After you interview
-
-### References
-
-This slides digest lessons
-
--	in [Getting more](xxxinsert link)
-
--	in [Convince them in 90 seconds](xxxinsert link)
-
-- learned from about a dozen applications and two interviews--one successful.
 
 # The application
 
@@ -48,6 +53,22 @@ This slides digest lessons
 ## After you apply
 
 # The interview
+
+## What connects you to them?
+
+- third parties
+
+- institutions
+
+- communities
+
+- cities
+
+- hobbies
+
+- family
+
+- enemies
 
 ## Before you interview
 
@@ -84,20 +105,25 @@ Find what you have in common. Some information will help  you to connect persona
 It is ok to say that you looked them un in linkedin and maybe a professional facebook, but not a personal facebook.
 
 
+## Find out about yourself
+
+- How will the interviewer percieve you?
+
+They may do the same you are doing. Great!
+
+Based on what they know about you,  how will they perceive  you?
+
+- Third  parties
+
+- What will they say aboout  you? And how will  the interviewer take it based on their background (compare Asian, American, UK, German, etc.)
+
+If you  have to defend yourself, prepare a strong and polite argument
 
 
-points do you have in common
+- How will the interviewer percieve you?
 
 
-What information, linked in, where did they study, do they have children? Find common enemies and allies (useful for the chit chat). Find out about some recent news they may use to chit chat with your. Something about your country, the weather, etc.
-
-
-## Before you interview
-
-Find out about
-
-- yourself
-
+What information are they going to have about you
 
 
 What are they likely going to ask? Prepare answers
