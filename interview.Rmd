@@ -1,6 +1,6 @@
 ---
 title: "Tips for interviews"
-author: "maurolepore@gmail.com"
+author: "https://github.com/maurolepore/slides"
 date: "12 January 2017"
 output: ioslides_presentation
 ---
@@ -168,15 +168,15 @@ Do some small talk first,
 
 so you can find allies and common enemies, e.g.:
 
-- The receptionist is so nice! 
-- It is so hot today!)
+- "The receptionist is so nice!"
+- "It is so hot today!"
 
 ### Neuro-Linguistic Programming (NLP)
 
-Open your body; you hearth should point theirs
+Open your body, you hearth should point theirs,
 
-- don't cross arms, legs
-- don't hold anything in your hands; show them openly
+- don't cross arms, legs,
+- don't hold anything in your hands, show them openly.
 
 Mirror their tone of voice, gestures.
 
@@ -212,10 +212,10 @@ Take from 1 to a few days to follow up.
 
 Ask for feedback, learn, and do it better next time.
 
-Whatever happens you are one interview closer to your next job
+Whatever happens you are closer to your next job.
 
 --
 
-_There is no failure, only feedback_
+_There is no failure, only feedback._
 
---Nicholas Bootman (Convince them in 90 seconds)
+--Nicholas Boothman (Convince them in 90 seconds).
