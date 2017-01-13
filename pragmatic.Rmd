@@ -12,16 +12,15 @@ while(alive) {
   be_pragmatic()
   }
 ```
-Program a more productive and exciting life.
+Program a more productive work and exciting life.
 
 https://github.com/maurolepore/slides
 
 ## Abstract
 
-In many fields including science, most critics are unhelpful. Often, critics will tell you what is bad, and maybe what is good. Rarely will they tell you if there is a proven way to get from bad to good. Why re-invent the wheel? If those "ways to do things better or more efficiently" exist, let's use them and share them! In this talk I will share some of my tricks to do things as good and efficiently as I can, and I would love to hear yours.
+In many fields including science, most critics are unhelpful. Critics will often tell you what is bad, and maybe what is good. What they will rarely tell you is HOW to get from bad to good. Why re-invent the wheel? We can program a more productive work and exciting life. 
 
-Pragmatic: dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.
-
+We just need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
 
 ## more
 
