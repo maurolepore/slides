@@ -5,7 +5,26 @@ date: "19 January 2017"
 output: ioslides_presentation
 ---
 
-## more
+# be\_pragmatic( )
+
+```R
+while(alive) {
+  be_pragmatic()
+  }
+```
+Program a more productive work and exciting life.
+
+https://bookdown.org/maurolepore/pragmatic
+
+## Abstract
+
+In many fields including science, most critics are unhelpful. Critics will often tell you what is bad, and maybe what is good. What they will rarely tell you is HOW to get from bad to good. Why re-invent the wheel? We can program a more productive work and exciting life. 
+
+We need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
+
+In this talk I will show some pragmatic approaches I use everyday and will encourage you to share yours.
+
+## in development
 
 Research is at times:
  
@@ -351,21 +370,11 @@ Resources/tools
     + gmail tools
 - collaborate
 
-
-
-
-
-
-
-
 # INTRODUCTION
 
 ## The creative process (James Clear blog, and refes thereafter)
 
 ## Planning around energy levels (James Clear blog)
-
-
-
 
 # RESEARCH'S DAILY CYCLE
 
@@ -374,13 +383,6 @@ Inspire
 Design
 
 Build
-
-
-
-
-
-
-
 
 # Emails
 
@@ -458,14 +460,6 @@ In each repo, use
 - Getting more
 - Convince them in 90 seconds
 
-
-
-
-
-
-
-
-
 # Wrap up
 
 Show links between data, projects, analysis, emails, issues, gists, ...
@@ -473,23 +467,3 @@ Show links between data, projects, analysis, emails, issues, gists, ...
 
 
 
-=======
-# be\_pragmatic( )
-
-```R
-while(alive) {
-  be_pragmatic()
-  }
-```
-Program a more productive work and exciting life.
-
-https://bookdown.org/maurolepore/pragmatic
-
-## Abstract
-
-In many fields including science, most critics are unhelpful. Critics will often tell you what is bad, and maybe what is good. What they will rarely tell you is HOW to get from bad to good. Why re-invent the wheel? We can program a more productive work and exciting life. 
-
-We need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
->>>>>>> master
-
-In this talk I will show some pragmatic approaches I use everyday and will encourage you to share yours.
