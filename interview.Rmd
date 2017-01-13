@@ -40,11 +40,11 @@ Books about connecting with people and persuading them:
 
 ### The interview
 
-- Before you interview
+- Before you meet
 
-- When you interview
+- When you meet
 
-- After you interview
+- After you meet
 
 # ~~The application~~ (**IN DEVELOPMENT**)
 
@@ -52,7 +52,7 @@ Books about connecting with people and persuading them:
 
 
 
-## Before:find connections
+## Before you meet: find connections
 
 What connects you to them?
 
@@ -66,121 +66,156 @@ What connects you to them?
 
 - something else?
 
-Use e.g. google, linkedin, twitter, facebook
+Use e.g. Google, LinkedIn, twitter, Facebook
 
-(It's OK to say you researched their profesional life, not their personal life--do it but don't say you did it).
+(It's OK to say you researched their professional life, not their personal life--do it but don't say you did it).
 
-## Find about yourself
+## Before you meet: find about yourself
 
 What will they find about you if they look you up?
 
 - I that what you want to show?
 
-- Is there anything missing/innapropriate?
+- Is there anything missing/inappropriate?
 
-- Is there anything ?
+What will your personal references/people in common tell them?
 
+- References written by a German or American may differ
 
-What will your personal references or people in common tell them?
+- Their interpretation when they read such letters may differ
 
-- how will the message depart from the source and arrive to your interviewer?
+If you think you may need it, prepare a polite defense
 
-(E.g. a letter of refference written by an american vs. a german may be very different, and will tell different things to an american or a german reader.)
+## When you meet: dress for success
 
-- is that fair? if not, prepare a polite defense
+First impression counts more than anything: 
 
-## Reduce percieved risk
-
-A deal is more likely as it risk lowers
-
-- What can you do to reduce the risk they perceive in hiring you?
-
-    - prove skills based on past experience or a test
-    - provide personal/professional refferences
-    - be flexible to accept a casual contract
-    - lower the salary
-    - volunteer
-    - anyting else
-
-xxxnext
+People judge if they like you or not in the first 2 seconds.
 
 
+- Mix authority with approachability; look:
 
-## What do they need?
+    - fresh, clean, up-to-date, approachable;
+    
+    - tidy, trustworthy, professional
 
-Consider the job offer advertised.
+Dress for your next job, not for the one you have!
 
-What needs they have?
+## When you meet: pick useful attitudes
 
-- one by one match the needs (role description) they have with the skills you have. Demonstrate them with examples. Lots of examples. Otherwise, they are empty claims. Think carefully. It is hard but the examples will come. It can be  compleately outside the role. 
+**Enthusiasm, curiosity and humility combine irresistibly!**  
 
-E.g. prove leadership with an example where you led a soccer team.
+Useful           |  Useless
+----------------  |  -------
+Enthusiastic      |  Anxious
+Curious           |  Self-conscious
+Confident         |  Arrogant
+Relaxed           |  Bored
+Patient           |  Impatient
+...               |  ...
+Match your attitude with appropriate tone of voice and gestures.  
 
-xxxfind article in nature science  i read recently. about skills.
+## When you meet: focus on their needs
 
-Prove that your skills match their need
+Consider the job offer they advertised. What do they need?
 
+Match their needs one by one with the skills you have.
 
-to your skills. 
+Demonstrate your skills with examples.
 
-What are they likely going to ask? Prepare answers
+## When you meet: reduce percieved risk
 
-Prove what you claim you are
+A deal becomes more likely as its risk reduces.
 
-Justify your deficiencies.
+What can you do to reduce the risk they face by hiring you?
 
-## Expand the cake
+Some (maybe crazy) ideas are these:
 
-- What else can you offer that they may be interested in but are not directly asking for?
+  - let them get to know you better,
+  - prove skills based on past experience or a test,
+  - provide personal/professional references,
+  - be flexible to accept a casual contract,
+  - lower the salary,
+  - volunteer,
 
-## When you interview
+## When you meet: expand the cake
 
-## After you interview
+What else can you offer that makes the deal more likely?
 
+(things not in the job description)
 
+- Build capacity,
 
+- mentor someone,
 
-# Deposit
+- do some management/administration,
 
-## The day of the meeting
+- travel,
 
-First impression
-Dress mixing authority and approachability
-Dress for your next job, not the one you have
+- do fieldwork?
 
-## When meeting
+## When you meet: note their eye colour
 
-They will ask themselves:
--	Do you have the skills I need
--	Can I put up with you?
+Look straight into their eye
 
-Pick a helpful attitude not an unhelpful one and really “wear it”. Think of a time when you felt that emotion, and bring it back.
+(Deeply enough to note their eye color.)
 
-Pick a tone of voice that matches the attitude
+Remember their name.
 
-Take a moment to see how they want to greet, (they may not shake hands)
+## When you meet: be a chamaleon
 
-Chit chat (prepare, common enemies, allies).
+Do some small talk first, 
 
-NLP
-Mirror tone of voice, volume, movements, way of sitting. They won’t note.
-Open your body and point your heart to the other person’s hart
-Look straight into the eye and make an mental note about the colour of their eyes.
-Remember the name (prepare, find who you will meet)
+so you can find allies and common enemies, e.g.:
 
-Think that a lot happens outside of the interview time.
+- The receptionist is so nice! 
+- It is so hot today!)
 
-Find third parties
+### Neuro-Linguistic Programming (NLP)
 
+Open your body; you hearth should point theirs
 
+- don't cross arms, legs
+- don't hold anything in your hands; show them openly
 
+Mirror their tone of voice, gestures.
 
-Employer’s needs
-Ask questions more than make statements, the helps understand needs
-Reduce perceived risk
-Look straight into the eye, note colour of eyes
+## When you meet: ask questions
 
-### After the meeting
+Questions help you to better understand their needs.
 
-Follow up
+They help you collect information useful to make a deal.
 
+State less, ask more.
+
+Compare:
+
+- "Today is a nice day!"
+
+- "Are you having a nice day today?"
+
+## When you meet: focus on the person
+
+They are first people, then interviewers.
+
+_I suppose leadership at one time meant muscles; but today it means getting along with people._
+
+-- Gandhi
+
+## After the meeting: follow up. 
+
+If you said you would do something, do it. 
+
+Take from 1 to a few days to follow up. 
+
+(One week maybe around the limit.)
+
+Ask for feedback, learn, and do it better next time.
+
+Whatever happens you are one interview closer to your next job
+
+--
+
+_There is no failure, only feedback_
+
+--Nicholas Bootman (Convince them in 90 seconds)
