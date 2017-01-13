@@ -1,6 +1,6 @@
 ---
 title: "be_pragmatic( )"
-author: "Mauro Lepore"
+author: "[Mauro Lepore](https://github.com/maurolepore)"
 date: "19 January 2017"
 output: ioslides_presentation
 ---
@@ -14,7 +14,7 @@ while(alive) {
 ```
 Program a more productive work and exciting life.
 
-https://github.com/maurolepore/slides
+https://bookdown.org/maurolepore/pragmatic
 
 ## Abstract
 
