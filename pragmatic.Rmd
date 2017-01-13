@@ -1,6 +1,6 @@
 ---
 title: "be_pragmatic( )"
-author: "Mauro Lepore"
+author: "[Mauro Lepore](https://github.com/maurolepore)"
 date: "19 January 2017"
 output: ioslides_presentation
 ---
@@ -14,13 +14,15 @@ while(alive) {
 ```
 Program a more productive work and exciting life.
 
-https://github.com/maurolepore/slides
+https://bookdown.org/maurolepore/pragmatic
 
 ## Abstract
 
 In many fields including science, most critics are unhelpful. Critics will often tell you what is bad, and maybe what is good. What they will rarely tell you is HOW to get from bad to good. Why re-invent the wheel? We can program a more productive work and exciting life. 
 
-We just need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
+We need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
+
+In this talk I will show some pragmatic approaches I use everyday and will encourage you to share yours.
 
 ## more
 
