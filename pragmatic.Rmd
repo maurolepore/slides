@@ -1,4 +1,9 @@
-
+---
+title: "be_pragmatic( )"
+author: "[Mauro Lepore](https://github.com/maurolepore)"
+date: "19 January 2017"
+output: ioslides_presentation
+---
 
 ## more
 
@@ -225,4 +230,266 @@ Show links between data, projects, analysis, emails, issues, gists, ...
 
 
 
+||||||| merged common ancestors
+# be\_pragmatic( )
 
+```R
+while(alive) {
+  be_pragmatic()
+  }
+```
+Program a more productive work and exciting life.
+
+https://github.com/maurolepore/slides
+
+## Abstract
+
+In many fields including science, most critics are unhelpful. Critics will often tell you what is bad, and maybe what is good. What they will rarely tell you is HOW to get from bad to good. Why re-invent the wheel? We can program a more productive work and exciting life. 
+
+We just need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
+
+## more
+
+Research is at times:
+ 
+    - (+) creative thus exciting, 
+    - (-) repetitive thus boring.
+
+(Officially, roles commonly include: investigating, teaching, administration.)
+
+How to get most out of our day?
+
+(So the boring repetitive bit doesn't overtake the exciting creative bit)
+
+Understand how the creative process works and plan our work around energy levels.
+
+
+
+
+
+# Outline
+
+(Also based energy levels of the audience)
+
+INTRODUCTION
+
+- The creative process (James Clear blog, and refes thereafter)
+
+- Planning around energy levels (James Clear blog)
+
+
+RESEARCH'S DAILY CYCLE
+
+(maybe choose different names)
+
+What tasks go where in your day? 
+
+(conceptual)
+
+- Inspire
+
+- Design
+
+- Build
+
+Tasks, tools, tricks
+
+(practical)
+
+Resources/tools
+
+> In preparing for battle, I have always found that plans are useless, but planning is indispensable.
+--General Dwight D. Eisenhower
+
+ - to plan and stick to plan (xxxref JC)
+      (plans are useless, but planning is essencial)
+    - todo list
+    - prioritize (xxxref JC)
+    - avoid procrastination (xxxref JC)
+    - develop healthy habits and stick to them, (xxxJC, Quote Aristotele)
+    - manage time in short chunks (pomodoro clock)
+
+
+
+
+
+- write
+    - Turbocharge your writing (techniques)
+    - R markdowns (tool); good entry door to R
+
+- to edit
+    - Geopen, a paper, super short
+    - Style, a book, long but great!
+
+- analyse
+    - R
+    - R tidyverse
+    - R packages + GitHub + pkgdown
+    - R markdown documents and notebooks
+
+- capture ideas
+    - GitHub Gist
+    - GitstBox
+    - GistBox Clipper
+
+- develop (and share) ideas
+    - GitHub repositories, issues/pull requests
+
+- communicate ideas
+    (social considerations)
+    - Getting more
+    - Convince them in 90 seconds  
+> I suppose leadership at one time meant muscles; but today it means **getting along with people**.
+--Gandhi  
+    (tools)
+    - R markdown isoslides
+    - Online publishing: Rpubs, bookdown, github
+
+
+
+- manage admin (emails, desktop workflow)
+    + gmail tools
+- collaborate
+
+
+
+
+
+
+
+
+# INTRODUCTION
+
+## The creative process (James Clear blog, and refes thereafter)
+
+## Planning around energy levels (James Clear blog)
+
+
+
+
+# RESEARCH'S DAILY CYCLE
+
+Inspire
+
+Design
+
+Build
+
+
+
+
+
+
+
+
+# Emails
+
+## Search emails (e.g. gmail)
+
+Find emails efficiently with [search operators](https://support.google.com/mail/answer/7190?hl=en), e.g.:
+(Play with the operators to decide how trustworthy they are. They improve with training)
+
+    - UNREAD TODAY: is:unread newer_than:1d
+    - OLD HEAVY EMAILS: larger:3M older_than:1y
+
+Bookmark your common searches, or add Quick Links: 
+
+Gear > Settings > Labs > Quick Links > enable > Save Changes
+
+## Lost emails?
+
+If you don't find what you are looking for, read messages: 
+
+- _Some messages in Trash or Spam match your search. **View messages**_.
+- _Improve result with **search options** such as sender, date, size and more._
+
+## Organize emails
+
+- Star emails
+- Save star search in Quick Links
+
+## Undo send
+
+Gear > Settings > Enable Undo Send
+
+# Plan
+
+Todo list
+
+How to manage time effectively, and in general how to devlop healthy habits. (James Clear)
+
+Quote Aristotele
+
+- prioritize
+- avoid procrastination
+
+# Write
+
+Geopen, a paper, super short
+
+Style, a book, long but great!
+
+# Capture ideas
+
+- GitHub Gist (share optionally)
+- GistBox, comlement to enable search of private gists
+- GistBox Clipper, complement to create gists from any page
+
+# Develop ideas (share optionally)
+
+GitHub repositories
+
+- ilimited public repos
+
+Researchers
+
+- get 5 private repos free
+- get 20 organization repos free
+
+In each repo, use
+
+- Issues
+- Pull requests
+
+# Communicate, get along with people
+
+(recycle slides interviews)
+
+- Getting more
+- Convince them in 90 seconds
+
+
+
+
+
+
+
+
+
+# Wrap up
+
+Show links between data, projects, analysis, emails, issues, gists, ...
+
+
+
+
+=======
+# be\_pragmatic( )
+
+```R
+while(alive) {
+  be_pragmatic()
+  }
+```
+Program a more productive work and exciting life.
+
+https://bookdown.org/maurolepore/pragmatic
+
+## Abstract
+
+In many fields including science, most critics are unhelpful. Critics will often tell you what is bad, and maybe what is good. What they will rarely tell you is HOW to get from bad to good. Why re-invent the wheel? We can program a more productive work and exciting life. 
+
+We need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
+>>>>>>> master
+
+In this talk I will show some pragmatic approaches I use everyday and will encourage you to share yours.
