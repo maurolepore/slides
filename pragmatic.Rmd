@@ -1,20 +1,31 @@
 ---
-title: "be_pragmatic( )"
-author: "[Mauro Lepore](https://github.com/maurolepore)"
+title: "be_pragmatic( ): Program More Productive Work and Exciting Life"
+author: "Mauro Lepore ([edit slides](https://github.com/maurolepore))"
 date: "19 January 2017"
 output: ioslides_presentation
 ---
 
-# be\_pragmatic( )
+## What makes pragmatic people special?
 
-```R
-while(alive) {
-  be_pragmatic()
-  }
+<div class="columns-2">
+
+_[Their]_
+
+- **_attitude_**
+- **_style_**,
+- **_philosophy_** ...
+
+_[to approach] problems and their solutions._
+
+```{r, out.width="50%", echo=FALSE}
+knitr::include_graphics("pragmatic_programmer_cover.jpg")
 ```
-Program a more productive work and exciting life.
 
-https://github.com/maurolepore/slides
+</div>
+
+_They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its larger context ..._
+
+Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ ([Nir Eyal](http://www.nirandfar.com/))
 
 ```{r, child="abstract_announcement.Rmd"}
 
