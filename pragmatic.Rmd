@@ -22,18 +22,31 @@ In many fields including science, most critics are unhelpful. Critics will often
 
 We just need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
 
+## Announcement
 
-# Hook
+This presentation is in development, and should be completed by Jan 19th, 2017.
 
-These are two different things:
 
-- What we do,
 
-- why we do it
+## [Don't Repeat Yourself (DRY)](https://en.wikipedia.org/wiki/Don't_repeat_yourself)
 
-Often what we do is obvious. But not why, so we need to think and record why we do things.
+We are all programmers. 
 
-## Task
+[Pragmatic programmers](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) follow the **DRY** principle.
+
+_Every piece of knowledge must have a single, unambiguous, authoritative representation within a system_
+
+--Andy Hunt and Dave Thomas 
+
+## How to program
+
+- Tell a computer WHAT to do
+
+- remind humans (including future you) WHY
+
+WHAT may be obvious, WHY is not.
+
+## Let's program together
 
 Develop a pragmatic approach to check today's emails.
 
