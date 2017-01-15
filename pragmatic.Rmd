@@ -49,8 +49,6 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 
 ### Part 1: from principles to actions
 
-- The DRY principle
-
 ```R
 - Demonstrate the DRY principle by my solution to checking emails
 
@@ -60,6 +58,21 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
     - processes that occurr twice will likely recur; consider those.
     - if the cost of programming those process is lower than the cummulative cost of run the processes without a program, then program those processes.
 ```
+
+
+- The [DRY principle](https://en.wikipedia.org/wiki/Don't_repeat_yourself) (Don't Repeat Yourself
+
+_Every piece of knowledge must have a single, unambiguous, authoritative representation within a system_
+
+--Andy Hunt and Dave Thomas 
+
+## How to program well
+
+- Tell a computer WHAT to do
+
+- Tell humans (including future you) WHY to do it
+
+WHAT may be obvious, WHY is not.
 
 - Behavioural architecture
 
@@ -118,7 +131,7 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 4. **Let the idea return naturally**,
 5. **test and adjust**.
 
-## Example: my work fit into those 5 steps
+## My example ([plan around energy](http://jamesclear.com/productivity))
 
 | where | when | what |
 | :--- | :--- | :--- |
@@ -151,197 +164,40 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 
 | Task | resource | tool/principle |
 | :--- | :------- | :--------- |
-| Think = write a lot | Turbocharge your writting | principle
+| Think = write a lot | Turbocharge your writting | principle |
+| Write | markdown | tool |
 | Edit | [Gopen's paper](xxxref), [Style](xxxref) | principle |
 | Capture ideas | GitHub Gists and GistBox | tool |
 | Develop ideas into projects | GitHub repositories and issues | tool |
+
+## Principles and tools (continued)
+
+| Task | resource | tool/principle |
+| :--- | :------- | :--------- |
 | Analyse | R Studio, R studio webinars | tool |
 | Analyse | R for data science ([Hadley Whicham]) | both |
-| Analyse, project management | R Packages, GitHub (xxxref) | tool |
+| Data/project management | GitHub, R Packages (xxxref) | tool |
 | Productivity, healthy habits | James Clear (xxxref) | principle |
+| Communicate | Convince them in 90 seconds | principle |
+| Communicate | R Markdown documents (slides, notebooks, books, webpages) | tool |
+| admin | google products | gmail (offline), sheets, docs, forms | tool
 
 ## Wrap up
 
+xxx
 
 
 
-# Part 1
 
 
 
-What happened before
 
-- People struggle because we are not pragmatic
 
-solution to program emails
 
-What is next
 
-# Brake
 
-What happened before
 
-What is next
 
-# Part 2
-
-
-# Wrap up
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Outline
-
-(Also based energy levels of the audience)
-
-INTRODUCTION
-
-- The creative process (James Clear blog, and refes thereafter)
-
-- Planning around energy levels (James Clear blog)
-
-
-RESEARCH'S DAILY CYCLE
-
-(maybe choose different names)
-
-What tasks go where in your day? 
-
-(conceptual)
-
-- Inspire
-
-- Design
-
-- Build
-
-Tasks, tools, tricks
-
-(practical)
-
-Resources/tools
-
-> In preparing for battle, I have always found that plans are useless, but planning is indispensable.
---General Dwight D. Eisenhower
-
- - to plan and stick to plan (xxxref JC)
-      (plans are useless, but planning is essencial)
-    - todo list
-    - prioritize (xxxref JC)
-    - avoid procrastination (xxxref JC)
-    - develop healthy habits and stick to them, (xxxJC, Quote Aristotele)
-    - manage time in short chunks (pomodoro clock)
-
-
-
-
-
-- write
-    - Turbocharge your writing (techniques)
-    - R markdowns (tool); good entry door to R
-
-- to edit
-    - Geopen, a paper, super short
-    - Style, a book, long but great!
-
-- analyse
-    - R
-    - R tidyverse
-    - R packages + GitHub + pkgdown
-    - R markdown documents and notebooks
-
-- capture ideas
-    - GitHub Gist
-    - GitstBox
-    - GistBox Clipper
-
-- develop (and share) ideas
-    - GitHub repositories, issues/pull requests
-
-- communicate ideas
-    (social considerations)
-    - Getting more
-    - Convince them in 90 seconds  
-> I suppose leadership at one time meant muscles; but today it means **getting along with people**.
---Gandhi  
-    (tools)
-    - R markdown isoslides
-    - Online publishing: Rpubs, bookdown, github
-
-
-
-- manage admin (emails, desktop workflow)
-    + gmail tools
-- collaborate
-
-
-
-
-
-
-
-## [Don't Repeat Yourself (DRY)](https://en.wikipedia.org/wiki/Don't_repeat_yourself)
-
-We are all programmers. 
-
-[Pragmatic programmers](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer) follow the **DRY** principle.
-
-_Every piece of knowledge must have a single, unambiguous, authoritative representation within a system_
-
---Andy Hunt and Dave Thomas 
-
-## How to program
-
-- Tell a computer WHAT to do
-
-- remind humans (including future you) WHY
-
-WHAT may be obvious, WHY is not.
-
-## Let's program together
-
-Develop a pragmatic approach to check today's emails.
-
-It has to be clear enough, a no brainer. We should be able to do it without thinking, just by following instructions.
-
-## Your solution
-
-<div class="columns-2">
-
-what
-
-- do ...
-- do ...
-- do ...
-- do ...
-
-why
-
-- because I want to ...
-- because I want to ...
-- because I want to ...
-- because I want to ...
-
-</div>
-
-[My solution](https://mail.google.com/mail/u/0/#inbox)
 
 
 
