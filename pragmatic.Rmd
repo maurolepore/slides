@@ -96,7 +96,7 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 2. **work intensely** over the material in your mind,
 3. **step away** from the problem, 
 4. **LET THE IDEA RETURN NATURALLY**,
-5. **test and adjust your idea based on feedback.
+5. **test and adjust** your idea based on feedback.
 
 > There is no such a thing as failure, only feedback.
 
@@ -110,47 +110,54 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 
 | Step | time | work |
 | :--- | :--- | :--- |
-| 1 | xxx | xxx |
-| 2 | xxx | xxx |
-| 3 | xxx | xxx |
-| 4 | xxx | xxx |
-| 5 | xxx | xxx |
+| 1-5 | xxx | xxx |
+
+1. **Gather material**, 
+2. **work intensely**,
+3. **step away**,
+4. **Let the idea return naturally**,
+5. **test and adjust**.
 
 ## Example: my work fit into those 5 steps
 
 | where | when | what |
 | :--- | :--- | :--- |
-| 1, 2 | earlier session (e.g. day before) | write (a), analyse, ..., park downhill (b) |
-| 3, 4 | multiple brakes (min-hrs) spread along each day | sleep, shower, run, cook, read | 
-| 1, 2 | day/night before | (re)write^1, analyse, ..., park downhill (*) |
-| 5 | day/night before | write^1, analyse, ..., park downhill (*) |
-
-| 4 | xxx | xxx |
-| 5 | xxx | xxx |
-| 3 | night before, morning | sleep, shower |
-
-
-1. (day/night before) Park donwhill(*)
-
-2. Sleep
-
-3. 
-
-4. 
-
-5. 
+| 1, 2 | day/night before | write `(a)`, analyse, ..., park downhill `(b)` |
+| 3, 4 | brakes spread along each day | sleep, shower, run, cook, read | 
+| 5 `(c)` | earlier sessions | re-write, re-analyse, ..., park downhill |
 
 --
 
-(a) 
-(b) Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
+`(a)` "If you think without writing, you only think you're thinking" (Leslie Lamport).
+
+`(b)` Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
+
+`(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is iterative but eliptic, not circular.
+
+## Where and when your everyday work fits in those 5 steps of the creative process?
+
+| Step | time | work |
+| :--- | :--- | :--- |
+| 1-5 | xxx | xxx |
+
+1. **Gather material**, 
+2. **work intensely**,
+3. **step away**,
+4. **Let the idea return naturally**,
+5. **test and adjust**.
 
 
+## Resources of important principles
 
+| Task | resource |
+| :--- | :------- |
+| Writing | Turbocharge your writting |
+| Edit | [Gopen's paper](xxxref), [Style: from clarity to grace](xxxref) |
+| Analysis, best tools | R for data science ([Hadley Whicham]) |
+| Analysis, project management | R Packages (xxxref) |
+| Productivity, healthy habits | James Clear (xxxref) |
 
-
-
-### Wrap up
+## Wrap up
 
 
 
