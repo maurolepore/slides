@@ -118,16 +118,17 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 
 ## Example: my work fit into those 5 steps
 
-| Step | time | work |
+| where | when | what |
 | :--- | :--- | :--- |
-| 1 | xxx | xxx |
-| 2 | xxx | xxx |
-| 3 | xxx | xxx |
+| 1, 2 | earlier session (e.g. day before) | write (a), analyse, ..., park downhill (b) |
+| 3, 4 | multiple brakes (min-hrs) spread along each day | sleep, shower, run, cook, read | 
+| 1, 2 | day/night before | (re)write^1, analyse, ..., park downhill (*) |
+| 5 | day/night before | write^1, analyse, ..., park downhill (*) |
+
 | 4 | xxx | xxx |
 | 5 | xxx | xxx |
-| xxx | xxx | xxx |
-| xxx | xxx | xxx |
-| xxx | xxx | xxx |
+| 3 | night before, morning | sleep, shower |
+
 
 1. (day/night before) Park donwhill(*)
 
@@ -141,7 +142,8 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 
 --
 
-(*) Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
+(a) 
+(b) Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
 
 
 
