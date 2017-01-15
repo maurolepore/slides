@@ -147,15 +147,18 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 5. **test and adjust**.
 
 
-## Resources of important principles
+## Source of useful principles and tools
 
-| Task | resource |
-| :--- | :------- |
-| Writing | Turbocharge your writting |
-| Edit | [Gopen's paper](xxxref), [Style: from clarity to grace](xxxref) |
-| Analysis, best tools | R for data science ([Hadley Whicham]) |
-| Analysis, project management | R Packages (xxxref) |
-| Productivity, healthy habits | James Clear (xxxref) |
+| Task | resource | tool/principle |
+| :--- | :------- | :--------- |
+| Think = write a lot | Turbocharge your writting | principle
+| Edit | [Gopen's paper](xxxref), [Style](xxxref) | principle |
+| Capture ideas | GitHub Gists and GistBox | tool |
+| Develop ideas into projects | GitHub repositories and issues | tool |
+| Analyse | R Studio, R studio webinars | tool |
+| Analyse | R for data science ([Hadley Whicham]) | both |
+| Analyse, project management | R Packages, GitHub (xxxref) | tool |
+| Productivity, healthy habits | James Clear (xxxref) | principle |
 
 ## Wrap up
 
