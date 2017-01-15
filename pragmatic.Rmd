@@ -23,27 +23,29 @@ knitr::include_graphics("pragmatic_programmer_cover.jpg")
 
 </div>
 
+--
+
 _They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its larger context ..._
+
+--
 
 Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ ([Nir Eyal](http://www.nirandfar.com/))
 
-```{r, child="abstract_announcement.Rmd"}
+## DISCUSS
 
-```
+### How do you check emails?
 
-# How do you check emails?
+- Who thinks that checking emails is one of the most **frequent** actions of the day?
 
-Who thinks that checking emails is one of the most **frequent** actions of the day?
+- Who has systematically programmed the process they use to check emails?
 
-Who has systematically programmed the process they use to check emails?
+## Outline
 
-# Outline
+### Goal: to understand and practice pragmatic approaches
 
-Goal: to understand the pragmatic approach
+- Learn key principles, i.e. guiding propositions (not rules)
 
-- Principles: guiding propositions, not rules
-
-- Examples are not recipes
+- Provide examples (not recipes)
 
 ### Part 1: from principles to actions
 
@@ -84,6 +86,11 @@ Goal: to understand the pragmatic approach
 - Recap from part 1
 
 ### Part 2: Ideas in action
+
+How do you plan your day
+
+
+
 
 
 
