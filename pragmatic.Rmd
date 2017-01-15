@@ -87,7 +87,29 @@ Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ 
 
 ### Part 2: Ideas in action
 
-How do you plan your day
+- The 5 steps of the creative process
+
+```R
+## The 5 steps of the creative process
+
+1. **gather material**, 
+2. **work intensely** over the material in your mind,
+3. **step away** from the problem, 
+4. **LET THE IDEA RETURN NATURALLY**,
+5. **test and adjust your idea based on feedback.
+
+> There is no such a thing as failure, only feedback.
+
+--[Nicholar Boothman](http://nicholasboothman.com/)
+
+```
+
+## DISCUSS
+
+### Where your everyday work fits in those 5 steps of the creative process?
+
+
+
 
 
 
