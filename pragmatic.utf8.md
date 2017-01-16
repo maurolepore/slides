@@ -5,13 +5,7 @@ date: "19 January 2017"
 output: ioslides_presentation
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  comment = "#>",
-  collapse = TRUE,
-  echo = FALSE
-  )
-```
+
 
 ## Abstract
 
