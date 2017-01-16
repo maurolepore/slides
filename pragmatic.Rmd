@@ -71,9 +71,7 @@ _They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its l
 
 - Wrap up / questions and answers
 
-# Part 1
-
-### From principles to actions
+# Part 1: From principles to actions
 
 - Principles are guiding propositions, not rules.
 
@@ -116,6 +114,21 @@ knitr::include_graphics("anchor_slides.png")
 - Architect your environment to favor actions you want to take.
 
 </div>
+
+
+## Think out of the box
+
+If you read outside your topic you will be more creative.
+
+Creativity results from combining old ideas in original new ways.
+
+Excellent advice about writing I discovered reading about programing and data science.
+
+## Aim for excellence, not perfection
+
+> We are what we repeatedly do. Excellence, then, is not an act, but a habit.
+
+-- Aristotle
 
 # Brake
 
