@@ -1,5 +1,5 @@
 ---
-title: "be_pragmatic( )"
+title: "be_pragmatic( ): Principles to Improve Work and Life"
 author: "[Mauro Lepore](https://github.com/maurolepore)"
 date: "19 January 2017"
 output: ioslides_presentation
@@ -18,13 +18,11 @@ https://github.com/maurolepore/slides
 
 ## Abstract
 
-In many fields including science, most critics are unhelpful. Critics will often tell you what is bad, and maybe what is good. What they will rarely tell you is HOW to get from bad to good. Why re-invent the wheel? We can program a more productive work and exciting life. 
-
-We just need to be pragmatic. Being pragmatic means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. We need to focus less on goals and more on processes; and to value less our rushed-selves and more our future-selves.
+What principles can guide us towards more productive research and more enjoyable life? Pragmatic people approach problems and solutions with special attitude, style and philosophy. This talk will move from the principles to the actions that lead to success. It will also illustrate how to apply this ideas in our everyday work and will give many resources for you to use whenever you need them.
 
 ## Announcement
 
-This presentation is in development, and should be completed by Jan 19th, 2017.
+This presentation is in development. A preliminary version will be available on Jan 17th, and the final one by Jan 19th, 2017.
 
 
 
