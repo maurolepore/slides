@@ -1,5 +1,5 @@
 ---
-title: "be_pragmatic( ): Program More Productive Work and Exciting Life"
+title: "be_pragmatic( ): Principles to Improve Work and Life"
 author: "Mauro Lepore ([edit slides](https://github.com/maurolepore))"
 date: "19 January 2017"
 output: ioslides_presentation
@@ -13,55 +13,50 @@ knitr::opts_chunk$set(
   )
 ```
 
-## Do useless emails waste our time?
+## Who would like to ...
 
-### What process you use to check emails?
+- waste less time doing repetitive jobs (e.g.checking email)?
 
-DISCUSS
+- eat healthier OR excercise more OR drink less?
 
-- Can you make it better with little effort to save a lot of accumulated future time?
+- be more creative?
 
-## Goal: learn principles of pragmatism
+- get more done at the end of each day?
 
-<div class="columns-2">
+### Knowing few simple principles can help
 
-Pragmatic people approach problems and solutions with special
-
-- **attitude**
-- **style**,
-- **philosophy**
-
-```{r, out.width="50%", echo=FALSE}
-knitr::include_graphics("pragmatic_programmer_cover.jpg")
-```
-
-</div>
-
-_They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its larger context._
-
---
-
-**kai·zen** /kīzən/ (noun) a Japanese business philosophy of continuous improvement of working practices, personal efficiency, etc.
 
 ## Outline
 
 ### Part 1: From principles to actions
 
-- Don't repeat yourself,
+#### Goal 1.1: To learn where to aim.
 
-- Document why you do things,
+- Think beyond the immediate problem
 
-- If (only if) it's worthwhile, program,
+    - Improve continuously: kai·zen
+    - Stop decay ASAP: don't leave broken windows
 
-- Keep things where you need them
+#### Goal 1.2: To learn how to actually get there
+
+- Invest in future you (i.e. stop procrastination)
+
+    - Don't repeat yourself
+    - Document WHY you do things
+
+- Architect your behaviour
+
+- Focus on systems, not goals
+
+## Outline (continued)
 
 ### Brake
 
 - Don't leave broken windows
 
-- Recap part 1
-
 ### Part 2: Applications in research
+
+#### Goal 2: See how this principles and models fit our work
 
 - The 5 steps of the creative process
 
@@ -73,9 +68,57 @@ _They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its l
 
 # Part 1: From principles to actions
 
+### Goal 1.1: To learn where to aim.
+
 - Principles are guiding propositions, not rules.
 
-- I provide examples, not recipes.
+## Think beyond the immediate problem
+
+Place the problem in its larger context.
+
+<div class="columns-2">
+
+Pragmatic people approach problems and solutions with special
+
+- **attitude**
+- **style**
+- **philosophy**
+
+```{r, out.width="50%", echo=FALSE}
+knitr::include_graphics("pragmatic_programmer_cover.jpg")
+```
+
+</div>
+
+## Improve continuously; stop decay
+
+<div class="columns-2">
+
+### **kai·zen** /kīzən/ (noun) Japanese business philosophy of continuous improvement of working practices, personal efficiency, etc.
+
+
+```{r, out.width="100%"}
+knitr::include_graphics("dont_leave_broken_windows.jpg")
+```
+
+### [Neglect accelerates rot more than any other factor](http://www.artima.com/intv/fixit.html) 
+
+</div>
+
+
+
+
+
+
+
+
+# Part 1: From principles to actions
+
+### Goal 1.2: To learn how to actually get there
+
+- Examples illustrate principles, they are not recipes
+
+## Invest in future you (i.e. [stop procrastination](xxxref james clear))
 
 ## Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
 
@@ -95,66 +138,60 @@ WHAT may be obvious, WHY is not.
 
 `(*)` Most frequently the human you work for is future you.
 
-## If (only if) it's worthwhile, program
 
-> If a process will recur, consider programming it,
+### If (only if) it's worthwhile, program
 
-> If the time spent to program that process is shorter than the accumulated time the program saves, **then programm it**.
+- If a process will recur, consider programming it,
 
-## Keep things where you need them
+- If the time spent to program that process is shorter than the accumulated time the program saves, **then programm it**.
 
-<div class="columns-2">
+## Architect your behaviour
 
-```{r, out.width="100%"}
-knitr::include_graphics("anchor_slides.png")
-```
+- Behaviour can be designed (e.g. google, email, facebook)
 
 - Environment strongly determines behaviour. 
 
 - Architect your environment to favor actions you want to take.
 
-</div>
+For example:
 
+I wanted to learn this material, so I made it my job to teach it.
 
-## Think out of the box
+--
 
-If you read outside your topic you will be more creative.
+_If you want to learn, teach_
 
-Creativity results from combining old ideas in original new ways.
+--Ciceron (106 AC-43 AC)
 
-Excellent advice about writing I discovered reading about programing and data science.
+## Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
-## Aim for excellence, not perfection
+_It’s Not the Event, It’s the Process._
 
-> We are what we repeatedly do. Excellence, then, is not an act, but a habit.
+--[James Clear](http://jamesclear.com/stay-focused)
+
+_We are what we repeatedly do. Excellence, then, is not an act, but a habit._
 
 -- Aristotle
 
-# Brake
-
-<div class="columns-2">
-
-```{r, out.width="100%"}
-knitr::include_graphics("dont_leave_broken_windows.jpg")
-```
-
-["Don't leave broken windows"](http://www.artima.com/intv/fixit.html)
-
-After the brake, we'll discuss
-
-### Why?
-
-</div>
-
 ## Recap part 1
 
-- DRY,
+We learned: principles to know where to aim and how to get there
 
-- Care for future-you (i.e. [stop procrastinating](http://jamesclear.com/procrastination)),
+- Think beyond the immediate problem
 
-- **kai·zen**, i.e. improve continuously,
+    - Improve continuously: kai·zen
+    - Stop decay ASAP: don't leave broken windows
 
-- [Stop decay ASAP; neglect accelerates rot](http://www.artima.com/intv/fixit.html) 
+- Invest in future you
+
+    - if it is cost-effective, avoid repetition
+    - remind yourself WHY you do things
+
+- Architect your behaviour
+
+- To achieve more, focus on systems (not goals)
+
+# Brake
 
 # Part 2: Applications in research
 
