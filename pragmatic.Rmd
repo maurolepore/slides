@@ -5,17 +5,23 @@ date: "19 January 2017"
 output: ioslides_presentation
 ---
 
-## What makes pragmatic people special?
+## Do useless emails waste our time?
+
+### What process you use to check emails?
+
+DISCUSS
+
+- Can you make it better with little effort to save a lot of accumulated future time?
+
+## Goal: learn principles of pragmatism
 
 <div class="columns-2">
 
-_[Their]_
+Pragmatic people approach problems and solutions with special
 
-- **_attitude_**
-- **_style_**,
-- **_philosophy_** ...
-
-_[to approach] problems and their solutions._
+- **attitude**
+- **style**,
+- **philosophy**
 
 ```{r, out.width="50%", echo=FALSE}
 knitr::include_graphics("pragmatic_programmer_cover.jpg")
@@ -23,45 +29,39 @@ knitr::include_graphics("pragmatic_programmer_cover.jpg")
 
 </div>
 
---
-
-_They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its larger context ..._
+_They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its larger context._
 
 --
 
-kai·zen /kīzən/ (noun) a Japanese business philosophy of continuous improvement of working practices, personal efficiency, etc.
-
-## Don't leave broken windows
-
-Because "neglect accelerates the rot faster than any other factor."
-
---[Pragmatic Programmers Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html)
-
-
-
-
-![](dont_leave_broken_windows.jpg)
-
-
-
-
-## DISCUSS
-
-### How do you check emails?
-
-- Who thinks that checking emails is one of the most **frequent** actions of the day?
-
-- Who has systematically programmed the process they use to check emails?
+**kai·zen** /kīzən/ (noun) a Japanese business philosophy of continuous improvement of working practices, personal efficiency, etc.
 
 ## Outline
 
-### Goal: to understand and practice pragmatic approaches
-
-- Learn key principles, i.e. guiding propositions (not rules)
-
-- Provide examples (not recipes)
-
 ### Part 1: from principles to actions
+
+
+
+
+
+
+# Part 1
+
+## From principles to actions
+
+Principles are guiding propositions, not rules.
+
+I provide examples, not recipes.
+
+
+
+## Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
+
+Example: my solution to checking emails
+
+```{r, out.width="100%"}
+knitr::include_graphics("check_email.png")
+```
+
 
 ```R
 - Demonstrate the DRY principle by my solution to checking emails
@@ -74,11 +74,29 @@ Because "neglect accelerates the rot faster than any other factor."
 ```
 
 
-- The [DRY principle](https://en.wikipedia.org/wiki/Don't_repeat_yourself) (Don't Repeat Yourself
+
 
 _Every piece of knowledge must have a single, unambiguous, authoritative representation within a system_
 
 --Andy Hunt and Dave Thomas 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## How to program well
 
@@ -108,15 +126,40 @@ WHAT may be obvious, WHY is not.
 - Work around energy
 ```
 
-## When (not) to program
+## When to program a task?
 
-If a process will recur, consider programming it,
+> If a process will recur, consider programming it,
 
-If the time spent to program that process is shorter than the accumulated time the program saves, then programm it.
+> If the time spent to program that process is shorter than the accumulated time the program saves, **then programm it**.
 
-### Brake
+# My solution to the email problem
 
-- Recap from part 1
+
+# Brake
+
+![](dont_leave_broken_windows.jpg)
+
+## Brake and DISCUSS: "Don't leave broken windows" ([Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html))
+
+
+## Because "neglect accelerates the rot faster than any other factor."
+
+--[Pragmatic Programmers Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html)
+
+
+
+
+## "Don't leave broken windows"
+
+Because "neglect accelerates the rot faster than any other factor."
+
+--[Pragmatic Programmers Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html)
+
+![](dont_leave_broken_windows.jpg)
+
+
+
+
 
 ### Part 2: Ideas in action
 
