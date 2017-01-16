@@ -29,7 +29,21 @@ _They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its l
 
 --
 
-Ideas also from: James Clear's [blog](http://jamesclear.com/) and from _Hooked_ ([Nir Eyal](http://www.nirandfar.com/))
+kai·zen /kīzən/ (noun) a Japanese business philosophy of continuous improvement of working practices, personal efficiency, etc.
+
+## Don't leave broken windows
+
+Because "neglect accelerates the rot faster than any other factor."
+
+--[Pragmatic Programmers Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html)
+
+
+
+
+![](dont_leave_broken_windows.jpg)
+
+
+
 
 ## DISCUSS
 
@@ -93,6 +107,12 @@ WHAT may be obvious, WHY is not.
 - Architect your behaviour (focus on processes)
 - Work around energy
 ```
+
+## When (not) to program
+
+If a process will recur, consider programming it,
+
+If the time spent to program that process is shorter than the accumulated time the program saves, then programm it.
 
 ### Brake
 
@@ -176,13 +196,29 @@ WHAT may be obvious, WHY is not.
 | :--- | :------- | :--------- |
 | Analyse | R Studio, R studio webinars | tool |
 | Analyse | R for data science ([Hadley Whicham]) | both |
+| Analyse, data management | Paper and package by ([Hadley Whicham]) | both |
 | Data/project management | GitHub, R Packages (xxxref) | tool |
 | Productivity, healthy habits | James Clear (xxxref) | principle |
 | Communicate | Convince them in 90 seconds | principle |
 | Communicate | R Markdown documents (slides, notebooks, books, webpages) | tool |
 | admin | google products | gmail (offline), sheets, docs, forms | tool
 
+
+James Clear's [blog](http://jamesclear.com/) and from 
+
+_Hooked_ ([Nir Eyal](http://www.nirandfar.com/))
+
+
 ## Wrap up
 
 
 xxxnext revise and simplify outline, separate outline from presentation, write wrap ups.
+
+
+
+
+
+
+## More
+
+
