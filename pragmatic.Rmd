@@ -101,7 +101,7 @@ knitr::include_graphics("pragmatic_programmer_cover.jpg")
 knitr::include_graphics("dont_leave_broken_windows.jpg")
 ```
 
-### [Neglect accelerates rot more than any other factor](http://www.artima.com/intv/fixit.html) 
+### [Neglect accelerates the rot faster than any other factor.](http://www.artima.com/intv/fixit.html) 
 
 </div>
 
@@ -148,15 +148,15 @@ WHAT may be obvious, WHY is not.
 
 ## Architect your behaviour
 
-- Behaviour can be designed (e.g. google, email, facebook)
+- [Behaviour can be designed](http://www.nirandfar.com/) (e.g. google, email, facebook)
 
-- Environment strongly determines behaviour. 
+- [Your environment strongly impacts your behaviour](http://jamesclear.com/habits-visibility-method). 
 
 - Architect your environment to favor actions you want to take.
 
 For example:
 
-I wanted to learn this material, so I made it my job to teach it.
+I want to learn this material, so I made it my job to teach it.
 
 --
 
@@ -176,14 +176,14 @@ _We are what we repeatedly do. Excellence, then, is not an act, but a habit._
 
 ## Recap part 1
 
-We learned: principles to know where to aim and how to get there
+We learned principles to know where to aim and how to get there
 
 - Think beyond the immediate problem
 
-    - Improve continuously: kai·zen
-    - Stop decay ASAP: don't leave broken windows
+    - Improve continuously (kai·zen)
+    - Don't neglect (or rot will accelerate)
 
-- Invest in future you
+- Invest in future-you
 
     - if it is cost-effective, avoid repetition
     - remind yourself WHY you do things
@@ -208,7 +208,6 @@ _There is no such a thing as failure, only feedback._
 
 --[Nicholar Boothman](http://nicholasboothman.com/)
 
-
 ## How the 5 steps model fits my work?
 
 | where | when | what |
@@ -223,7 +222,11 @@ _There is no such a thing as failure, only feedback._
 
 `(b)` Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
 
-`(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is iterative but eliptic, not circular.
+`(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is not linear but iterative, and progress feels circular but is a spiral.
+
+## The progress we fell, want and achieve
+
+![](spiral.jpg)
 
 ## How the 5 steps model fits your work?
 
