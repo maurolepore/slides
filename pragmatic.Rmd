@@ -118,11 +118,12 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 - Examples illustrate principles, they are not recipes
 
-## Invest in future you (i.e. [stop procrastination](xxxref james clear))
+### Invest in future-you ([guide to stop procrasting](http://jamesclear.com/procrastination))
+
 
 ## Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
 
-Example: use and save [search operators](https://support.google.com/mail/answer/7190?hl=en) to check emails.
+Example: use email's [search operators](https://support.google.com/mail/answer/7190?hl=en) and save ([bookmarks](https://goo.gl/9Ev0O1)).
 
 ```{r, out.width="100%"}
 knitr::include_graphics("check_email.png")
@@ -141,9 +142,9 @@ WHAT may be obvious, WHY is not.
 
 ### If (only if) it's worthwhile, program
 
-- If a process will recur, consider programming it,
+- If a process will likely recur, consider programming it,
 
-- If the time spent to program that process is shorter than the accumulated time the program saves, **then programm it**.
+- If the time spent to program that process is shorter than the accumulated time the program will eventually save you, **then programm it**.
 
 ## Architect your behaviour
 
