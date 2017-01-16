@@ -185,8 +185,8 @@ We learned principles to know where to aim and how to get there
 
 - Invest in future-you
 
-    - if it is cost-effective, avoid repetition
-    - remind yourself WHY you do things
+    - If it is cost-effective, avoid repetition
+    - Remind yourself WHY you do things
 
 - Architect your behaviour
 
@@ -208,22 +208,6 @@ _There is no such a thing as failure, only feedback._
 
 --[Nicholar Boothman](http://nicholasboothman.com/)
 
-## How the 5 steps model fits my work?
-
-| where | when | what |
-| :--- | :--- | :--- |
-| 1, 2 | day/night before | write `(a)`, analyse, ..., park downhill `(b)` |
-| 3, 4 | brakes spread along each day | sleep, shower, run, cook, read | 
-| 5 `(c)` | earlier sessions | re-write, re-analyse, ..., park downhill |
-
---
-
-`(a)` "If you think without writing, you only think you're thinking" (Leslie Lamport).
-
-`(b)` Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
-
-`(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is not linear but iterative, and progress feels circular but is a spiral.
-
 ## The progress we fell, want and achieve
 
 ![](spiral.jpg)
@@ -244,37 +228,57 @@ _There is no such a thing as failure, only feedback._
 
 Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
+## How the 5 steps model fits my work?
+
+| where | when | what |
+| :--- | :--- | :--- |
+| 1, 2 | day/night before | write `(a)`, analyse, ..., park downhill `(b)` |
+| 3, 4 | brakes spread along each day | sleep, shower, run, cook, read | 
+| 5 `(c)` | earlier sessions | re-write, re-analyse, ..., park downhill |
+
+--
+
+`(a)` _If you think without writing, you only think you're thinking_ (Leslie Lamport).
+
+`(b)` Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
+
+`(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is an iterative spiral.
+
 ## Useful principles and tools
 
 | Task | resource | tool/principle |
 | :--- | :------- | :--------- |
-| Think = write a lot | Turbocharge your writting | principle |
-| Write | markdown | tool |
-| Edit | [Gopen's paper](xxxref), [Style](xxxref) | principle |
-| Capture ideas | GitHub Gists and GistBox | tool |
-| Develop ideas into projects | GitHub repositories and issues | tool |
+| Write (and think) | [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf) | principle |
+| Edit | [Goepen & Swan](http://www.americanscientist.org/issues/id.877,y.0,no.,content.true,page.1,css.print/issue.aspx); [Style](http://worldwordweb.com/writing/Style%20Lessons%20in%20Clarity%20and%20Grace%20(11th%20Edition).pdf) | principle |
+| Communicate | [R Markdown](http://rmarkdown.rstudio.com/) | tool |
+| Capture & track ideas | GitHub [Gists](https://help.github.com/articles/about-gists/) & [GistBox](https://app.gistboxapp.com/) | tool |
+| Develop ideas into projects | [GitHub](http://r-pkgs.had.co.nz/git.html) repositories and [issues](https://guides.github.com/features/issues/) | tool |
 
 ## Useful principles and tools (continued)
 
 | Task | resource | tool/principle |
 | :--- | :------- | :--------- |
-| Analyse | R Studio, R studio webinars | tool |
-| Analyse | R for data science ([Hadley Whicham]) | both |
-| Analyse, data management | Paper and package by ([Hadley Whicham]) | both |
-| Data/project management | GitHub, R Packages (xxxref) | tool |
+| Analyse | R Studio ([webinars](https://www.rstudio.com/resources/webinars/)) | tool |
+| Analyse | [R for data science](http://r4ds.had.co.nz/), [tidyverse](http://tidyverse.org/) | both |
+| Analyse, data management | [Paper](http://vita.had.co.nz/papers/tidy-data.pdf) | principle |
+| Data/project management | [GitHub](http://r-pkgs.had.co.nz/git.html), [R Packages](http://r-pkgs.had.co.nz/) | tool |
 | Productivity, healthy habits | [James Clear](http://jamesclear.com/articles) | principle |
 | Communicate | Convince them in 90 seconds | principle |
-| Communicate | R Markdown documents (slides, notebooks, books, webpages) | tool |
-| admin | google products | gmail (offline), sheets, docs, forms | tool
+| Admin | Google's tools (gmail, sheets, docs) | tool
 
+## Recap part 2
 
-James Clear's [blog](http://jamesclear.com/) and from 
+We learned how some useful principles apply to research
 
-_Hooked_ ([Nir Eyal](http://www.nirandfar.com/))
+- Creativity is a systematic and iterative process
 
-
-# Wrap up / questions and answers
-
-- Creativity is an iterative and eliptic process
+- Progress may feel circular but we move forward in a spiral
 
 - Plan the process of your creative work around your energy
+
+- There are lots of resources for useful principles and tools
+
+### Questions and answers
+
+### More [presentations](https://github.com/maurolepore/slides)
+
