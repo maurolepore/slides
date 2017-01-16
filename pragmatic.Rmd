@@ -5,6 +5,14 @@ date: "19 January 2017"
 output: ioslides_presentation
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  echo = FALSE
+  )
+```
+
 ## Do useless emails waste our time?
 
 ### What process you use to check emails?
@@ -37,136 +45,107 @@ _They **THINK BEYOND THE IMMADIATE PROBLEM**, always trying to place it in its l
 
 ## Outline
 
-### Part 1: from principles to actions
+### Part 1: From principles to actions
 
+- Don't repeat yourself,
 
+- Document why you do things,
 
+- If (only if) it's worthwhile, program,
 
+- Keep things where you need them
 
+### Brake
+
+- Don't leave broken windows
+
+- Recap part 1
+
+### Part 2: Applications in research
+
+- The 5 steps of the creative process
+
+- How the 5 steps model fits our work
+
+- Source of useful principles and tools
+
+- Wrap up / questions and answers
 
 # Part 1
 
-## From principles to actions
+### From principles to actions
 
-Principles are guiding propositions, not rules.
+- Principles are guiding propositions, not rules.
 
-I provide examples, not recipes.
-
-
+- I provide examples, not recipes.
 
 ## Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
 
-Example: my solution to checking emails
+Example: use and save [search operators](https://support.google.com/mail/answer/7190?hl=en) to check emails.
 
 ```{r, out.width="100%"}
 knitr::include_graphics("check_email.png")
 ```
 
+## Document WHY you do things
 
-```R
-- Demonstrate the DRY principle by my solution to checking emails
+- Tell computers WHAT to do
 
-    - share links to solution so that everyone can do it
-
-- formally present the DRY principle: what processess should we program?
-    - processes that occurr twice will likely recur; consider those.
-    - if the cost of programming those process is lower than the cummulative cost of run the processes without a program, then program those processes.
-```
-
-
-
-
-_Every piece of knowledge must have a single, unambiguous, authoritative representation within a system_
-
---Andy Hunt and Dave Thomas 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## How to program well
-
-- Tell a computer WHAT to do
-
-- Tell humans (including future you) WHY to do it
+- Tell humans `(*)` WHY to do it
 
 WHAT may be obvious, WHY is not.
 
-- Behavioural architecture
+`(*)` Most frequently the human you work for is future you.
 
-```R
-- defaults
-- we are lazy as electricity
-    - tools close to where you need them
-    - organize by frequency of usage (compare organizing clothes)
-
-```
-
-- Work plan
-
-- Conclusion from part 1
-
-```R
-- Embrace pragmatism (DRY principle)
-- Architect your behaviour (focus on processes)
-- Work around energy
-```
-
-## When to program a task?
+## If (only if) it's worthwhile, program
 
 > If a process will recur, consider programming it,
 
 > If the time spent to program that process is shorter than the accumulated time the program saves, **then programm it**.
 
-# My solution to the email problem
+## Keep things where you need them
 
+<div class="columns-2">
+
+```{r, out.width="100%"}
+knitr::include_graphics("anchor_slides.png")
+```
+
+- Environment strongly determines behaviour. 
+
+- Architect your environment to favor actions you want to take.
+
+</div>
 
 # Brake
 
-![](dont_leave_broken_windows.jpg)
+<div class="columns-2">
 
-## Brake and DISCUSS: "Don't leave broken windows" ([Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html))
+```{r, out.width="100%"}
+knitr::include_graphics("dont_leave_broken_windows.jpg")
+```
 
+["Don't leave broken windows"](http://www.artima.com/intv/fixit.html)
 
-## Because "neglect accelerates the rot faster than any other factor."
+After the brake, we'll discuss
 
---[Pragmatic Programmers Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html)
+### Why?
 
+</div>
 
+## Recap part 1
 
+- DRY,
 
-## "Don't leave broken windows"
+- Care for future-you (i.e. [stop procrastinating](http://jamesclear.com/procrastination)),
 
-Because "neglect accelerates the rot faster than any other factor."
+- **kai·zen**, i.e. improve continuously,
 
---[Pragmatic Programmers Andy Hunt and Dave Thomas](http://www.artima.com/intv/fixit.html)
+- [Stop decay ASAP; neglect accelerates rot](http://www.artima.com/intv/fixit.html) 
 
-![](dont_leave_broken_windows.jpg)
+# Part 2: Applications in research
 
-
-
-
-
-### Part 2: Ideas in action
-
-- The 5 steps of the creative process
-
-```R
-## The 5 steps of the creative process
+## [The 5 steps of the creative process](http://jamesclear.com/five-step-creative-process)
 
 1. **gather material**, 
 2. **work intensely** over the material in your mind,
@@ -178,23 +157,8 @@ Because "neglect accelerates the rot faster than any other factor."
 
 --[Nicholar Boothman](http://nicholasboothman.com/)
 
-```
 
-## DISCUSS
-
-### Where and when your everyday work fits in those 5 steps of the creative process?
-
-| Step | time | work |
-| :--- | :--- | :--- |
-| 1-5 | xxx | xxx |
-
-1. **Gather material**, 
-2. **work intensely**,
-3. **step away**,
-4. **Let the idea return naturally**,
-5. **test and adjust**.
-
-## My example ([plan around energy](http://jamesclear.com/productivity))
+## How the 5 steps model fits my work?
 
 | where | when | what |
 | :--- | :--- | :--- |
@@ -210,11 +174,13 @@ Because "neglect accelerates the rot faster than any other factor."
 
 `(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is iterative but eliptic, not circular.
 
-## Where and when your everyday work fits in those 5 steps of the creative process?
+## How the 5 steps model fits your work?
 
 | Step | time | work |
 | :--- | :--- | :--- |
 | 1-5 | xxx | xxx |
+| ... | xxx | xxx |
+| 5 | xxx | xxx |
 
 1. **Gather material**, 
 2. **work intensely**,
@@ -222,6 +188,7 @@ Because "neglect accelerates the rot faster than any other factor."
 4. **Let the idea return naturally**,
 5. **test and adjust**.
 
+Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
 ## Source of useful principles and tools
 
