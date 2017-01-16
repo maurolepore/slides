@@ -203,7 +203,7 @@ We learned: principles to know where to aim and how to get there
 4. **LET THE IDEA RETURN NATURALLY**,
 5. **test and adjust** your idea based on feedback.
 
-> There is no such a thing as failure, only feedback.
+_There is no such a thing as failure, only feedback._
 
 --[Nicholar Boothman](http://nicholasboothman.com/)
 
@@ -240,7 +240,7 @@ We learned: principles to know where to aim and how to get there
 
 Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
-## Source of useful principles and tools
+## Useful principles and tools
 
 | Task | resource | tool/principle |
 | :--- | :------- | :--------- |
@@ -250,7 +250,7 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 | Capture ideas | GitHub Gists and GistBox | tool |
 | Develop ideas into projects | GitHub repositories and issues | tool |
 
-## Principles and tools (continued)
+## Useful principles and tools (continued)
 
 | Task | resource | tool/principle |
 | :--- | :------- | :--------- |
@@ -258,7 +258,7 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 | Analyse | R for data science ([Hadley Whicham]) | both |
 | Analyse, data management | Paper and package by ([Hadley Whicham]) | both |
 | Data/project management | GitHub, R Packages (xxxref) | tool |
-| Productivity, healthy habits | James Clear (xxxref) | principle |
+| Productivity, healthy habits | [James Clear](http://jamesclear.com/articles) | principle |
 | Communicate | Convince them in 90 seconds | principle |
 | Communicate | R Markdown documents (slides, notebooks, books, webpages) | tool |
 | admin | google products | gmail (offline), sheets, docs, forms | tool

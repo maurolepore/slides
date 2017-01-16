@@ -5,3 +5,4 @@
 rsconnect
 git_and_gitHub.html
 *.html
+!email_bookmarks.html
