@@ -140,13 +140,13 @@ knitr::include_graphics("check_email.png")
 
 ## Document WHY you do things
 
-- Tell computers WHAT to do
-
-- Tell humans `(*)` WHY to do it
-
 WHAT may be obvious, WHY is not.
 
-`(*)` Most frequently the human you work for is future you.
+- Tell computers WHAT to do
+
+- Tell humans WHY to do it
+
+Most frequently, **the human you work for** is future you.
 
 
 ### If (only if) it's worthwhile, program
@@ -168,13 +168,15 @@ knitr::include_graphics("behavioural_architect_good.jpg")
 
 ## Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
-_It’s Not the Event, It’s the Process._
-
---[James Clear](http://jamesclear.com/stay-focused)
-
 _We are what we repeatedly do. Excellence, then, is not an act, but a habit._
 
 -- Aristotle
+
+--
+
+_It’s Not the Event, It’s the Process._
+
+--James Clear ([stay focused](http://jamesclear.com/stay-focused))
 
 ## Recap part 1
 
@@ -207,10 +209,6 @@ We learned principles to know where to aim and how to get there
 3. **step away** from the problem, 
 4. **LET THE IDEA RETURN NATURALLY**,
 5. **test and adjust** your idea based on feedback.
-
-_There is no such a thing as failure, only feedback._
-
---[Nicholar Boothman](http://nicholasboothman.com/)
 
 ## The progress we fell, want and achieve
 
@@ -248,7 +246,9 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
 `(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is an iterative spiral.
 
-## When did I say Eureka!
+## Let the idea return naturally
+
+### **This is when I said _eureka!_ over the past few days**
 
 - Start with the ear muffs' story: sleeping
 - Show structure of a story: riding my bike
@@ -290,8 +290,18 @@ We learned how some useful principles apply to research
 
 - There are lots of resources for useful principles and tools
 
-### Questions and answers
+More [presentations](https://github.com/maurolepore/slides)
 
-### More [presentations](https://github.com/maurolepore/slides)
-### Feedback, your pragmatic stories ([here](https://github.com/maurolepore) or maurolepore@gmail.com)
+Feedback & send me your pragmatic stories ([here](https://github.com/maurolepore) or [email](maurolepore@gmail.com))
+
+--
+
+_There is no such a thing as failure, only feedback._
+
+--[Nicholar Boothman](http://nicholasboothman.com/)
+
+## Questions and answers
+
+maurolepore@gmail.com
+
 
