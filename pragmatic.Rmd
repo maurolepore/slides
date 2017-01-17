@@ -1,4 +1,4 @@
----
+﻿---
 title: "be_pragmatic( ): Principles to Improve Work and Life"
 author: "Mauro Lepore ([edit slides](https://github.com/maurolepore/slides/blob/master/pragmatic.Rmd))"
 date: "19 January 2017"
