@@ -149,21 +149,6 @@ _It’s Not the Event, It’s the Process._
 
 --James Clear ([stay focused](http://jamesclear.com/stay-focused))
 
-## Recap part 1
-
-- Think beyond the immediate problem
-
-    - Improve continuously (kai·zen)
-    - Don't neglect (or rot will accelerate)
-
-- Invest in future-you
-
-    - If it is cost-effective, avoid repetition
-    - Remind yourself WHY you do things
-
-- Architect your behaviour
-
-- To achieve more, focus on systems (not goals)
 
 # Brake
 
@@ -222,13 +207,23 @@ See how [Hadley Wickham](https://www.quora.com/How-is-Hadley-Wickham-able-to-con
 | Communicate | [Nicholas Boothman](http://nicholasboothman.com/) | principle |
 | Admin | Google's tools (gmail, sheets, docs) | tool
 
-## Recap part 2
+## Wrap up
 
-- Creativity is a systematic and iterative process
+### Part 1
 
-- Progress may feel circular but we do move forward constantly, in a spiral
+- Think beyond the immediate problem; improve continuously; don't neglect.
 
-- Plan the process of your creative work around your energy
+- Invest in future-you; if it is cost-effective, DRY.
+
+- Architect your behaviour; focus on systems (not goals).
+
+## Wrap up
+
+### Part 2
+
+- Creativity is an iterative process; it feels circular but we do move forward (in a spiral).
+
+- Plan creative work around your energy.
 
 - There are lots of resources for useful principles and tools
 
@@ -236,7 +231,9 @@ See how [Hadley Wickham](https://www.quora.com/How-is-Hadley-Wickham-able-to-con
 
 ### Questions and answers
 
-- More [presentations](https://github.com/maurolepore/slides)
+--
+
+More [presentations](https://github.com/maurolepore/slides)
 
 --
 
