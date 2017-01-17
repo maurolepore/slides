@@ -13,11 +13,29 @@ knitr::opts_chunk$set(
   )
 ```
 
+## How being pragmetic helped me
+
+[POINT] A pragmatic approach to solving problems saved my phd thesis, and my personal relationship.
+
+[WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia.
+
+[CONTEXT] I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
+
+[PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
+
+## How being pragmatic saved my trio
+
+[FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. That didn't work because she had no way to know when I was not working but just doing personal stuff on my computer. Moving elsewhere (e.g. the basement, the office at Uni) even a worse solution: that insulted my partner's capacity to understand and adapt to my needs.
+
+[THE SOLUTION] Suddenly eureka! I had heard the same story at the workshop "Turbocharge your writing". The solution was a cheap device that not only blocks noise but tells my partner when I am working: Bright construction ear muffs!
+
+[REPEAT THE POINT] This is how a pragmatic approach to solving problems improved my work and life!
+
 ## Who would like to ...
 
 - waste less time doing repetitive jobs (e.g.checking email)?
 
-- eat healthier OR excercise more OR drink less?
+- eat healthier OR exercise more OR drink less?
 
 - be more creative?
 
@@ -44,7 +62,7 @@ knitr::opts_chunk$set(
     - Don't repeat yourself
     - Document WHY you do things
 
-- Architect your behaviour
+- Architect your behavior
 
 - Focus on systems, not goals
 
