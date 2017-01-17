@@ -13,35 +13,6 @@ knitr::opts_chunk$set(
   )
 ```
 
-## How being pragmatic saved my trio
-
-[POINT] A pragmatic approach to solving problems saved my PhD thesis, and my personal relationship.
-
-[CONTEXT: WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia. I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
-
-[PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
-
-## How being pragmatic saved my trio
-
-[FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. That didn't work because she had no way to know when I was not working but just doing personal stuff on my computer. Moving elsewhere (e.g. the basement, the office at Uni) even a worse solution: that insulted my partner's capacity to understand and adapt to my needs.
-
-[SOLUTION] Suddenly eureka! I had heard the same story at the workshop "[Turbocharge your writing](http://www.ithinkwell.com.au/services-turbocharge-your-writing-workshop)". The solution was a cheap device that not only blocked noise but also told my partner when I was working. That device was a pair of bright ear-muffs!
-
-[REPEAT THE POINT] This is how a pragmatic approach to solving problems improved my work and life!
-
-## Who would like to ...
-
-- waste less time doing repetitive jobs (e.g. checking email)?
-
-- eat healthier OR exercise more OR drink less?
-
-- be more creative?
-
-- get more done at the end of each day?
-
-### Knowing few simple principles can help
-
-
 ## Outline
 
 ### Part 1: From principles to actions
@@ -301,10 +272,29 @@ We learned how some useful principles apply to research
 ### More [presentations](https://github.com/maurolepore/slides)
 ### Feedback, your pragmatic stories ([here](https://github.com/maurolepore) or maurolepore@gmail.com)
 
+# Supplement
+
+## How being pragmatic saved my trio
+
+[POINT] A pragmatic approach to solving problems saved my PhD thesis, and my personal relationship.
+
+[CONTEXT: WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia. I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
+
+[PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
+
+## How being pragmatic saved my trio
+
+(continued)
+
+[FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. That didn't work because she had no way to know when I was not working but just doing personal stuff on my computer. Moving elsewhere (e.g. the basement, the office at Uni) even a worse solution: that insulted my partner's capacity to understand and adapt to my needs.
+
+[SOLUTION] Suddenly eureka! I had heard the same story at the workshop "[Turbocharge your writing](http://www.ithinkwell.com.au/services-turbocharge-your-writing-workshop)". The solution was a cheap device that not only blocked noise but also told my partner when I was working. That device was a pair of bright ear-muffs!
+
+[REPEAT THE POINT] This is how a pragmatic approach to solving problems improved my work and life!
+
 ## When did I say Eureka!
 
 - Talks about HOW to do things, morning shower
 - Spiral, doing excercise
 - Start with the ear muffs' story, sleeping
 - Asking audience to write a story, morning shower
-
