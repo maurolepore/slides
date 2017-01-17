@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
   )
 ```
 
-## How being pragmetic saved my trio
+## How being pragmatic saved my trio
 
 [POINT] A pragmatic approach to solving problems saved my PhD thesis, and my personal relationship.
 
@@ -21,17 +21,17 @@ knitr::opts_chunk$set(
 
 [PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
 
-## How being pragmetic saved my trio
+## How being pragmatic saved my trio
 
 [FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. That didn't work because she had no way to know when I was not working but just doing personal stuff on my computer. Moving elsewhere (e.g. the basement, the office at Uni) even a worse solution: that insulted my partner's capacity to understand and adapt to my needs.
 
-[THE SOLUTION] Suddenly eureka! I had heard the same story at the workshop "Turbocharge your writing". The solution was a cheap device that not only blocks noise but tells my partner when I am working: Bright construction ear muffs!
+[SOLUTION] Suddenly eureka! I had heard the same story at the workshop "[Turbocharge your writing](http://www.ithinkwell.com.au/services-turbocharge-your-writing-workshop)". The solution was a cheap device that not only blocked noise but also told my partner when I was working. That device was a pair of bright ear-muffs!
 
 [REPEAT THE POINT] This is how a pragmatic approach to solving problems improved my work and life!
 
 ## Who would like to ...
 
-- waste less time doing repetitive jobs (e.g.checking email)?
+- waste less time doing repetitive jobs (e.g. checking email)?
 
 - eat healthier OR exercise more OR drink less?
 
@@ -60,7 +60,7 @@ knitr::opts_chunk$set(
     - Don't repeat yourself
     - Document WHY you do things
 
-- Architect your behavior
+- Architect your behaviour
 
 - Focus on systems, not goals
 
@@ -134,7 +134,7 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 - Examples illustrate principles, they are not recipes
 
-### Invest in future-you ([guide to stop procrasting](http://jamesclear.com/procrastination))
+### Invest in future-you ([guide to stop procrastinating](http://jamesclear.com/procrastination))
 
 
 ## Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
@@ -160,7 +160,7 @@ WHAT may be obvious, WHY is not.
 
 - If a process will likely recur, consider programming it,
 
-- If the time spent to program that process is shorter than the accumulated time the program will eventually save you, **then programm it**.
+- If the time spent to program that process is shorter than the accumulated time the program will eventually save you, **then program it**.
 
 ## Architect your behaviour
 
@@ -248,7 +248,7 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
 ## How the 5 steps model fits my work?
 
-| where | when | what |
+| Where | when | what |
 | :--- | :--- | :--- |
 | 1, 2 | day/night before | write `(a)`, analyse, ..., park downhill `(b)` |
 | 3, 4 | brakes spread along each day | sleep, shower, run, cook, read | 
