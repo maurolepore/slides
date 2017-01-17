@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/72758915.svg)](https://zenodo.org/badge/latestdoi/72758915)
+
 # Welcome to `slides`
 
 This repository contains a number of presentations on topics related to data science.
