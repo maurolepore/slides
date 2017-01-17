@@ -13,6 +13,26 @@ knitr::opts_chunk$set(
   )
 ```
 
+## To communicate effectively tell a story
+
+### **How being pragmatic saved my trio**
+
+[POINT] A pragmatic approach to solving problems saved my PhD thesis, and a personal relationship.
+
+[CONTEXT: WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia. I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
+
+[PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
+
+## To communicate effectively tell a story
+
+(continued)
+
+[FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. When that was? She had no clue, so my first attempt to a solution failed. Moving elsewhere (e.g. the basement, the office at Uni) was an even worse solution: that insulted my partner's capacity to understand my needs and adapt to them.
+
+[SOLUTION] Suddenly eureka! I had heard the same story at the workshop "[Turbocharge your writing](http://www.ithinkwell.com.au/services-turbocharge-your-writing-workshop)". The solution was a cheap device that not only blocked noise but also told my partner when I was working. That device was a pair of bright ear-muffs!
+
+[REPEAT THE POINT] I'm convinced that a pragmatic approach to solving problems can improve your work and life too.
+
 ## Outline
 
 ### Part 1: From principles to actions
@@ -233,6 +253,14 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
 `(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is an iterative spiral.
 
+## When did I say Eureka!
+
+- Start with the ear muffs' story: sleeping
+- Show structure of a story: riding my bike
+- Talks about HOW to do things, morning shower
+- Spiral: doing push-ups
+- Asking audience to tell their pragmatic stories: morning shower
+
 ## Useful principles and tools
 
 | Task | resource | tool/principle |
@@ -272,29 +300,3 @@ We learned how some useful principles apply to research
 ### More [presentations](https://github.com/maurolepore/slides)
 ### Feedback, your pragmatic stories ([here](https://github.com/maurolepore) or maurolepore@gmail.com)
 
-# Supplement
-
-## How being pragmatic saved my trio
-
-[POINT] A pragmatic approach to solving problems saved my PhD thesis, and my personal relationship.
-
-[CONTEXT: WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia. I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
-
-[PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
-
-## How being pragmatic saved my trio
-
-(continued)
-
-[FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. That didn't work because she had no way to know when I was not working but just doing personal stuff on my computer. Moving elsewhere (e.g. the basement, the office at Uni) even a worse solution: that insulted my partner's capacity to understand and adapt to my needs.
-
-[SOLUTION] Suddenly eureka! I had heard the same story at the workshop "[Turbocharge your writing](http://www.ithinkwell.com.au/services-turbocharge-your-writing-workshop)". The solution was a cheap device that not only blocked noise but also told my partner when I was working. That device was a pair of bright ear-muffs!
-
-[REPEAT THE POINT] This is how a pragmatic approach to solving problems improved my work and life!
-
-## When did I say Eureka!
-
-- Talks about HOW to do things, morning shower
-- Spiral, doing excercise
-- Start with the ear muffs' story, sleeping
-- Asking audience to write a story, morning shower
