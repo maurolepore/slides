@@ -13,69 +13,41 @@ knitr::opts_chunk$set(
   )
 ```
 
-## To communicate effectively, tell a story 
+## To communicate effectively, tell a story
 
-### **How being pragmatic saved my trio**
+(facts alone are not persuasive enough)
 
-[POINT] A pragmatic approach to solving problems saved my PhD thesis, and a personal relationship.
+- [POINT] A pragmatic solution saved my PhD and a personal relationship.
 
-[CONTEXT: WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia. I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
+- [WHEN] Two years ago; [WHO] My partner, my PhD and I; [WHERE] Australia.
 
-[PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
+- [PROBLEM] My partner inintentionally interrupted my work.
 
-## To communicate effectively tell a story
+- [1-2 FAILED ATTEMPTS] (1) Asked to not interrupt; (2) Moved elsewhere.
 
-(continued)
+- [SOLUTION] Buy a pair of bright ear-muffs!
 
-[1-2 FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. When that was? She had no clue, so my first attempt to a solution failed. Moving elsewhere (e.g. the basement, the office at Uni) was an even worse solution: that insulted my partner's capacity to understand my needs and adapt to them.
-
-[SOLUTION] Suddenly eureka! I had heard the same story at the workshop "[Turbocharge your writing](http://www.ithinkwell.com.au/services-turbocharge-your-writing-workshop)". The solution was a cheap device that not only blocked noise but also told my partner when I was working. That device was a pair of bright ear-muffs!
-
-[REPEAT THE POINT] I'm convinced that a pragmatic approach to solving problems can improve your work and life too.
+- [PLACE THE POINT IN THE BIGGER PICTURE] A pragmatic approach to solving problems can improve anyone's work and life.
 
 ## Outline
 
-### Part 1: From principles to actions
+- Part 1: From principles to actions
 
-#### Goal 1.1: To learn where to aim.
+    - Goal 1: To learn where to aim philosophically
 
-- Think beyond the immediate problem
+    - Goal 2: To learn how to actually get there
 
-    - Improve continuously: kai·zen
-    - Stop decay ASAP: don't leave broken windows
+- Brake
 
-#### Goal 1.2: To learn how to actually get there
+- Part 2: Applications in research
 
-- Invest in future you (i.e. stop procrastination)
+    - Goal 3: See how this principles and models fit our work
 
-    - Don't repeat yourself
-    - Document WHY you do things
-
-- Architect your behaviour
-
-- Focus on systems, not goals
-
-## Outline (continued)
-
-### Brake
-
-- Tell me your pragmatic story
-
-### Part 2: Applications in research
-
-#### Goal 2: See how this principles and models fit our work
-
-- The 5 steps of the creative process
-
-- How the 5 steps model fits our work
-
-- Source of useful principles and tools
-
-- Wrap up / questions and answers
+- Questions and answers
 
 # Part 1: From principles to actions
 
-### Goal 1.1: To learn where to aim.
+### Goal 1: To learn where to aim.
 
 - Principles are guiding propositions, not rules.
 
@@ -123,7 +95,7 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 # Part 1: From principles to actions
 
-### Goal 1.2: To learn how to actually get there
+### Goal 2: To learn how to actually get there
 
 - Examples illustrate principles, they are not recipes
 
@@ -140,7 +112,7 @@ knitr::include_graphics("check_email.png")
 
 ## Document WHY you do things
 
-WHAT may be obvious, WHY is not.
+### **WHAT may be obvious, WHY is not.**
 
 - Tell computers WHAT to do
 
@@ -148,8 +120,7 @@ WHAT may be obvious, WHY is not.
 
 Most frequently, **the human you work for** is future you.
 
-
-### If (only if) it's worthwhile, program
+### **If (only if) it's worthwhile, program**
 
 - If a process will likely recur, consider programming it,
 
@@ -180,8 +151,6 @@ _It’s Not the Event, It’s the Process._
 
 ## Recap part 1
 
-We learned principles to know where to aim and how to get there
-
 - Think beyond the immediate problem
 
     - Improve continuously (kai·zen)
@@ -204,57 +173,28 @@ We learned principles to know where to aim and how to get there
 
 ## [The 5 steps of the creative process](http://jamesclear.com/five-step-creative-process)
 
+### How the 5 steps model fits your work?
+
 1. **gather material**, 
 2. **work intensely** over the material in your mind,
 3. **step away** from the problem, 
 4. **LET THE IDEA RETURN NATURALLY**,
 5. **test and adjust** your idea based on feedback.
 
-## The progress we fell, want and achieve
-
-![](spiral.jpg)
-
-## How the 5 steps model fits your work?
-
-| Step | time | work |
-| :--- | :--- | :--- |
-| 1-5 | xxx | xxx |
-| ... | xxx | xxx |
-| 5 | xxx | xxx |
-
-1. **Gather material**, 
-2. **work intensely**,
-3. **step away**,
-4. **Let the idea return naturally**,
-5. **test and adjust**.
-
 Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
-
-## How the 5 steps model fits my work?
-
-| Where | when | what |
-| :--- | :--- | :--- |
-| 1, 2 | day/night before | write `(a)`, analyse, ..., park downhill `(b)` |
-| 3, 4 | brakes spread along each day | sleep, shower, run, cook, read | 
-| 5 `(c)` | earlier sessions | re-write, re-analyse, ..., park downhill |
-
---
-
-`(a)` _If you think without writing, you only think you're thinking_ (Leslie Lamport).
-
-`(b)` Idea from [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf)
-
-`(c)` Note that step 5 is not an exact repetition of 1 and 2 because it starts from a point ahead. The creative process is an iterative spiral.
 
 ## Let the idea return naturally
 
 ### **This is when I said _eureka!_ over the past few days**
 
 - Start with the ear muffs' story: sleeping
-- Show structure of a story: riding my bike
-- Talks about HOW to do things, morning shower
+- Show the structure of a story: riding my scooter
 - Spiral: doing push-ups
-- Asking audience to tell their pragmatic stories: morning shower
+- Ask audience to share their pragmatic stories: morning shower
+
+## The progress we fell, want and achieve
+
+![](spiral.jpg)
 
 ## Useful principles and tools
 
@@ -280,11 +220,9 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
 ## Recap part 2
 
-We learned how some useful principles apply to research
-
 - Creativity is a systematic and iterative process
 
-- Progress may feel circular but we move forward in a spiral
+- Progress may feel circular but we do move forward constantly, in a spiral
 
 - Plan the process of your creative work around your energy
 
