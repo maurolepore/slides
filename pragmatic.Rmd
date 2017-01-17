@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
   )
 ```
 
-## To communicate effectively tell a story
+## To communicate effectively, tell a story
 
 ### **How being pragmatic saved my trio**
 
@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 
 (continued)
 
-[FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. When that was? She had no clue, so my first attempt to a solution failed. Moving elsewhere (e.g. the basement, the office at Uni) was an even worse solution: that insulted my partner's capacity to understand my needs and adapt to them.
+[1-2 FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. When that was? She had no clue, so my first attempt to a solution failed. Moving elsewhere (e.g. the basement, the office at Uni) was an even worse solution: that insulted my partner's capacity to understand my needs and adapt to them.
 
 [SOLUTION] Suddenly eureka! I had heard the same story at the workshop "[Turbocharge your writing](http://www.ithinkwell.com.au/services-turbocharge-your-writing-workshop)". The solution was a cheap device that not only blocked noise but also told my partner when I was working. That device was a pair of bright ear-muffs!
 
@@ -90,6 +90,8 @@ Pragmatic people approach problems and solutions with special
 - **attitude**
 - **style**
 - **philosophy**
+
+--
 
 ```{r, out.width="50%", echo=FALSE}
 knitr::include_graphics("pragmatic_programmer_cover.jpg")
@@ -159,17 +161,10 @@ WHAT may be obvious, WHY is not.
 
 - [Your environment strongly impacts your behaviour](http://jamesclear.com/habits-visibility-method). 
 
-- Architect your environment to favor actions you want to take.
-
-For example:
-
-I want to learn this material, so I made it my job to teach it.
-
---
-
-_If you want to learn, teach_
-
---Ciceron (106 AC-43 AC)
+```{r, out.width="50%", fig.show='hold'}
+knitr::include_graphics("behavioural_architect_bad.jpg")
+knitr::include_graphics("behavioural_architect_good.jpg")
+```
 
 ## Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
