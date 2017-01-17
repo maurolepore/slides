@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
   )
 ```
 
-## To communicate effectively, tell a story
+## To communicate effectively, tell a story 
 
 ### **How being pragmatic saved my trio**
 
