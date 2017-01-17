@@ -1,6 +1,6 @@
 ---
 title: "be_pragmatic( ): Principles to Improve Work and Life"
-author: "Mauro Lepore ([edit slides](https://github.com/maurolepore))"
+author: "Mauro Lepore ([edit slides](https://github.com/maurolepore/slides/blob/master/pragmatic.Rmd))"
 date: "19 January 2017"
 output: ioslides_presentation
 ---
@@ -15,13 +15,13 @@ knitr::opts_chunk$set(
 
 ## To communicate effectively, tell a story
 
-(facts alone are not persuasive enough)
+(Facts alone are not persuasive enough)
 
 - [POINT] A pragmatic solution saved my PhD and a personal relationship.
 
 - [WHEN] Two years ago; [WHO] My partner, my PhD and I; [WHERE] Australia.
 
-- [PROBLEM] My partner inintentionally interrupted my work.
+- [PROBLEM] My partner unintentionally interrupted my work.
 
 - [1-2 FAILED ATTEMPTS] (1) Asked to not interrupt; (2) Moved elsewhere.
 
@@ -104,7 +104,7 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 ## Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
 
-Example: use email's [search operators](https://support.google.com/mail/answer/7190?hl=en) and save ([bookmarks](https://goo.gl/9Ev0O1)).
+Example: use email's [search operators](https://support.google.com/mail/answer/7190?hl=en) and save ([bookmarks](https://drive.google.com/open?id=0B5fCyFlg2t4pcDlIVHg5VlJZdkE)).
 
 ```{r, out.width="100%"}
 knitr::include_graphics("check_email.png")
@@ -183,6 +183,10 @@ _It’s Not the Event, It’s the Process._
 
 Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
+--
+
+See how [Hadley Wickham](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages) does it.
+
 ## Let the idea return naturally
 
 ### **This is when I said _eureka!_ over the past few days**
@@ -215,7 +219,7 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 | Analyse, data management | [Paper](http://vita.had.co.nz/papers/tidy-data.pdf) | principle |
 | Data/project management | [GitHub](http://r-pkgs.had.co.nz/git.html), [R Packages](http://r-pkgs.had.co.nz/) | tool |
 | Productivity, healthy habits | [James Clear](http://jamesclear.com/articles) | principle |
-| Communicate | Convince them in 90 seconds | principle |
+| Communicate | [Nicholas Boothman](http://nicholasboothman.com/) | principle |
 | Admin | Google's tools (gmail, sheets, docs) | tool
 
 ## Recap part 2
@@ -228,18 +232,29 @@ Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
 
 - There are lots of resources for useful principles and tools
 
-More [presentations](https://github.com/maurolepore/slides)
+## Where to go from here
 
-Send me your pragmatic stories and **feedback** ([here](https://github.com/maurolepore) or [email](maurolepore@gmail.com))
+### Questions and answers
+
+- More [presentations](https://github.com/maurolepore/slides)
 
 --
 
 _There is no such a thing as failure, only feedback._
 
---[Nicholar Boothman](http://nicholasboothman.com/)
+--[Nicholas Boothman](http://nicholasboothman.com/)
 
-## Questions and answers
+## Feedback
 
-maurolepore@gmail.com
+Write your feedback directly [here](https://github.com/maurolepore/slides/blob/master/pragmatic.Rmd) (note the _pencil icon_ to "Edit this file" on the top right):
 
+- [Your name goes here]: [Your feedback goes here]
+
+- [Your name goes here]: [Your feedback goes here]
+
+- ...
+
+--
+
+Or email me maurolepore@gmail.com
 
