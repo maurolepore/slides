@@ -13,17 +13,15 @@ knitr::opts_chunk$set(
   )
 ```
 
-## How being pragmetic helped me
+## How being pragmetic saved my trio
 
-[POINT] A pragmatic approach to solving problems saved my phd thesis, and my personal relationship.
+[POINT] A pragmatic approach to solving problems saved my PhD thesis, and my personal relationship.
 
-[WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia.
-
-[CONTEXT] I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
+[CONTEXT: WHEN, WHO, WHERE] Two years ago, I was living with a partner in Australia. I was finishing my PhD from home. And because home was a tiny studio, the same space was shared among the three of us: my partner, my PhD and I.
 
 [PROBLEM] Our trio was performing poorly. The problem was that when my partner offered me help with this or that everyday issue, she almost always interrupted my work.
 
-## How being pragmatic saved my trio
+## How being pragmetic saved my trio
 
 [FAILED ATTEMPTS] I struggled to find a solution. First I asked my partner to only talk to me when I was not working. That didn't work because she had no way to know when I was not working but just doing personal stuff on my computer. Moving elsewhere (e.g. the basement, the office at Uni) even a worse solution: that insulted my partner's capacity to understand and adapt to my needs.
 
@@ -70,7 +68,7 @@ knitr::opts_chunk$set(
 
 ### Brake
 
-- Don't leave broken windows
+- Tell me your pragmatic story
 
 ### Part 2: Applications in research
 
@@ -212,6 +210,8 @@ We learned principles to know where to aim and how to get there
 
 # Brake
 
+### Tell me your pragmatic story
+
 # Part 2: Applications in research
 
 ## [The 5 steps of the creative process](http://jamesclear.com/five-step-creative-process)
@@ -299,4 +299,12 @@ We learned how some useful principles apply to research
 ### Questions and answers
 
 ### More [presentations](https://github.com/maurolepore/slides)
+### Feedback, your pragmatic stories ([here](https://github.com/maurolepore) or maurolepore@gmail.com)
+
+## When did I say Eureka!
+
+- Talks about HOW to do things, morning shower
+- Spiral, doing excercise
+- Start with the ear muffs' story, sleeping
+- Asking audience to write a story, morning shower
 
