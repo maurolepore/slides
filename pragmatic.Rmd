@@ -29,17 +29,13 @@ knitr::include_graphics("desk_water_stand.jpg")
 
 ## Outline
 
-- Part 1: From principles to actions
+- Where to aim philosophically
 
-    - where to aim philosophically
+- How to get there
 
-    - how to get there
+- Brake 5' sharp
 
-- Brake
-
-- Part 2: Applications in research
-
-    - how this principles and models fit our work
+- Applications in research
 
 - Questions and answers
 
@@ -112,11 +108,17 @@ knitr::include_graphics("sink.jpg")
 
 ### _We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Aristotle).
 
-# Brake
+# .
 
-### Tell me your pragmatic story
+```{r, out.width="100%", echo=FALSE, fig.align='center'}
+knitr::include_graphics("timer.png")
+```
 
-# Part 2: Applications in research
+### **Next: Applications in research**
+
+# Applications in research
+
+### Recap
 
 ## Do you [work around energy](http://jamesclear.com/productivity) or time?
 
