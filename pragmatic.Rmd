@@ -13,47 +13,71 @@ knitr::opts_chunk$set(
   )
 ```
 
-## To communicate effectively, tell a story
+## xxxnext
 
-(Facts alone are not persuasive enough)
+- incorporate more ideas if there are any
 
-- [POINT] A pragmatic solution saved my PhD and a personal relationship.
+- replace ideas by images
 
-- [WHEN] Two years ago; [WHO] My partner, my PhD and I; [WHERE] Australia.
+- replace statements by questions
 
-- [PROBLEM] My partner unintentionally interrupted my work.
+- add photos 1-4 and rename accordingly
 
-- [1-2 FAILED ATTEMPTS] (1) Asked to not interrupt; (2) Moved elsewhere.
+## What problem was solved here?
 
-- [SOLUTION] Buy a pair of bright ear-muffs!
+desk_stand.jpg
 
-- [PLACE THE POINT IN THE BIGGER PICTURE] A pragmatic approach to solving problems can improve anyone's work and life.
+## What problem was solved here?
+
+desk_stand.jpg
+
+Back pain (+ healthier heart)
+
+## What problem was solved here?
+
+desk_water.jpg
+
+## What problem was solved here?
+
+desk_water.jpg
+
+Drink insufficient water.
+
+## What problem was solved here?
+
+organic_trash.jpg
+
+## What problem was solved here?
+
+organic_trash.jpg
+
+Smell and bugs in the kitchen.
 
 ## Outline
 
 - Part 1: From principles to actions
 
-    - Goal 1: To learn where to aim philosophically
+    - where to aim philosophically
 
-    - Goal 2: To learn how to actually get there
+    - how to get there
 
 - Brake
 
 - Part 2: Applications in research
 
-    - Goal 3: See how this principles and models fit our work
+    - how this principles and models fit our work
 
 - Questions and answers
 
 # Part 1: From principles to actions
 
-### Goal 1: To learn where to aim.
+### Where to aim.
 
 - Principles are guiding propositions, not rules.
 
 ## Think beyond the immediate problem
 
-Place the problem in its larger context.
+### Place the problem in its larger context.
 
 <div class="columns-2">
 
@@ -95,7 +119,7 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 # Part 1: From principles to actions
 
-### Goal 2: To learn how to actually get there
+### How to actually get there
 
 - Examples illustrate principles, they are not recipes
 
@@ -106,9 +130,21 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 Example: use email's [search operators](https://support.google.com/mail/answer/7190?hl=en) and save ([bookmarks](https://drive.google.com/open?id=0B5fCyFlg2t4pcDlIVHg5VlJZdkE)).
 
+<div class="columns-2">
+
+- Immediate: emails today
+
+- Beyond: system to check emails everyday
+
+- kaizen: transform inbox into a **"to do today"** list
+
+- stop decay ASAP: do it **today**
+
 ```{r, out.width="100%"}
 knitr::include_graphics("check_email.png")
 ```
+
+<div\>
 
 ## Document WHY you do things
 
@@ -137,18 +173,13 @@ knitr::include_graphics("behavioural_architect_bad.jpg")
 knitr::include_graphics("behavioural_architect_good.jpg")
 ```
 
-## Focus on [systems, not goals](http://jamesclear.com/goals-systems)
+## What old habit can you link a new habit to?
 
-_We are what we repeatedly do. Excellence, then, is not an act, but a habit._
+Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
--- Aristotle
+sink.jpg
 
---
-
-_It’s Not the Event, It’s the Process._
-
---James Clear ([stay focused](http://jamesclear.com/stay-focused))
-
+_We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Aristotle).
 
 # Brake
 
@@ -243,15 +274,22 @@ _There is no such a thing as failure, only feedback._
 
 ## Feedback
 
-Write your feedback directly [here](https://github.com/maurolepore/slides/blob/master/pragmatic.Rmd) (note the _pencil icon_ to "Edit this file" on the top right):
+If you can please give me some feedback. But you are of course excused if you decide not to do so. For example, what you liked and disliked the most?
 
-- [Your name goes here]: [Your feedback goes here]
+Send your feedback to maurolepore@gmail.com.
 
-- [Your name goes here]: [Your feedback goes here]
+# People's feedback
 
-- ...
+## 2017-01-17, Julia Schuckel
 
---
+(Postdoctoral fellow, Lunds Universitet)
 
-Or email me maurolepore@gmail.com
+"I liked your talk a lot. It kept me engaged the full time. The fact that you gave inside into your personal strategies instead of just talking about theories was really refreshing. And also brave!"
+
+"It inspired me to think about new strategies for myself, and am still thinking about it this evening. So, well done! It was really cool to have had the time to hear from people about their pragmatic solutions, but maybe it’s too much for an hour long talk and you could make a workshop out of it one day :)".
+
+## 2017-01-17, Julia Schuckel (continued)
+
+"In the interest of saving time, you could just talk anecdotally about some of the approaches that people shared today. It's definitely nice to infuse the talk with examples other than yours.  But of course that’s really just a matter of personal style. The part with the email organizing was new to me and a very good idea, but could be a bit more dense, you repeated yourself a little bit there. You probably shorten it automatically next time you speak.
+I struggle finding something that I didn’t like!"
 
