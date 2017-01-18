@@ -83,66 +83,34 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 - Examples illustrate principles, they are not recipes
 
-## Invest in future-you
+## Do you invest in future-you?
 
 ### **If it's cost-effective, Don't Repeat Yourself** ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
 
 Example: use email's [search operators](https://support.google.com/mail/answer/7190?hl=en) and save ([bookmarks](https://drive.google.com/open?id=0B5fCyFlg2t4pcDlIVHg5VlJZdkE)).
 
-```{r, echo=FALSE}
-# <div class="columns-2">
-# 
-# - Immediate: emails today
-# 
-# - Beyond: system to check emails everyday
-# 
-# - kaizen: transform inbox into a **"to do today"** list
-# 
-# - stop decay ASAP: do it **today**
-# <div\>
-```
-
 ```{r, out.width="100%"}
 knitr::include_graphics("check_email.png")
 ```
 
-
-## Document WHY you do things
-
-### **WHAT may be obvious, WHY is not.**
-
-- Tell computers WHAT to do
-
-- Tell humans WHY to do it
-
-Most frequently, **the human you work for** is future you.
-
-### **If (only if) it's worthwhile, program**
-
-- If a process will likely recur, consider programming it,
-
-- If the time spent to program that process is shorter than the accumulated time the program will eventually save you, **then program it**.
-
-## Architect your behaviour
+## Do you design your behaviour?
 
 - [Behaviour can be designed](http://www.nirandfar.com/) (e.g. google, email, facebook)
 
-- [Your environment strongly impacts your behaviour](http://jamesclear.com/habits-visibility-method). 
+- Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
 ```{r, out.width="50%", fig.show='hold'}
 knitr::include_graphics("behavioural_architect_bad.jpg")
 knitr::include_graphics("behavioural_architect_good.jpg")
 ```
 
-## What old habit can you link a new habit to?
+## Do you hook new habits to old habits?
 
-Focus on [systems, not goals](http://jamesclear.com/goals-systems)
-
-```{r, out.width="50%", echo=FALSE}
+```{r, out.width="80%", echo=FALSE, fig.align='center'}
 knitr::include_graphics("sink.jpg")
 ```
 
-_We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Aristotle).
+### _We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Aristotle).
 
 # Brake
 
@@ -150,9 +118,9 @@ _We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Ar
 
 # Part 2: Applications in research
 
-## [The 5 steps of the creative process](http://jamesclear.com/five-step-creative-process)
+## Do you [work around energy](http://jamesclear.com/productivity) or time?
 
-### How the 5 steps model fits your work?
+### The [5-step model](http://jamesclear.com/five-step-creative-process)
 
 1. **gather material**, 
 2. **work intensely** over the material in your mind,
@@ -160,11 +128,9 @@ _We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Ar
 4. **LET THE IDEA RETURN NATURALLY**,
 5. **test and adjust** your idea based on feedback.
 
-Tip: [Manage your energy, not your time](http://jamesclear.com/productivity)
-
 --
 
-See how [Hadley Wickham](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages) does it.
+The secret of [the most productive R programmer](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).
 
 ## Let the idea return naturally
 
