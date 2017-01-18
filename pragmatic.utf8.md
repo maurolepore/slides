@@ -5,13 +5,7 @@ date: "19 January 2017"
 output: ioslides_presentation
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  comment = "#>",
-  collapse = TRUE,
-  echo = FALSE
-  )
-```
+
 
 ## xxxnext
 
@@ -23,9 +17,7 @@ knitr::opts_chunk$set(
 
 ## What are your pragmatic solutions?
 
-```{r, out.width="100%", echo=FALSE}
-knitr::include_graphics("desk_water_stand.jpg")
-```
+<img src="desk_water_stand.jpg" width="100%" />
 
 ## Outline
 
@@ -73,9 +65,7 @@ Pragmatic people solve problems with special
 
 ### **Don't leave broken windws!** 
 
-```{r, echo=FALSE, out.width="100%"}
-knitr::include_graphics("dont_leave_broken_windows.jpg")
-```
+<img src="dont_leave_broken_windows.jpg" width="100%" />
 
 ### [_Neglect accelerates the rot faster than any other factor_.](http://www.artima.com/intv/fixit.html)
 
@@ -89,22 +79,9 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 
 Example: use email's [search operators](https://support.google.com/mail/answer/7190?hl=en) and save ([bookmarks](https://drive.google.com/open?id=0B5fCyFlg2t4pcDlIVHg5VlJZdkE)).
 
-```{r, echo=FALSE}
-# <div class="columns-2">
-# 
-# - Immediate: emails today
-# 
-# - Beyond: system to check emails everyday
-# 
-# - kaizen: transform inbox into a **"to do today"** list
-# 
-# - stop decay ASAP: do it **today**
-# <div\>
-```
 
-```{r, out.width="100%"}
-knitr::include_graphics("check_email.png")
-```
+
+<img src="check_email.png" width="100%" />
 
 
 ## Document WHY you do things
@@ -129,18 +106,13 @@ Most frequently, **the human you work for** is future you.
 
 - [Your environment strongly impacts your behaviour](http://jamesclear.com/habits-visibility-method). 
 
-```{r, out.width="50%", fig.show='hold'}
-knitr::include_graphics("behavioural_architect_bad.jpg")
-knitr::include_graphics("behavioural_architect_good.jpg")
-```
+<img src="behavioural_architect_bad.jpg" width="50%" /><img src="behavioural_architect_good.jpg" width="50%" />
 
 ## What old habit can you link a new habit to?
 
 Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
-```{r, out.width="50%", echo=FALSE}
-knitr::include_graphics("sink.jpg")
-```
+<img src="sink.jpg" width="50%" />
 
 _We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Aristotle).
 
