@@ -1,6 +1,6 @@
 ---
 title: "be_pragmatic( ): Principles to Improve Work and Life"
-author: "Mauro Lepore ([edit slides](https://github.com/maurolepore/slides/blob/master/pragmatic.Rmd))"
+author: "Mauro Lepore (maurolepore@gmail.com; [edit slides](https://github.com/maurolepore/slides/blob/master/pragmatic.Rmd))"
 date: "19 January 2017"
 output: ioslides_presentation
 ---
@@ -118,7 +118,7 @@ knitr::include_graphics("timer.png")
 
 # Applications in research
 
-### Recap
+Recap
 
 ## Do you [work around energy](http://jamesclear.com/productivity) or time?
 
@@ -134,34 +134,42 @@ knitr::include_graphics("timer.png")
 
 (The secret of [the most productive R programmer](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).)
 
-## When/where do you say: _eureka!_?
+## When/where do you say _[AHA!](https://youtu.be/lnGeZsv1aBM)_?
 
 (LET IDEAS RETURN NATURALLY.)
 
-### **This is when I said _eureka!_ over the past few days**
+_AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-English-Language-ebook/dp/B01D0Z7GC6).
+
+### **This is when I said _AHA!_ over the past few days**
 
 - Start with the ear muffs' story: sleeping
-- Spiral: doing push-ups
+- Spiral (next slide): doing push-ups
 
-## The progress we fell, want and achieve
+## Do you feel you go around in circles?
+
+### The progress we fell, want and achieve.
 
 ![](spiral.jpg)
 
-## Useful principles and tools
+## What cognitive/practical tools you use? 
 
 | Task | resource | tool/principle |
 | :--- | :------- | :--------- |
-| Write (and think) | [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf) | principle |
+| Write (and think [*]) | [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf) | principle |
 | Edit | [Goepen & Swan](http://www.americanscientist.org/issues/id.877,y.0,no.,content.true,page.1,css.print/issue.aspx); [Style](http://worldwordweb.com/writing/Style%20Lessons%20in%20Clarity%20and%20Grace%20(11th%20Edition).pdf) | principle |
 | Communicate | [R Markdown](http://rmarkdown.rstudio.com/) | tool |
 | Capture & track ideas | GitHub [Gists](https://help.github.com/articles/about-gists/) & [GistBox](https://app.gistboxapp.com/) | tool |
 | Develop ideas into projects | [GitHub](http://r-pkgs.had.co.nz/git.html) repositories and [issues](https://guides.github.com/features/issues/) | tool |
+| Analyse | R Studio ([webinars](https://www.rstudio.com/resources/webinars/)) | tool |
 
-## Useful principles and tools (continued)
+[*] _If you think without writing, you only think you're thinking_ (Leslie Lamport).
+
+## What cognitive/practical tools you use? 
+
+(continued)
 
 | Task | resource | tool/principle |
 | :--- | :------- | :--------- |
-| Analyse | R Studio ([webinars](https://www.rstudio.com/resources/webinars/)) | tool |
 | Analyse | [R for data science](http://r4ds.had.co.nz/), [tidyverse](http://tidyverse.org/) | both |
 | Analyse, data management | [Paper](http://vita.had.co.nz/papers/tidy-data.pdf) | principle |
 | Data/project management | [GitHub](http://r-pkgs.had.co.nz/git.html), [R Packages](http://r-pkgs.had.co.nz/) | tool |
@@ -187,29 +195,17 @@ knitr::include_graphics("timer.png")
 
 - Plan creative work around your energy.
 
-- There are lots of resources for useful principles and tools
+- There are lots of cognitive and practical tools for you to try.
 
-## Where to go from here
+# maurolepore@gmail.com 
 
-### Questions and answers
+### **Questions, answers & feedback**
 
---
+If you can, please give me some feedback. (But you are of course excused if you decide not to do so.) For example, what you liked and disliked the most?
 
-More [presentations](https://github.com/maurolepore/slides)
+### github.com/maurolepore/slides
 
---
-
-_There is no such a thing as failure, only feedback._
-
---[Nicholas Boothman](http://nicholasboothman.com/)
-
-## Feedback
-
-If you can please give me some feedback. But you are of course excused if you decide not to do so. For example, what you liked and disliked the most?
-
-Send your feedback to maurolepore@gmail.com.
-
-# People's feedback
+# Previous feedback
 
 ## 2017-01-17, Julia Schuckel
 
