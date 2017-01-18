@@ -13,14 +13,6 @@ knitr::opts_chunk$set(
   )
 ```
 
-## xxxnext
-
-- incorporate more ideas if there are any
-
-- replace ideas by images
-
-- replace statements by questions
-
 ## What are your pragmatic solutions?
 
 ```{r, out.width="100%", echo=FALSE}
