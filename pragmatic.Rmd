@@ -21,37 +21,11 @@ knitr::opts_chunk$set(
 
 - replace statements by questions
 
-- add photos 1-4 and rename accordingly
+## What are your pragmatic solutions?
 
-## What problem was solved here?
-
-desk_stand.jpg
-
-## What problem was solved here?
-
-desk_stand.jpg
-
-Back pain (+ healthier heart)
-
-## What problem was solved here?
-
-desk_water.jpg
-
-## What problem was solved here?
-
-desk_water.jpg
-
-Drink insufficient water.
-
-## What problem was solved here?
-
-organic_trash.jpg
-
-## What problem was solved here?
-
-organic_trash.jpg
-
-Smell and bugs in the kitchen.
+```{r, out.width="100%", echo=FALSE}
+knitr::include_graphics("desk_water_stand.jpg")
+```
 
 ## Outline
 
@@ -69,7 +43,7 @@ Smell and bugs in the kitchen.
 
 - Questions and answers
 
-# Part 1: From principles to actions
+# From principles to actions
 
 ### Where to aim.
 
@@ -77,74 +51,67 @@ Smell and bugs in the kitchen.
 
 ## Think beyond the immediate problem
 
-### Place the problem in its larger context.
+Pragmatic people solve problems with special
 
-<div class="columns-2">
+- **attitude**, 
 
-Pragmatic people approach problems and solutions with special
+- **style**, 
 
-- **attitude**
-- **style**
-- **philosophy**
+- **philosophy.**
 
 --
 
-```{r, out.width="50%", echo=FALSE}
-knitr::include_graphics("pragmatic_programmer_cover.jpg")
-```
-
-</div>
+[The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 
 ## Improve continuously; stop decay
 
 <div class="columns-2">
 
-### **kai·zen** /kīzən/ (noun) Japanese business philosophy of continuous improvement of working practices, personal efficiency, etc.
+### **kai·zen**
 
+### /kīzən/ (noun) 
+
+### Japanese business philosophy of continuous improvement of working practices & personal efficiency.
+
+--
+
+### **Don't leave broken windws!** 
 
 ```{r, out.width="100%"}
 knitr::include_graphics("dont_leave_broken_windows.jpg")
 ```
 
-### [Neglect accelerates the rot faster than any other factor.](http://www.artima.com/intv/fixit.html) 
+[_Neglect accelerates the rot faster than any other factor_.](http://www.artima.com/intv/fixit.html)
 
 </div>
 
-
-
-
-
-
-
-
-# Part 1: From principles to actions
-
-### How to actually get there
+# How to actually get there
 
 - Examples illustrate principles, they are not recipes
 
-### Invest in future-you ([guide to stop procrastinating](http://jamesclear.com/procrastination))
+## Invest in future-you
 
-
-## Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
+### If it's cost-effective, Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))
 
 Example: use email's [search operators](https://support.google.com/mail/answer/7190?hl=en) and save ([bookmarks](https://drive.google.com/open?id=0B5fCyFlg2t4pcDlIVHg5VlJZdkE)).
 
-<div class="columns-2">
-
-- Immediate: emails today
-
-- Beyond: system to check emails everyday
-
-- kaizen: transform inbox into a **"to do today"** list
-
-- stop decay ASAP: do it **today**
+```{r, echo=FALSE}
+# <div class="columns-2">
+# 
+# - Immediate: emails today
+# 
+# - Beyond: system to check emails everyday
+# 
+# - kaizen: transform inbox into a **"to do today"** list
+# 
+# - stop decay ASAP: do it **today**
+# <div\>
+```
 
 ```{r, out.width="100%"}
 knitr::include_graphics("check_email.png")
 ```
 
-<div\>
 
 ## Document WHY you do things
 
@@ -177,7 +144,9 @@ knitr::include_graphics("behavioural_architect_good.jpg")
 
 Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
-sink.jpg
+```{r, out.width="50%", echo=FALSE}
+knitr::include_graphics("sink.jpg")
+```
 
 _We are what we repeatedly do. Excellence, then, is not an act, but a habit_ (Aristotle).
 
