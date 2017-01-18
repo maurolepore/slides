@@ -125,21 +125,21 @@ knitr::include_graphics("sink.jpg")
 1. **gather material**, 
 2. **work intensely** over the material in your mind,
 3. **step away** from the problem, 
-4. **LET THE IDEA RETURN NATURALLY**,
+4. **LET IDEAS RETURN NATURALLY**,
 5. **test and adjust** your idea based on feedback.
 
 --
 
-The secret of [the most productive R programmer](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).
+(The secret of [the most productive R programmer](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).)
 
-## Let the idea return naturally
+## When/where do you say: _eureka!_?
+
+(LET IDEAS RETURN NATURALLY.)
 
 ### **This is when I said _eureka!_ over the past few days**
 
 - Start with the ear muffs' story: sleeping
-- Show the structure of a story: riding my scooter
 - Spiral: doing push-ups
-- Ask audience to share their pragmatic stories: morning shower
 
 ## The progress we fell, want and achieve
 
