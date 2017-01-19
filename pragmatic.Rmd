@@ -139,7 +139,7 @@ knitr::include_graphics("creative.jpg")
 
 (The secret of [the most productive R programmer](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).)
 
-## When/where do you say _[AHA!](https://youtu.be/lnGeZsv1aBM)_?
+## When did you say _[AHA!](https://youtu.be/lnGeZsv1aBM)_?
 
 (LET IDEAS RETURN NATURALLY.)
 
