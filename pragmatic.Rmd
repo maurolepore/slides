@@ -94,7 +94,7 @@ knitr::include_graphics("check_email.png")
 
 ## Do you design your behaviour?
 
-- [Behaviour can be designed](http://www.nirandfar.com/) (e.g. google, email, facebook)
+- [Behaviour can be designed](http://www.nirandfar.com/) (e.g. Google, email, Facebook)
 
 - Focus on [systems, not goals](http://jamesclear.com/goals-systems)
 
@@ -192,7 +192,7 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 
 - Invest in future-you; if it is cost-effective, DRY.
 
-- Architect your behaviour; focus on systems (not goals).
+- Architect your behavior; focus on systems (not goals).
 
 ## Wrap up
 
