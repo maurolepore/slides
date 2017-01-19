@@ -13,6 +13,12 @@ knitr::opts_chunk$set(
   )
 ```
 
+```{r, eval=FALSE}
+# Define pragmatic as per dictionary, dealing with thinkgs practically
+# Highlight that the term has at its core HOW things work, PROCESSES
+# Tell the story of the ear muffs
+```
+
 ## What are your pragmatic solutions?
 
 ```{r, out.width="100%", echo=FALSE}
@@ -36,21 +42,6 @@ knitr::include_graphics("desk_water_stand.jpg")
 ### Where to aim.
 
 - Principles are guiding propositions, not rules.
-
-## Do you think beyond the immediate problem?
-
-Pragmatic people solve problems with special
-
-- **attitude**, 
-
-- **style**, 
-
-- **philosophy.**
-
---
-
-[The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-
 
 ## Do you think beyond the immediate problem?
 
