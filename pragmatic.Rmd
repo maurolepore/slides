@@ -59,13 +59,21 @@ knitr::include_graphics("pragmatic_brain.jpg")
 
 ## Do you stop decay as early as possible?
 
-### **Fix _broken windows_ or entropy will win!**
 
-```{r, echo=FALSE, out.width="100%"}
+
+## Do you stop rot & see the big picture?
+
+```{r, echo=FALSE, out.width="50%", fig.show='hold'}
 knitr::include_graphics("dont_leave_broken_windows.jpg")
+knitr::include_graphics("boiled_frog.jpg")
 ```
 
 ### [_Neglect accelerates the rot faster than any other factor_.](http://www.artima.com/intv/fixit.html)
+
+
+### Notice change. [Water heating slowly boils frogs alive](https://en.wikipedia.org/wiki/Boiling_frog).
+
+
 
 # How to actually get there
 
@@ -111,8 +119,6 @@ knitr::include_graphics("timer.png")
 ### **Next: Applications in research**
 
 # Applications in research
-
-Recap
 
 ## Do you [work around energy](http://jamesclear.com/productivity) or time?
 
@@ -175,9 +181,7 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 | Communicate | [Nicholas Boothman](http://nicholasboothman.com/) | cognitive |
 | Admin | Google's tools (gmail, sheets, docs) | practical
 
-## Wrap up
-
-### Part 1
+## Wrap up, part 1
 
 - Think beyond the immediate problem; improve continuously; don't neglect.
 
@@ -185,15 +189,17 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 
 - Architect your behavior; focus on systems (not goals).
 
-## Wrap up
-
-### Part 2
+## Wrap up, part 2
 
 - Creativity is an iterative process; it feels circular but we do move forward (in a spiral).
 
 - Plan creative work around your energy.
 
 - There are lots of cognitive and practical tools for you to try.
+
+### Stones soup
+
+I hope this discussion is the catalyst for change
 
 # maurolepore@gmail.com 
 
@@ -217,4 +223,14 @@ If you can, please give me some feedback. (But you are of course excused if you 
 
 "In the interest of saving time, you could just talk anecdotally about some of the approaches that people shared today. It's definitely nice to infuse the talk with examples other than yours.  But of course that’s really just a matter of personal style. The part with the email organizing was new to me and a very good idea, but could be a bit more dense, you repeated yourself a little bit there. You probably shorten it automatically next time you speak.
 I struggle finding something that I didn’t like!"
+
+## 2017-01-17, changes after feedback
+
+- To encourage the audience to participate more I replaced statements by questions
+
+- To make slides more flexible I ...  xxxnext
+
+
+
+
 
