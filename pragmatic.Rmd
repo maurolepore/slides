@@ -151,14 +151,14 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 
 ## What cognitive/practical tools you use? 
 
-| Task | resource | tool/cognitive |
+| Task | resource | practical/cognitive |
 | :--- | :------- | :--------- |
 | Write (and think [*]) | [Turbocharge your writting](http://www.nature.com/naturejobs/2011/110707/pdf/nj7354-129a.pdf) | cognitive |
 | Edit | [Goepen & Swan](http://www.americanscientist.org/issues/id.877,y.0,no.,content.true,page.1,css.print/issue.aspx); [Style](http://worldwordweb.com/writing/Style%20Lessons%20in%20Clarity%20and%20Grace%20(11th%20Edition).pdf) | cognitive |
-| Communicate | [R Markdown](http://rmarkdown.rstudio.com/) | tool |
-| Capture & track ideas | GitHub [Gists](https://help.github.com/articles/about-gists/) & [GistBox](https://app.gistboxapp.com/) | tool |
-| Develop ideas into projects | [GitHub](http://r-pkgs.had.co.nz/git.html) repositories and [issues](https://guides.github.com/features/issues/) | tool |
-| Analyse | R Studio ([webinars](https://www.rstudio.com/resources/webinars/)) | tool |
+| Communicate | [R Markdown](http://rmarkdown.rstudio.com/) | practical |
+| Capture & track ideas | GitHub [Gists](https://help.github.com/articles/about-gists/) & [GistBox](https://app.gistboxapp.com/) | practical |
+| Develop ideas into projects | [GitHub](http://r-pkgs.had.co.nz/git.html) repositories and [issues](https://guides.github.com/features/issues/) | practical |
+| Analyse | R Studio ([webinars](https://www.rstudio.com/resources/webinars/)) | practical |
 
 [*] _If you think without writing, you only think you're thinking_ (Leslie Lamport).
 
@@ -166,14 +166,14 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 
 (continued)
 
-| Task | resource | tool/cognitive |
+| Task | resource | practical/cognitive |
 | :--- | :------- | :--------- |
 | Analyse | [R for data science](http://r4ds.had.co.nz/), [tidyverse](http://tidyverse.org/) | both |
 | Analyse, data management | [Paper](http://vita.had.co.nz/papers/tidy-data.pdf) | cognitive |
-| Data/project management | [GitHub](http://r-pkgs.had.co.nz/git.html), [R Packages](http://r-pkgs.had.co.nz/) | tool |
+| Data/project management | [GitHub](http://r-pkgs.had.co.nz/git.html), [R Packages](http://r-pkgs.had.co.nz/) | practical |
 | Productivity, healthy habits | [James Clear](http://jamesclear.com/articles) | cognitive |
 | Communicate | [Nicholas Boothman](http://nicholasboothman.com/) | cognitive |
-| Admin | Google's tools (gmail, sheets, docs) | tool
+| Admin | Google's tools (gmail, sheets, docs) | practical
 
 ## Wrap up
 
