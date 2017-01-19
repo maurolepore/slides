@@ -51,6 +51,15 @@ Pragmatic people solve problems with special
 
 [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 
+
+## Do you think beyond the immediate problem?
+
+### _Solve problems with special [Attitude, style, philosophy](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)_
+
+```{r, echo=FALSE, out.width="85%", fig.align='center'}
+knitr::include_graphics("pragmatic_brain.jpg")
+```
+
 ## Do you improve continuously?
 
 ![](kaizen.png)
