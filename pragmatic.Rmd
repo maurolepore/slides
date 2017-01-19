@@ -223,11 +223,7 @@ I struggle finding something that I didn’t like!"
 
 ## 2017-01-17, changes after feedback
 
-- To encourage the audience to participate more I replaced statements by questions
-
-- To make slides more flexible I ...  xxxnext
-
-
+See release `slides` [0.0.1 pragmatic_bambi](https://github.com/maurolepore/slides/releases)
 
 
 
