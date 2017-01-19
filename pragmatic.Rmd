@@ -68,7 +68,7 @@ knitr::include_graphics("pragmatic_brain.jpg")
 
 ## Do you stop decay as early as possible?
 
-### **Don't leave broken windws!** 
+### ***Don't leave broken windws!***
 
 ```{r, echo=FALSE, out.width="100%"}
 knitr::include_graphics("dont_leave_broken_windows.jpg")
@@ -89,6 +89,8 @@ Example: use email's [search operators](https://support.google.com/mail/answer/7
 ```{r, out.width="100%"}
 knitr::include_graphics("check_email.png")
 ```
+
+### **WHAT** you did is obvious. Document **WHY** you did it.
 
 ## Do you design your behaviour?
 
@@ -131,7 +133,9 @@ Recap
 4. **LET IDEAS RETURN NATURALLY**,
 5. **test and adjust** your idea based on feedback.
 
---
+```{r, echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("creative.jpg")
+```
 
 (The secret of [the most productive R programmer](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).)
 
@@ -139,12 +143,14 @@ Recap
 
 (LET IDEAS RETURN NATURALLY.)
 
+
+```{r, echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("aha_moment.jpg")
+```
+
+--
+
 _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-English-Language-ebook/dp/B01D0Z7GC6).
-
-### **This is when I said _AHA!_ over the past few days**
-
-- Start with the ear muffs' story: sleeping
-- Spiral (next slide): doing push-ups
 
 ## Do you feel you go around in circles?
 
