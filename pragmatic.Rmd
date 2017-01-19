@@ -57,9 +57,6 @@ knitr::include_graphics("pragmatic_brain.jpg")
 
 ### Japanese business philosophy of continuous improvement of working practices & personal efficiency.
 
-## Do you stop decay as early as possible?
-
-
 
 ## Do you stop rot & see the big picture?
 
@@ -72,8 +69,6 @@ knitr::include_graphics("boiled_frog.jpg")
 
 
 ### Notice change. [Water heating slowly boils frogs alive](https://en.wikipedia.org/wiki/Boiling_frog).
-
-
 
 # How to actually get there
 
@@ -197,9 +192,11 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 
 - There are lots of cognitive and practical tools for you to try.
 
-### Stones soup
+--
 
-I hope this discussion is the catalyst for change
+### **Have you heard the [stones soup story](http://artofprogress.com/2010/06/stone-soup)?**
+
+I hope this discussion is the catalyst for good change (_kaizen_).
 
 # maurolepore@gmail.com 
 
