@@ -181,13 +181,13 @@ knitr::include_graphics("creative.jpg")
 
 <div class="notes">
 
+xxx serach what google and similar companies do to boost creativity
+
 - Do ideas come to you exactly when you need them or at unexpected times? When?
 
 - Point: if you take brakes you may become more creative.
 
     - E.g. some very creative people have hobbies & read fantasy books.
-
-xxx serach what google and similar companies do to boost creativity
 
 </div>
 
