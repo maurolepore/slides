@@ -5,6 +5,12 @@ date: "19 January 2017"
 output: ioslides_presentation
 ---
 
+<div class="notes">
+
+xxxnotes; pubish; allow pop-ups; add myslides.html?presentme=true (exit =false)
+
+</div>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   comment = "#>",
@@ -24,6 +30,20 @@ knitr::opts_chunk$set(
 ```{r, out.width="100%", echo=FALSE}
 knitr::include_graphics("desk_water_stand.jpg")
 ```
+
+<div class="notes">
+
+- Connect with audience using a story
+
+    - Tell story of me, my PhD and partner living in a tiny studio
+
+    - Point: pragmatic solutions can improve your work and life
+
+- Start the "conversation" with the audience
+
+    - Ask audience to share their pragmatic solutions
+
+</div>
 
 ## Outline
 
