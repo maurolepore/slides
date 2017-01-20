@@ -103,6 +103,12 @@ knitr::include_graphics("dont_leave_broken_windows.jpg")
 knitr::include_graphics("boiled_frog.jpg")
 ```
 
+<div class="notes">
+
+- Research in crime shows that [controlling the small stuff stops bigger issues](https://en.wikipedia.org/wiki/Broken_windows_theory)
+
+</div>
+
 ### [_Neglect accelerates the rot faster than any other factor_.](http://www.artima.com/intv/fixit.html)
 
 
@@ -171,10 +177,21 @@ knitr::include_graphics("creative.jpg")
 
 (The secret of [the most productive R programmer](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).)
 
-## When did you say _[AHA!](https://youtu.be/lnGeZsv1aBM)_?
+## When do you usually say _[AHA!](https://youtu.be/lnGeZsv1aBM)_?
+
+<div class="notes">
+
+- Do ideas come to you exactly when you need them or at unexpected times? When?
+
+- Point: if you take brakes you may become more creative.
+
+    - E.g. some very creative people have hobbies & read fantasy books.
+
+xxx serach what google and similar companies do to boost creativity
+
+</div>
 
 (LET IDEAS RETURN NATURALLY.)
-
 
 ```{r, echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("aha_moment.jpg")
@@ -186,11 +203,33 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 
 ## Do you feel you go around in circles?
 
+<div class="notes">
+
+Oftern we feel we go around in circles
+
+- We want to get from A to B, from idea to publication, along a straight line
+
+- Bad news: progress is not linear. Good news: progress is not circular.
+
+- Point: we do move forward, but slowly. And we NEED each iteration to improve.
+
+</div>
+
 ### The progress we **feel**, **want** and **achieve**.
 
 ![](spiral.jpg)
 
-## What cognitive/practical tools you use? 
+## What cognitive/practical tools you use?
+
+<div class="notes">
+
+These are tools I use for different aspects of my research.
+
+- Tools here are both cognitive (ideas, principles) and practical.
+
+- What works for me may not work for you. But it's all here so you can try.
+
+</div>
 
 | Task | resource | practical/cognitive |
 | :--- | :------- | :--------- |
@@ -225,6 +264,16 @@ _AHAs_ are worth [books](https://www.amazon.com/Gopens-Expectation-Approach-Engl
 - Architect your behavior; focus on systems (not goals).
 
 ## Wrap up, part 2
+
+<div class="notes">
+
+The stones soup story shows how sharing and enjoing can be catalized.
+
+- Each villager had something to share, as everyone in the audience
+
+- This talk catalized sharing those ideas, so we all benefit.
+
+</div>
 
 - Creativity is an iterative process; it feels circular but we do move forward (in a spiral).
 
