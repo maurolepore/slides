@@ -65,6 +65,16 @@ knitr::include_graphics("desk_water_stand.jpg")
 
 ## Do you think beyond the immediate problem?
 
+<div class="notes">
+
+- The meaning of "pragmatic" I will be using comes from The Pragmatic Programmer
+
+- That book expands its definition to include the ideas we will discuss today
+
+- Ask: Do you leave room for important stuff, or only for urgent stuff?
+
+</div>
+
 ### _Solve problems with special [Attitude, style, philosophy](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)_
 
 ```{r, echo=FALSE, out.width="85%", fig.align='center'}
@@ -72,6 +82,14 @@ knitr::include_graphics("pragmatic_brain.jpg")
 ```
 
 ## Do you improve continuously?
+
+<div class="notes">
+
+xxx add image of a giant box and a tiny box labelled "These are the faulty ones"
+
+"There's an old(ish) joke about a U.S. company that places an order for 100,000 integrated circuits with a Japanese manufacturer. Part of the specification was the defect rate: one chip in 10,000. A few weeks later the order arrived: one large box containing thousands of ICs, and a small one containing just ten. Attached to the small box was a label that read: "These are the faulty ones. (The pragmatic programmer)"
+
+</div>
 
 ![](kaizen.png)
 
