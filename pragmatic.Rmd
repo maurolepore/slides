@@ -297,6 +297,26 @@ If you can, please give me some feedback. (But you are of course excused if you 
 
 # Previous feedback
 
+## 2017-01-19, audience
+
+Feedback came from the audience in the form of a discussion. This comment develops the _AHA_ I had this morning while showering (see _AHA_ in [this slide](https://bookdown.org/maurolepore/pragmatic/pragmatic.html#15)).
+
+A highly successful and experienced researcher from the audience observed that most successful researchers he knows are passionate about science only and they happily devote their lives to it. In contrast, earlier career researchers from the audience observed that they are passionate about science and other things too.
+
+(continues)
+
+## 2017-01-19, audience (continued)
+
+If some researchers enjoy working to the point that work and fun are the same thing for them, do they have the right to do it? And if some researchers enjoy other things apart from science, do they have the right to share their time among their passions? In my opinion, the answer is yes to both questions.
+
+The challenge is how to remain competitive in the jobs' market. I hope that this talk helps everyone to improve their efficiency, so they can spend more time doing whatever they love.
+
+--
+
+_"You must be the change you want to see in the world."_
+
+--Gandhi (or [maybe someone else](http://www.elephantjournal.com/2011/08/be-the-change-you-wish-to-see-in-the-world-not-gandhi/))
+
 ## 2017-01-17, Julia Schuckel
 
 (Postdoctoral fellow, Lunds Universitet)
