@@ -26,6 +26,100 @@ knitr::opts_chunk$set(
 # need to set fig.width to 4.3 (6 * 0.5 / 0.7).
 ```
 
+# Inform
+
+## Role
+
+Develop an [R package](http://ctfs.si.edu/Public/CTFSRPackage/) for use with repeated censuses of the CTFSForestGEO data.
+
+### Goals:
+
+- to update the R package
+
+- to optimize the R package
+
+- to establish a framework for future maintenance and expansion
+
+
+## Some tasks
+
+1. Produce and maintain a package sensu stricto
+
+    - devtools; e.g. structure: [tidyverse](http://tidyverse.org/); phylosophy: [zoon](https://zoonproject.wordpress.com/); data: e.g. [babynames](https://github.com/hadley/babynames)
+
+2. Set up a fully documented and active github
+
+    - github repo, README.md, [pkgdown](http://hadley.github.io/pkgdown/index.html)
+
+3. Fully document the functions and complete help files for each function. 
+
+    - roxygen2,[pkgdown](http://hadley.github.io/pkgdown/index.html)
+
+4. Optimize code for speed.
+
+    - profvis, dplyr, c++
+
+5. Integrate code written by other researchers into the package. 
+
+    - github issues and pull requests
+
+## Tasks most relevant to database managers
+
+6. **Integrate the existing R functions to interact directly with output tables from the MySQL database**.
+
+    - **dplyr to read directly database?**
+
+7. Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data.
+
+    - translate Condit's algorithm to R?
+
+## Plan
+
+1. Set up (1-2 months)
+
+    - start with what we have
+    
+    - design what we want
+
+2. Develop
+
+    - **ID what users need**
+    
+    - build capacity (R workshop, e.g. replicate the one Owen organizes at STRI)
+    
+    - provide key functionality
+
+    - support users, build trust, engage
+
+3. Expand
+
+    - incorporate users functionality
+
+# Ask
+
+## What else do we need?
+
+[Stuart, Sean, Gabriel](https://mail.google.com/mail/u/0/#search/to%3Adaviess%40si.edu+has%3Aattachment/158c7ddcbb1b48db)
+
+## How do you understand users?
+
+## When is next census due?
+
+## Is bookmarkable shiny state useful to database managers?
+
+## Would people benefit from quarrying the database directly through dplyr?
+
+
+## Note some inconsistent names
+
+# Collaborate
+
+- dplyr databases?
+
+- visualization of data quality
+
+- standarized preliminary analyses
+
 
 # Toolsbox
 
