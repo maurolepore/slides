@@ -26,6 +26,47 @@ knitr::opts_chunk$set(
 # need to set fig.width to 4.3 (6 * 0.5 / 0.7).
 ```
 
+# Motivate
+
+### Shared context
+
+Richard Condit built a useful R package. It has made the product of your work available to researchers in a shape they can analyse.
+
+### Statement of the condition of the problem
+
+But the potential of the R package underexploited. Researchers may be wasting time and producing inconsistent work, because they are building some tools from sratch in their own way, unaware if others built the same tool before or better.
+
+### Statement of the consequences (Answer _So what?_)
+
+Such efficiency leak can eventually impair not only the number of papers produced but also their  quality.
+
+We may not be able to build an R package that is perfectly fit  for every reseracher, but we must try to understand what tools they need most, (practical and  cognitive), give them that, and support them along the process.
+
+### Problem (condition + cost)
+
+### Solution / main point / claim
+
+
+
+
+
+R presentation
+
+Use style to craft into
+
+Shared context:
+
+
+
+- make it easier to access, understand, and extend
+
+- understand better what the community needs.
+
+
+My role should be to ID those needs, and fulfill them through a system that has the R package st it's core but that depends on some other tools, practical and cognitive.
+
+
+
 # Inform
 
 ## Role
