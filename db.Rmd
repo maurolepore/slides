@@ -1,6 +1,6 @@
 ---
-title: "Pristine reef wanted dead or alive"
-author: "Lepore ML, O’Dea A"
+title: "R package – plans and ideas"
+author: "Mauro Lepore"
 output:
   ioslides_presentation:
     widescreen: true
@@ -26,50 +26,54 @@ knitr::opts_chunk$set(
 # need to set fig.width to 4.3 (6 * 0.5 / 0.7).
 ```
 
-# Motivate
+## Motivate
+
+### Shared context
+
+We have a useful R package
+
+### Problem, condition
+
+Under-exploited potential: reinventing the wheel
+
+### Problem, consequences
+
+Output (e.g. papers) may be fewer than possible, and their quality lower.
+
+### Solution
+
+Understand needs (practical + cognitive), build, support.
+
+
+
+
+<div class="notes">
 
 ### Shared context
 
 Richard Condit built a useful R package. It has made the product of your work available to researchers in a shape they can analyse.
 
-### Statement of the condition of the problem
+### Problem, condition
 
-But the potential of the R package underexploited. Researchers may be wasting time and producing inconsistent work, because they are building some tools from sratch in their own way, unaware if others built the same tool before or better.
+But the potential of the R package under-exploited. Researchers may be wasting time and producing inconsistent work, because they are building some tools from scratch in their own way, unaware if others built the same tool before or better.
 
-### Statement of the consequences (Answer _So what?_)
+### Problem, consequences
 
 Such efficiency leak can eventually impair not only the number of papers produced but also their  quality.
 
-We may not be able to build an R package that is perfectly fit  for every reseracher, but we must try to understand what tools they need most, (practical and  cognitive), give them that, and support them along the process.
+### Solution
 
-### Problem (condition + cost)
+We may not be able to build an R package that is perfectly fit  for every researcher, but we must try to understand what tools they need most, (practical and  cognitive), give them that, and support them along the process.
 
-### Solution / main point / claim
-
-
+</div>
 
 
 
-R presentation
-
-Use style to craft into
-
-Shared context:
 
 
+## Inform
 
-- make it easier to access, understand, and extend
-
-- understand better what the community needs.
-
-
-My role should be to ID those needs, and fulfill them through a system that has the R package st it's core but that depends on some other tools, practical and cognitive.
-
-
-
-# Inform
-
-## Role
+### Role
 
 Develop an [R package](http://ctfs.si.edu/Public/CTFSRPackage/) for use with repeated censuses of the CTFSForestGEO data.
 
@@ -81,8 +85,9 @@ Develop an [R package](http://ctfs.si.edu/Public/CTFSRPackage/) for use with rep
 
 - to establish a framework for future maintenance and expansion
 
+## Inform
 
-## Some tasks
+### Some tasks
 
 1. Produce and maintain a package sensu stricto
 
@@ -104,7 +109,9 @@ Develop an [R package](http://ctfs.si.edu/Public/CTFSRPackage/) for use with rep
 
     - github issues and pull requests
 
-## Tasks most relevant to database managers
+## Inform
+
+### Tasks most relevant to database managers
 
 6. **Integrate the existing R functions to interact directly with output tables from the MySQL database**.
 
@@ -114,9 +121,23 @@ Develop an [R package](http://ctfs.si.edu/Public/CTFSRPackage/) for use with rep
 
     - translate Condit's algorithm to R?
 
+## Ask
+
+### What opportunities there are to learn what people need?
+
+- workshops?
+
+### Translate Condit's algoritm to R
+
+### Do people need direct interaction with the database?
+
+...
+
+Notes from meeting [Stuart, Sean, Gabriel](https://mail.google.com/mail/u/0/#search/to%3Adaviess%40si.edu+has%3Aattachment/158c7ddcbb1b48db)
+
 ## Plan
 
-1. Set up (1-2 months)
+1. Set up
 
     - start with what we have
     
@@ -136,53 +157,81 @@ Develop an [R package](http://ctfs.si.edu/Public/CTFSRPackage/) for use with rep
 
     - incorporate users functionality
 
-# Ask
+## Ideas
 
-## What else do we need?
+- build a modular system (e.g. tidyverse)
 
-[Stuart, Sean, Gabriel](https://mail.google.com/mail/u/0/#search/to%3Adaviess%40si.edu+has%3Aattachment/158c7ddcbb1b48db)
+- build data package(s)
 
-## How do you understand users?
+- build functions to wrangle data from database format to analyses format
 
-## When is next census due?
+- standardize preliminary analyses
 
-## Is bookmarkable shiny state useful to database managers?
+- visualize data to evaluate quality
 
-## Would people benefit from quarrying the database directly through dplyr?
+- quarry the database directly with dplyr?
 
+- Is bookmarkable shiny state useful to database managers?
 
-## Note some inconsistent names
+## maurolepore@gmail.com
 
-# Collaborate
+# Others presentations
 
-- dplyr databases?
+## Suzanne
 
-- visualization of data quality
-
-- standarized preliminary analyses
-
-
-# Toolsbox
-
-<div class="notes">
-
-xxxnotes; publish; allow pop-ups; add myslides.html?presentme=true (exit =false)
-
-</div>
-
-<div class="columns-2">
-
-</div>
-
-```{r}
-# knitr::include_graphics("xxx")
-```
-
-# Todo
-
-<div class="notes">
+Overall database management
 
 
+2015 BCI data has been updated. Not yet public.
 
-</div>
+Why are we making the R tables?
+
+Issue is _status_ variabes
+
+The algorith has soe few things that  have not been accounted for
+
+
+# Issues to consider
+
+- reproducible research, wrangle steps should be documented
+
+- validate data, flag invalid data
+
+
+## Add to R package
+
+Add to R package Ben Turner's scripts to make maps of soil (to krige data https://en.wikipedia.org/wiki/Kriging)
+
+
+## Talk to Morris
+
+what he needs to ask?
+
+- what alternatives there are to work (under contract) until the visa comes out, from DC or Panama
+
+## Website
+
+
+## R
+
+## Data visualisation
+
+http://r4ds.had.co.nz/data-visualisation.html
+
+## Dplyr: A grammar of data manipulation
+
+https://github.com/hadley/dplyr
+
+## Data transformation
+
+http://r4ds.had.co.nz/transform.html#select-columns-with-select
+
+## Relational data
+
+http://r4ds.had.co.nz/relational-data.html
+
+also, 
+library(dplyr)
+vignette("databases")
+browseVignettes("dplyr")
 
