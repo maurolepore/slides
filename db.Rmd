@@ -1,5 +1,5 @@
 ---
-title: "R package – plans and ideas"
+title: "CTFS-ForestGEO: R package development"
 author: "Mauro Lepore"
 output:
   ioslides_presentation:
@@ -157,6 +157,13 @@ Notes from meeting [Stuart, Sean, Gabriel](https://mail.google.com/mail/u/0/#sea
 
     - incorporate users functionality
 
+
+# Supplement
+
+## Notes
+
+I have not used this presentation but it could be used to present the project during the analitical workshop in Puerto Rico.
+
 ## Ideas
 
 - build a modular system (e.g. tidyverse)
@@ -164,6 +171,15 @@ Notes from meeting [Stuart, Sean, Gabriel](https://mail.google.com/mail/u/0/#sea
 - build data package(s)
 
 - build functions to wrangle data from database format to analyses format
+
+The script that is written grows as more issues are detected or more plots/censuses are added. Currently, the scripts do 2 things that may need to be separated. 
+
+    1. make R tables from raw data in the database
+    2. wrangle the data in R tables to meet validation criteria
+
+In an improved version, (1) could be a relatively simple function, and (2) could be an R markdown document explaining in human readable languagge what decisions were made and presenting the code for it.
+
+In fact, the R Package could take this task. In data-raw, data could be cleaned and the process documented in a vignette. Data could be imported from an external data package so that the vignette could access the data directy, then wrangle it, then use it.
 
 - standardize preliminary analyses
 
