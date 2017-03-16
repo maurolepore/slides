@@ -1,8 +1,10 @@
 ---
-title: "be_pragmatic( ): Principles to Improve Work and Life"
-author: "Mauro Lepore (maurolepore@gmail.com; [edit slides](https://github.com/maurolepore/slides/blob/master/pragmatic.Rmd))"
+title: 'be_pragmatic( ): Principles to Improve Work and Life'
+author: "Mauro Lepore https://bookdown.org/maurolepore/pragmatic/"
 date: "19 January 2017"
-output: ioslides_presentation
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
 ---
 
 <div class="notes">
