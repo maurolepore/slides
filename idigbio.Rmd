@@ -56,7 +56,7 @@ knitr::opts_chunk$set(
 # plots
 ```
 
-# Managing and Sharing Data
+# Manage and Shar Data happily with GitHub and R
 
 ### Mauro Lepore
 
@@ -67,7 +67,13 @@ knitr::opts_chunk$set(
 
 ### [wiki](https://goo.gl/p19EeC)
 
-## MESSAGE BOX
+## Hit audience
+
+The pit of success! Hadley
+
+- pose question I want the audience to ask
+
+## Outline (message box)
 
 Issue: A framework for to manage and share data
 
@@ -91,7 +97,82 @@ Solution: GitHub (and R). dropbox and google docs are too poorly featured, and d
 
 Benefit: We can manage and share data more efficiently.
 
-### Invisible
+
+
+
+- message box?
+
+# Opening
+
+## From the know to the (maybe) unknown
+
+# Action
+
+## How to do it
+
+- show examples. maybe slides, live programming may be clunky
+
+### Give and get
+
+COSTS TO YOU 
+
+* 2' to open account
+
+* 10' hello world
+
+* ...
+
+BENEFITS TO YOU
+
+* website for your projects
+
+* time travel
+
+* discussion platform optionally bypass emails
+
+* true collaboration
+
+* privacy
+
+* whats's here? when last changed? who changed it? Why? Oh, I want that version! https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user
+
+
+* diff https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user
+
+* metadata is the data https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user
+
+### Privacy
+
+
+# ...
+
+# Resolution
+
+## Message
+
+# Supplement
+
+## Resources
+
+Lots of links to everything. Here or **as I go**?
+
+* GitHub hello world https://guides.github.com/activities/hello-world/
+
+* Happy git and github for the useR http://happygitwithr.com/
+
+
+* books by Hadley?
+
+    * R Packages, chapter on git and github http://r-pkgs.had.co.nz/git.html
+
+### presentation by Jenny Bryan
+
+(see JB on bookmards toolbar)
+
+[Happy Git and GitHub for the useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user)
+
+
+## Invisible
 
 <div class="notes">
 
@@ -103,9 +184,6 @@ SCOPE
 - (free)* software
 
 * free private GitHub for science
-
-
-
 
 STRUCTURE AND SYSTEMS
 
@@ -153,7 +231,7 @@ Github & R: give structure
 
 
 
-# Toolsbox
+## Toolsbox
 
 <div class="notes">
 
@@ -169,12 +247,11 @@ xxxnotes; publish; allow pop-ups; add myslides.html?presentme=true (exit =false)
 # knitr::include_graphics("xxx")
 ```
 
-# Todo
+## Todo
 
 <div class="notes">
 
-- practice and edit if necessary
-- edit abstract
+xxx
 
 </div>
 
