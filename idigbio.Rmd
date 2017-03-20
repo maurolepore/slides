@@ -73,6 +73,47 @@ The pit of success! Hadley
 
 - pose question I want the audience to ask
 
+Who ever heard of GitHub?
+Who ever used GitHub?
+Who regularly uses it?
+Same for R packages?
+--
+
+Paleontologists...
+
+In 2001, when I started my PhD, I had never heard GitHub, or R.
+
+I was told it could help me, but I couldn't see how because the examples were so foreingn to my paleontological research.
+
+The first time I tried R was horrible, the second too and many more.
+
+Then I helped
+
+...
+
+Today, I am a software developer for ForestGEO, I write computer programs that help researchers to their research. ...
+
+The point, I'm here to show you that GitHub can help you because it helped me.
+
+   - not because I come from computer science and know every software detail
+   - because of the opposite
+   - because like you, I am a paleo ecologyst, and know how hard it is to manage and share data, and know only the surface of computer science, but that's enough to improve how we do science by a lot
+   
+   
+--
+
+Scientists work hard but their impact is limited because they share we manage and share data poorly. There is a tool that datascientists use, but few of us use it because the applications are so different to what we do that we struggle to see how we would benefit. But the connection is direct. What is that tool?
+--
+
+Managing and sharing data is difficult because xxx, AND dropbox and google docs help to some extent. BUT xxxx, THEREFORE we need more to do good science...
+What is that tool?
+--
+
+There is a tool, commonly used among data scientists, that helps researchers too.  
+...
+what is that tool?
+
+
 ## Outline (message box)
 
 Issue: A framework for to manage and share data
