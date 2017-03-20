@@ -80,6 +80,21 @@ Same for R packages?
 --
 
 Paleontologists...
+--
+
+When a friend asks you how to get to your place from work you tell her the way it works, not the many ways you tried before you discovered the best one. The same goes for the papers we write. We write the story of the project in a linear manner. That's what the readers expect, and that's what you give them. But the creative process is different, it is not linear.
+
+## Is research like the black line only? | Or like the other mess too?
+
+![image](https://cloud.githubusercontent.com/assets/5856545/24099946/2bf10d1a-0d48-11e7-8c29-8f868431ae3a.png)
+
+---
+
+
+
+
+
+--
 
 In 2001, when I started my PhD, I had never heard GitHub, or R.
 
@@ -206,11 +221,12 @@ Lots of links to everything. Here or **as I go**?
 
     * R Packages, chapter on git and github http://r-pkgs.had.co.nz/git.html
 
-### presentation by Jenny Bryan
+### presentation
 
-(see JB on bookmards toolbar)
+- [Happy Git and GitHub for the useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) (Jenny Bryan)
 
-[Happy Git and GitHub for the useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user)
+- [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) (Alice Bartlett)
+
 
 
 ## Invisible
