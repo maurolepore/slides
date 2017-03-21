@@ -162,9 +162,76 @@ Benefit: We can manage and share data more efficiently.
 
 ## From the know to the (maybe) unknown
 
-# Action
 
-## How to do it
+# Solution (Action)
+
+picture of f@#! Git
+
+## What is GitHub
+
+## Why is it useful?
+
+## How can I use GitHub (to manage and share data)?
+
+- Interface (Source tree, R...)
+
+## If I use R packages, what else do I get from GitHub/R?
+
+- Interface to GitHub (to commit, pull and push)
+
+- Get data and documentation into R with `install_github()`
+
+- Help to build and document the package via devtools and rogygen2
+
+- Access data from many projects easily
+
+- Privacy control
+
+    - public or private repos
+    - manage access of collaborators, teams
+    - private source yet downloadable data via 
+
+```
+`install_github("<PACKAGE>", `auto_token`)
+```
+
+## Case study
+
+- Organization (admin/member)
+    - Teams (read/write)
+        - Members
+        - Collaborators (extra control layer)
+
+- Branches (protected/not/who edits)
+
+## Example
+
+## Where can I learn more?
+
+
+
+
+
+
+
+# Conclusion
+
+**So what?**
+
+We don't get as much as we could from the data. Worse, data may be risked or unshared and research slowed.
+
+**Benefit**
+
+We can manage data more safely with Git
+We can share more effectively with GitHub
+We can share and manage fluently with Git(Hub) and R
+
+
+# Supplement
+
+## Action
+
+### How to do it
 
 - show examples. maybe slides, live programming may be clunky
 
@@ -197,16 +264,8 @@ BENEFITS TO YOU
 
 * metadata is the data https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user
 
-### Privacy
 
 
-# ...
-
-# Resolution
-
-## Message
-
-# Supplement
 
 ## Resources
 
