@@ -56,78 +56,32 @@ knitr::opts_chunk$set(
 # plots
 ```
 
-# Manage and Shar Data happily with GitHub and R
+# Manage and Share Data | Let GitHub and R help you
 
-### Mauro Lepore
+### [\@mauro_lepore](xxxlinktotwitter) 
 
-### **bookdown.org/maurolepore/idigbio**
+##
 
+- How much paleontology versus data science is represented in the room?
+- Anyone uses GitHub regularly?
+- Anyone uses R packages regularly?
 
+## F\@*# Git!
 
+<div class="notes">
 
-### [wiki](https://goo.gl/p19EeC)
+When I started my PhD in 2011, I had never heard GitHub or R. At a workshop, the teacher said these tools were critical for research, and he used them 100% of the time. But then I couldn't see how GitHub or R could help me, because the examples I saw were so foreingn to my own work.
 
-## Hit audience
+Now, I also use GitHub and R 100% of the time! In this presentation, my goal is to show you how I use these tools to support a network of forest ecologysts, called FotestGEO.
 
-The pit of success! Hadley
+</div>
 
-- pose question I want the audience to ask
-
-Who ever heard of GitHub?
-Who ever used GitHub?
-Who regularly uses it?
-Same for R packages?
---
-
-Paleontologists...
---
-
-When a friend asks you how to get to your place from work you tell her the way it works, not the many ways you tried before you discovered the best one. The same goes for the papers we write. We write the story of the project in a linear manner. That's what the readers expect, and that's what you give them. But the creative process is different, it is not linear.
-
-## Is research like the black line only? | Or like the other mess too?
-
-![image](https://cloud.githubusercontent.com/assets/5856545/24099946/2bf10d1a-0d48-11e7-8c29-8f868431ae3a.png)
-
----
+## Where your troubles comes from? | Is blaming people more useful than improving procedures?
 
 
-
-
-
---
-
-In 2001, when I started my PhD, I had never heard GitHub, or R.
-
-I was told it could help me, but I couldn't see how because the examples were so foreingn to my paleontological research.
-
-The first time I tried R was horrible, the second too and many more.
-
-Then I helped
-
-...
-
-Today, I am a software developer for ForestGEO, I write computer programs that help researchers to their research. ...
-
-The point, I'm here to show you that GitHub can help you because it helped me.
-
-   - not because I come from computer science and know every software detail
-   - because of the opposite
-   - because like you, I am a paleo ecologyst, and know how hard it is to manage and share data, and know only the surface of computer science, but that's enough to improve how we do science by a lot
-   
-   
---
-
-Scientists work hard but their impact is limited because they share we manage and share data poorly. There is a tool that datascientists use, but few of us use it because the applications are so different to what we do that we struggle to see how we would benefit. But the connection is direct. What is that tool?
---
-
-Managing and sharing data is difficult because xxx, AND dropbox and google docs help to some extent. BUT xxxx, THEREFORE we need more to do good science...
-What is that tool?
---
-
-There is a tool, commonly used among data scientists, that helps researchers too.  
-...
-what is that tool?
-
+```{r, out.width="100%"}
+knitr::include_graphics("error.png")
+```
 
 ## Outline (message box)
 
@@ -157,6 +111,11 @@ Benefit: We can manage and share data more efficiently.
 
 
 - message box?
+
+
+## What is research like? | What path do you and your audience follow?
+
+![git branches](https://cloud.githubusercontent.com/assets/5856545/24099946/2bf10d1a-0d48-11e7-8c29-8f868431ae3a.png)
 
 # Opening
 
@@ -291,6 +250,13 @@ Lots of links to everything. Here or **as I go**?
 ## Invisible
 
 <div class="notes">
+
+USEFULL LINKS
+
+**bookdown.org/maurolepore/idigbio**
+
+### [wiki](https://goo.gl/p19EeC)
+
 
 SCOPE
 
