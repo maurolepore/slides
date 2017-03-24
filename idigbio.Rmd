@@ -177,16 +177,13 @@ We can manage and share data more efficiently.
 
 # Conclusion
 
-**So what?**
+- Do you want to get more out of your data?
 
-We don't get as much as we could from the data. Worse, data may be risked or unshared and research slowed.
+- Do you want to struggle less in the process?
 
-**Benefit**
+### Have you tried GitHub?
 
-We can manage data more safely with Git
-We can share more effectively with GitHub
-We can share and manage fluently with Git(Hub) and R
-
+# end
 
 # Supplement
 
