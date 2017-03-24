@@ -76,65 +76,75 @@ Now, I also use GitHub and R 100% of the time! In this presentation, my goal is 
 
 </div>
 
-## Where your troubles comes from? | Is blaming people more useful than improving procedures?
+# Outline
+
+### Opening: issue, problem, so what?, solution, benefit
+
+### GitHub: what, why, where and how
+
+### Example
+
+## Issue | Do you have a framework to manage and share data
+
+- Ask what people use. Do they use GitHub? And R?
+
+## Problem | What challenges you face to managing and sharing data?
+
+![git branches](https://cloud.githubusercontent.com/assets/5856545/24099946/2bf10d1a-0d48-11e7-8c29-8f868431ae3a.png)
 
 
-```{r, out.width="100%"}
+What are research projects like?
+
+- complex, 
+
+- involve multiple collaborators,
+
+- variable.
+
+What changes? -> What do you need?
+
+- the data and meta-data -> to track changes/versions;
+
+- access privilege -> to control the level of access that people have
+
+## So what? | Do you get as much as possible and smoothly?
+
+We don't get as much as we could from the data. Worse, data may be risked or unshared and research slowed. 
+
+```{r}
 knitr::include_graphics("error.png")
 ```
 
-## Outline (message box)
+## Solution | What is your pit of success?
 
-Issue: A framework for to manage and share data
+xxx image of the pit of success!
 
-Audience: Researchers (paleontologists)
+GitHub (and R)
 
-Problem: Managing and sharing data is difficult because collaborative research requires
-
-    - different levels of access, 
-    - editing simultaneously,
-    - versioning,
-    - citing versions,
-
-So what? We don't get as much as we could from the data. Worse, data may be risked or unshared and research slowed.
-
-Solution: GitHub (and R). dropbox and google docs are too poorly featured, and databases are too complicated. GitHub fills the gap:
+Alternatives: dropbox and google docs are too poorly featured, and databases are too complicated. GitHub fills the gap:
 
     - simple,
     - free,
     - fully featured and dynamically improved,
     - popular.
 
-Benefit: We can manage and share data more efficiently.
+## Benefit | How your system improves your science and life?
 
+xxx image f#! you git
 
+We can manage and share data more efficiently.
 
-
-- message box?
-
-
-## What is research like? | What path do you and your audience follow?
-
-![git branches](https://cloud.githubusercontent.com/assets/5856545/24099946/2bf10d1a-0d48-11e7-8c29-8f868431ae3a.png)
-
-# Opening
-
-## From the know to the (maybe) unknown
-
-
-# Solution (Action)
-
-picture of f@#! Git
+# GitHub: what, why, where and how
 
 ## What is GitHub
 
-## Why is it useful?
+## Why is GitHub useful?
 
-## How can I use GitHub (to manage and share data)?
+## How can I use GitHub?
 
 - Interface (Source tree, R...)
 
-## If I use R packages, what else do I get from GitHub/R?
+## How can I use GitHub with R data-packages?
 
 - Interface to GitHub (to commit, pull and push)
 
@@ -154,7 +164,9 @@ picture of f@#! Git
 `install_github("<PACKAGE>", `auto_token`)
 ```
 
-## Case study
+# Example
+
+## GitHub structure
 
 - Organization (admin/member)
     - Teams (read/write)
@@ -162,16 +174,6 @@ picture of f@#! Git
         - Collaborators (extra control layer)
 
 - Branches (protected/not/who edits)
-
-## Example
-
-## Where can I learn more?
-
-
-
-
-
-
 
 # Conclusion
 
