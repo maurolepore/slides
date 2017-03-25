@@ -60,13 +60,22 @@ knitr::opts_chunk$set(
 
 ### [\@mauro_lepore](xxxlinktotwitter) 
 
-##
 
-- How much paleontology versus data science is represented in the room?
-- Anyone uses GitHub regularly?
-- Anyone uses R packages regularly?
+## Further your research with GitHub
 
-## F\@*# Git!
+xxx image github
+
+Paleontologists and other researchers need to manage and share data, and this is challenging because research projects are generally complex and dynamic. To face that challenge, there are useful tools. One of those useful tools is GitHub.
+
+Have any of you heard of GitHub before? And used it?
+
+GitHub is like a car with an engine. The engine of GitHub is called Git. 
+
+But I won't tell you about the engine but about the whole car. Because you can drive a car around the world knowing close to nothing about its engine.
+
+This is good news, because engines, including Git, are OK for mechanics but generally unfriendly to the user. 
+
+So this talk about how to use GitHub as a vehicle to take your research further.
 
 <div class="notes">
 
