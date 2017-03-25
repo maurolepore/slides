@@ -171,8 +171,8 @@ knitr::include_graphics("github_what.png")
 
 ## Can we discuss this change?
 
-```{r}
-knitr::include_graphics("commit.png")
+```{r, out.width="90%", fig.align="center"}
+knitr::include_graphics("metadata.png")
 ```
 
 ## How can I use GitHub with R data-packages?
