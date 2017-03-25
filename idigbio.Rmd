@@ -169,10 +169,10 @@ knitr::include_graphics("github_what.png")
 
 [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
 
-## Do you see the difference?
+## Can we discuss this change?
 
 ```{r}
-knitr::include_graphics("diff.png")
+knitr::include_graphics("commit.png")
 ```
 
 ## How can I use GitHub with R data-packages?
