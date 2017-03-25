@@ -41,7 +41,7 @@ output:
 knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
-  fig.align = "center",
+  # fig.align = "center",
   fig.asp = 0.618,
   fig.width = 6,
   out.width = "100%",
@@ -63,7 +63,7 @@ knitr::opts_chunk$set(
 
 <div class="notes">
 
-Paleontologists and other researchers need to manage and share data, and this is challenging because research projects are generally complex and dynamic. To face that challenge, there is one particularly useful tools, GitHub.
+Paleontologists and other researchers need to manage and share data, and this is challenging because research projects are generally complex and dynamic. To face that challenge, one particularly useful tools is GitHub.
 
 Have any of you heard of GitHub before? And used it?
 
@@ -75,7 +75,7 @@ Have any of you heard of GitHub before? And used it?
 knitr::include_graphics("git.png")
 ```
 
-[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
+Linus Torvalds created Git, with a user-unfriendly interphase (from [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett)
 
 <div class="notes">
 
@@ -95,7 +95,7 @@ So this talk about how to use GitHub as a vehicle to take your research further.
 
 ### Argue that GitHub is one useful solution
 
-### Show
+### Show an example
 
 ## How do you manage and share data?
 
@@ -103,9 +103,9 @@ So this talk about how to use GitHub as a vehicle to take your research further.
 knitr::include_graphics("framework.png")
 ```
 
-## What challenges research projects rise?
+[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
 
-Linus Torvalds created Git (from [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
+## What challenges research projects rise?
 
 ```{r}
 knitr::include_graphics("branch.png")
@@ -131,38 +131,30 @@ What changes? -> What do you need?
 
 </div>
 
-## So what? | Do you get as much as possible and smoothly?
-
-We don't get as much as we could from the data. Worse, data may be risked or unshared and research slowed. 
+## Is your system error prone?
 
 ```{r}
 knitr::include_graphics("error.png")
 ```
 
-## Solution | What is your pit of success?
+<div class="notes">
 
-xxx image of the pit of success!
+We don't get as much as we could from the data. Worse, data may be risked or unshared and research slowed. 
 
-GitHub (and R)
+</div>
 
-Alternatives: dropbox and google docs are too poorly featured, and databases are too complicated. GitHub fills the gap:
+## How to control "human error"? | Do you [design behaviour](http://www.nirandfar.com/) with [focus on systems](http://jamesclear.com/goals-systems)?
 
-    - simple,
-    - free,
-    - fully featured and dynamically improved,
-    - popular.
+```{r, out.width="45%", fig.show='hold'}
+knitr::include_graphics("behavioural_architect_bad.jpg")
+knitr::include_graphics("behavioural_architect_good.jpg")
+```
 
-## Benefit | How your system improves your science and life?
+## Why would future-you thank present-you?
 
-xxx image f#! you git
-
-We can manage and share data more efficiently.
-
-
-
-
-
-
+```{r}
+knitr::include_graphics("bullshit.png")
+```
 
 # GitHub: what, why, where and how
 
