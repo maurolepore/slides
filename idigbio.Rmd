@@ -44,7 +44,7 @@ knitr::opts_chunk$set(
   fig.align = "center",
   fig.asp = 0.618,
   fig.width = 6,
-  out.width = "75%",
+  out.width = "100%",
   cache = TRUE,
   echo = FALSE 
   )
@@ -63,7 +63,11 @@ knitr::opts_chunk$set(
 
 ## Further your research with GitHub
 
-xxx image github
+```{r}
+knitr::include_graphics("git.png")
+```
+
+[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
 
 <div class="notes">
 
@@ -83,20 +87,25 @@ So this talk about how to use GitHub as a vehicle to take your research further.
 
 # Outline
 
-### Opening: issue, problem, so what?, solution, benefit
+### Define the problem we need to solve
 
-### GitHub: what, why, where and how
+### Argue that GitHub is one useful solution
 
-### Example
+### Show
 
-## Issue | Do you have a framework to manage and share data
+## How do you manage and share data?
 
-- Ask what people use. Do they use GitHub? And R?
+xxx image google docs, spreadsheets, dropbox, email
 
-## Problem | What challenges you face to managing and sharing data?
+## What challenges research projects rise?
 
-![git branches](https://cloud.githubusercontent.com/assets/5856545/24099946/2bf10d1a-0d48-11e7-8c29-8f868431ae3a.png)
+```{r}
+knitr::include_graphics("branch.png")
+```
 
+[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
+
+<div class="notes">
 
 What are research projects like?
 
@@ -111,6 +120,8 @@ What changes? -> What do you need?
 - the data and meta-data -> to track changes/versions;
 
 - access privilege -> to control the level of access that people have
+
+</div>
 
 ## So what? | Do you get as much as possible and smoothly?
 
@@ -337,7 +348,9 @@ xxxnotes; publish; allow pop-ups; add myslides.html?presentme=true (exit =false)
 
 <div class="notes">
 
-xxx
+- find out story of fuck git photo at https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/
+
+- add photo of google docs, dropbox, ....
 
 </div>
 
