@@ -61,6 +61,14 @@ knitr::opts_chunk$set(
 ### [\@mauro_lepore](xxxlinktotwitter) 
 
 
+<div class="notes">
+
+Paleontologists and other researchers need to manage and share data, and this is challenging because research projects are generally complex and dynamic. To face that challenge, there is one particularly useful tools, GitHub.
+
+Have any of you heard of GitHub before? And used it?
+
+</div>
+
 ## Further your research with GitHub
 
 ```{r}
@@ -70,10 +78,6 @@ knitr::include_graphics("git.png")
 [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
 
 <div class="notes">
-
-Paleontologists and other researchers need to manage and share data, and this is challenging because research projects are generally complex and dynamic. To face that challenge, there are useful tools. One of those useful tools is GitHub.
-
-Have any of you heard of GitHub before? And used it?
 
 GitHub is like a car with an engine. The engine of GitHub is called Git. 
 
