@@ -56,10 +56,13 @@ knitr::opts_chunk$set(
 # plots
 ```
 
-# Manage and Share Data | Let GitHub and R help you
+# Manage and Share Data | **\@mauro_lepore**
 
-### [\@mauro_lepore](xxxlinktotwitter) 
+```{r}
+knitr::include_graphics("git_github.png")
+```
 
+(Via Jenny Bryan)
 
 <div class="notes">
 
@@ -156,15 +159,21 @@ knitr::include_graphics("behavioural_architect_good.jpg")
 knitr::include_graphics("bullshit.png")
 ```
 
-# GitHub: what, why, where and how
+# GitHub is one useful solution
 
-## What is GitHub
+## What project information is useful? | What changed? When? Why? Who changed it?
 
-## Why is GitHub useful?
+```{r}
+knitr::include_graphics("github_what.png")
+```
 
-## How can I use GitHub?
+[Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
 
-- Interface (Source tree, R...)
+## Do you see the difference?
+
+```{r}
+knitr::include_graphics("diff.png")
+```
 
 ## How can I use GitHub with R data-packages?
 
