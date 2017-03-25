@@ -95,9 +95,13 @@ So this talk about how to use GitHub as a vehicle to take your research further.
 
 ## How do you manage and share data?
 
-xxx image google docs, spreadsheets, dropbox, email
+```{r}
+knitr::include_graphics("framework.png")
+```
 
 ## What challenges research projects rise?
+
+Linus Torvalds created Git (from [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
 
 ```{r}
 knitr::include_graphics("branch.png")
@@ -149,6 +153,12 @@ Alternatives: dropbox and google docs are too poorly featured, and databases are
 xxx image f#! you git
 
 We can manage and share data more efficiently.
+
+
+
+
+
+
 
 # GitHub: what, why, where and how
 
