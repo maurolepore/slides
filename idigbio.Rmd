@@ -185,13 +185,51 @@ knitr::include_graphics("metadata2.png")
 knitr::include_graphics("metadata.png")
 ```
 
-## How can I use GitHub with R data-packages?
+## How much complexity can GitHub handle?
+
+![](structure.png)
+
+## How much complexity can GitHub handle?
+
+### Collaborators
+
+- users
+- teams of users
+
+### Privileges
+
+- admin
+- write
+- read
+- none
+
+### Protection
+
+specific project branches
+
+## How GitHub plays with R packages?
 
 ```{r, out.width="90%", fig.align="center"}
 knitr::include_graphics("babynames_inst.png")
 ```
 
+## Why manage and share data in R packages? 
+
 ## 
+
+```{r, out.width="90%", fig.align="center"}
+  knitr::include_graphics("devtools.png")
+```
+
+## 
+
+```{r, out.width="90%", fig.align="center"}
+knitr::include_graphics("rpkg.png")
+```
+
+##
+
+
 - Interface to GitHub (to commit, pull and push)
 
 - Get data and documentation into R with `install_github()`
@@ -232,18 +270,6 @@ knitr::include_graphics("babynames_inst.png")
 # end
 
 # Supplement
-
-## 
-
-```{r, out.width="90%", fig.align="center"}
-  knitr::include_graphics("devtools.png")
-```
-
-## 
-
-```{r, out.width="90%", fig.align="center"}
-knitr::include_graphics("rpkg.png")
-```
 
 ## 
 
@@ -393,6 +419,7 @@ xxxnotes; publish; allow pop-ups; add myslides.html?presentme=true (exit =false)
 <div class="columns-2">
 
 </div>
+
 
 ```{r}
 # knitr::include_graphics("xxx")
