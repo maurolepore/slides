@@ -185,11 +185,12 @@ knitr::include_graphics("metadata2.png")
 knitr::include_graphics("metadata.png")
 ```
 
-## How much complexity can GitHub handle?
+
+## How much structure can I handle with GitHub?
 
 ![](structure.png)
 
-## How much complexity can GitHub handle?
+## How I manage privileges among collaborators?
 
 ### Collaborators
 
