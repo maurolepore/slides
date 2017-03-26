@@ -161,6 +161,10 @@ knitr::include_graphics("bullshit.png")
 
 # GitHub is one useful solution
 
+```{r}
+knitr::include_graphics("dogit.png")
+```
+
 ## What project information is useful? | What changed? When? Why? Who changed it?
 
 ```{r}
@@ -172,11 +176,22 @@ knitr::include_graphics("github_what.png")
 ## Can we discuss this change?
 
 ```{r, out.width="90%", fig.align="center"}
+knitr::include_graphics("metadata2.png")
+```
+
+## Can we discuss this change?
+
+```{r, out.width="90%", fig.align="center"}
 knitr::include_graphics("metadata.png")
 ```
 
 ## How can I use GitHub with R data-packages?
 
+```{r, out.width="90%", fig.align="center"}
+knitr::include_graphics("babynames_inst.png")
+```
+
+## 
 - Interface to GitHub (to commit, pull and push)
 
 - Get data and documentation into R with `install_github()`
@@ -217,6 +232,30 @@ knitr::include_graphics("metadata.png")
 # end
 
 # Supplement
+
+## 
+
+```{r, out.width="90%", fig.align="center"}
+  knitr::include_graphics("devtools.png")
+```
+
+## 
+
+```{r, out.width="90%", fig.align="center"}
+knitr::include_graphics("rpkg.png")
+```
+
+## 
+
+```{r, out.width="90%", fig.align="center"}
+knitr::include_graphics("flights.png")
+```
+
+## 
+
+```{r, out.width="90%", fig.align="center"}
+knitr::include_graphics("babynames.png")
+```
 
 ## Action
 
