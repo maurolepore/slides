@@ -56,17 +56,17 @@ knitr::opts_chunk$set(
 # plots
 ```
 
-# Manage and Share Data | **\@mauro_lepore**
+# Manage and Share Data
+
+### **\@mauro_lepore**
 
 ```{r}
-knitr::include_graphics("git_github.png")
+knitr::include_graphics("ghpkg.png")
 ```
-
-(Via Jenny Bryan)
 
 <div class="notes">
 
-Paleontologists and other researchers need to manage and share data, and this is challenging because research projects are generally complex and dynamic. To face that challenge, one particularly useful tools is GitHub.
+Paleontologists and other researchers need to manage and share data, and this is challenging because research projects are generally complex and dynamic. To face that challenge, one particularly useful tools is GitHub. And if you use R, then R packages make your life easier.
 
 Have any of you heard of GitHub before? And used it?
 
