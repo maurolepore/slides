@@ -202,11 +202,11 @@ knitr::include_graphics("weight.png")
 
 ### [R Packages](http://r-pkgs.had.co.nz/git.html), book by Hadley Wickham (includes chapter on git and github).
 
-# GitHub and R packages | @mauro_lepore
+## Manage and share data (with GitHub & R-pkgs) | [\@mauro_lepore](https://twitter.com/mauro_lepore)
 
-### Manage and share data
-
-with
+```{r}
+knitr::include_graphics("twitter.png")
+```
 
 #
 
