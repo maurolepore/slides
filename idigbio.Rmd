@@ -112,7 +112,13 @@ What changes? -> What do you need?
 knitr::include_graphics("error.png")
 ```
 
-## How a system can help to avoid errors?
+## What will future-you say about your work now?
+
+```{r}
+knitr::include_graphics("bullshit.png")
+```
+
+## Can a better system help you?
 
 ```{r, out.width="45%", fig.show='hold'}
 knitr::include_graphics("behavioural_architect_bad.jpg")
@@ -121,19 +127,13 @@ knitr::include_graphics("behavioural_architect_good.jpg")
 
 [Behaviour design](http://www.nirandfar.com/); [Focus on systems](http://jamesclear.com/goals-systems).
 
-## Why would future-you thank present-you?
-
-```{r}
-knitr::include_graphics("bullshit.png")
-```
-
 # GitHub is one useful solution
 
 ```{r}
 knitr::include_graphics("dogit.png")
 ```
 
-## What project information is useful? | What changed? When? Why? Who changed it?
+## What changed? When? Why? Who changed it?
 
 ```{r}
 knitr::include_graphics("github_what.png")
@@ -143,15 +143,11 @@ knitr::include_graphics("github_what.png")
 
 ## Can we discuss this change?
 
-```{r, out.width="80%", fig.align="center"}
-knitr::include_graphics("metadata2.png")
-```
-
-## Can we discuss this change?
-
-```{r, out.width="80%", fig.align="center"}
+```{r, out.width="95%", fig.align="center"}
 knitr::include_graphics("metadata.png")
 ```
+
+Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
 
 ## How much structure can I handle with GitHub?
 
