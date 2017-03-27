@@ -72,35 +72,15 @@ Have any of you heard of GitHub before? And used it?
 
 </div>
 
-## Further your research with GitHub
-
-```{r}
-knitr::include_graphics("git.png")
-```
-
-Linus Torvalds created Git, with a user-unfriendly interphase (from [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett)
-
-<div class="notes">
-
-GitHub is like a car with an engine. The engine of GitHub is called Git. 
-
-But I won't tell you about the engine but about the whole car. Because you can drive a car around the world knowing close to nothing about its engine.
-
-This is good news, because engines, including Git, are OK for mechanics but generally unfriendly to the user. 
-
-So this talk about how to use GitHub as a vehicle to take your research further.
-
-</div>
-
 ## How do you manage and share data?
 
 ```{r}
 knitr::include_graphics("framework.png")
 ```
 
-[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
+[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett. This gets messy and suggest that projects evolve linearly, which is false.
 
-## What challenges research projects rise?
+## Do your projects evolve as a single straight line? | What challenges do you  face?
 
 ```{r}
 knitr::include_graphics("branch.png")
