@@ -92,14 +92,6 @@ So this talk about how to use GitHub as a vehicle to take your research further.
 
 </div>
 
-# Outline
-
-### Define the problem we need to solve
-
-### Argue that GitHub is one useful solution
-
-### Show an example
-
 ## How do you manage and share data?
 
 ```{r}
@@ -175,16 +167,15 @@ knitr::include_graphics("github_what.png")
 
 ## Can we discuss this change?
 
-```{r, out.width="90%", fig.align="center"}
+```{r, out.width="80%", fig.align="center"}
 knitr::include_graphics("metadata2.png")
 ```
 
 ## Can we discuss this change?
 
-```{r, out.width="90%", fig.align="center"}
+```{r, out.width="80%", fig.align="center"}
 knitr::include_graphics("metadata.png")
 ```
-
 
 ## How much structure can I handle with GitHub?
 
@@ -208,234 +199,42 @@ knitr::include_graphics("metadata.png")
 
 specific project branches
 
-## How GitHub plays with R packages?
 
-```{r, out.width="90%", fig.align="center"}
-knitr::include_graphics("babynames_inst.png")
-```
 
-## Why manage and share data in R packages? 
+# R packages make it easier
 
-## 
+### Manage and share data
 
-```{r, out.width="90%", fig.align="center"}
-  knitr::include_graphics("devtools.png")
-```
+## How hard is it to create an R package?
 
-## 
-
-```{r, out.width="90%", fig.align="center"}
+```{r}
 knitr::include_graphics("rpkg.png")
 ```
 
-##
-
-
-- Interface to GitHub (to commit, pull and push)
-
-- Get data and documentation into R with `install_github()`
-
-- Help to build and document the package via devtools and rogygen2
-
-- Access data from many projects easily
-
-- Privacy control
-
-    - public or private repos
-    - manage access of collaborators, teams
-    - private source yet downloadable data via 
-
+```R
+devtools::install_github("<GITHUB_USER>/<PACKAGE>")
 ```
-`install_github("<PACKAGE>", `auto_token`)
+## How can you access R-pkg data and meta-data?
+
+```{r, out.width="90%"}
+knitr::include_graphics("weight.png")
 ```
 
-# Example
+## Where to from here?
 
-## GitHub structure
+* [GitHub hello world](https://guides.github.com/activities/hello-world/), 10' read.
 
-- Organization (admin/member)
-    - Teams (read/write)
-        - Members
-        - Collaborators (extra control layer)
+* Happy git and github for the useR [book](http://happygitwithr.com/) and [presentation](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user), by Jenny Bryan.
 
-- Branches (protected/not/who edits)
+* [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), presentation by Alice Bartlett.
 
-# Conclusion
+* [R Packages](http://r-pkgs.had.co.nz/git.html), book by Hadley Wickham (includes chapter on git and github).
 
-- Do you want to get more out of your data?
 
-- Do you want to struggle less in the process?
+# GitHub and R packages | @mauro_lepore
 
-### Have you tried GitHub?
+### Manage and share data
+
+## With
 
 # end
-
-# Supplement
-
-## 
-
-```{r, out.width="90%", fig.align="center"}
-knitr::include_graphics("flights.png")
-```
-
-## 
-
-```{r, out.width="90%", fig.align="center"}
-knitr::include_graphics("babynames.png")
-```
-
-## Action
-
-### How to do it
-
-- show examples. maybe slides, live programming may be clunky
-
-### Give and get
-
-COSTS TO YOU 
-
-* 2' to open account
-
-* 10' hello world
-
-* ...
-
-BENEFITS TO YOU
-
-* website for your projects
-
-* time travel
-
-* discussion platform optionally bypass emails
-
-* true collaboration
-
-* privacy
-
-* whats's here? when last changed? who changed it? Why? Oh, I want that version! https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user
-
-
-* diff https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user
-
-* metadata is the data https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user
-
-
-
-
-## Resources
-
-Lots of links to everything. Here or **as I go**?
-
-* GitHub hello world https://guides.github.com/activities/hello-world/
-
-* Happy git and github for the useR http://happygitwithr.com/
-
-
-* books by Hadley?
-
-    * R Packages, chapter on git and github http://r-pkgs.had.co.nz/git.html
-
-### presentation
-
-- [Happy Git and GitHub for the useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) (Jenny Bryan)
-
-- [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) (Alice Bartlett)
-
-
-
-## Invisible
-
-<div class="notes">
-
-USEFULL LINKS
-
-**bookdown.org/maurolepore/idigbio**
-
-### [wiki](https://goo.gl/p19EeC)
-
-
-SCOPE
-
-- GitHub + R; but + * maybe OK
-- No databases; but see dplyr
-- from solo to ### collaborators
-- (free)* software
-
-* free private GitHub for science
-
-STRUCTURE AND SYSTEMS
-
-Data raw
-    Document cleaning
-Data private
-    Document
-        Private (private repo)
-        Public (gh pages)
-    Distribute (install_github)
-        Private (GitHub privileges)
-        Limited (hack: authorised guest token)
-Data public
-        Public (private repo)
-        Public (gh pages)
-
-
-1 project, public/private data
-(1 local repo; 2 remotes)
-  data-master push data
-  data-private push data-private
-
-
-
-TOOLS
-
-dplyr
-
-
-Document: metadata
-
-Problems:
-- Metadata unapdated (cookies in rice container, by Jenny Bryan)
-
-
-
-
-
-Github & R: give structure
-
-</div>
-
-
-
-
-
-
-## Toolsbox
-
-<div class="notes">
-
-xxxnotes; publish; allow pop-ups; add myslides.html?presentme=true (exit =false)
-
-</div>
-
-<div class="columns-2">
-
-</div>
-
-
-```{r}
-# knitr::include_graphics("xxx")
-```
-
-## Todo
-
-<div class="notes">
-
-- find out story of fuck git photo at https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/
-
-- add photo of google docs, dropbox, ....
-
-</div>
-
-
-
-
