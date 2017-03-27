@@ -235,6 +235,8 @@ knitr::include_graphics("weight.png")
 
 ### Manage and share data
 
-## With
+with
 
-# end
+#
+
+end
