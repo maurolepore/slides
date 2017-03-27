@@ -106,24 +106,20 @@ What changes? -> What do you need?
 
 </div>
 
-## Is your system error prone?
+## Can your system control the  consequences? | Is your system error prone?
 
 ```{r}
 knitr::include_graphics("error.png")
 ```
 
-<div class="notes">
-
-We don't get as much as we could from the data. Worse, data may be risked or unshared and research slowed. 
-
-</div>
-
-## How to control "human error"? | Do you [design behaviour](http://www.nirandfar.com/) with [focus on systems](http://jamesclear.com/goals-systems)?
+## How a system can help to avoid errors?
 
 ```{r, out.width="45%", fig.show='hold'}
 knitr::include_graphics("behavioural_architect_bad.jpg")
 knitr::include_graphics("behavioural_architect_good.jpg")
 ```
+
+[Behaviour design](http://www.nirandfar.com/); [Focus on systems](http://jamesclear.com/goals-systems).
 
 ## Why would future-you thank present-you?
 
