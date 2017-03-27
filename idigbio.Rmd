@@ -149,7 +149,7 @@ knitr::include_graphics("metadata.png")
 
 Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
 
-## How much structure can I handle with GitHub?
+## How much structure can GitHub handle?
 
 ![](structure.png)
 
@@ -194,14 +194,13 @@ knitr::include_graphics("weight.png")
 
 ## Where to from here?
 
-* [GitHub hello world](https://guides.github.com/activities/hello-world/), 10' read.
+### [GitHub hello world](https://guides.github.com/activities/hello-world/), 10' read.
 
-* Happy git and github for the useR [book](http://happygitwithr.com/) and [presentation](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user), by Jenny Bryan.
+### Happy git and github for the useR, [book](http://happygitwithr.com/) and [presentation](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user), by Jenny Bryan.
 
-* [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), presentation by Alice Bartlett.
+### [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), presentation by Alice Bartlett.
 
-* [R Packages](http://r-pkgs.had.co.nz/git.html), book by Hadley Wickham (includes chapter on git and github).
-
+### [R Packages](http://r-pkgs.had.co.nz/git.html), book by Hadley Wickham (includes chapter on git and github).
 
 # GitHub and R packages | @mauro_lepore
 
