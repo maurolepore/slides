@@ -1,0 +1,279 @@
+---
+author: "Go to next slide"
+output:
+  ioslides_presentation:
+    css: idigbio_styles.css
+    smaller: yes
+    widescreen: yes
+  beamer_presentation: default
+---
+
+```{r removeSlideNumbers, include=FALSE}
+# From https://github.com/rstudio/rmarkdown/issues/244
+# To remove slide numbers to one of two things:
+
+# One: Place this under the yamal header of the .Rmd file
+
+# <style type="text/css">
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+# </style>
+
+
+
+# Or, two: Place this in a separate mystyle.css file (remove <style> tag)
+
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+
+# For approach two, the yamal header should look like this:
+# ---
+# output:
+#   ioslides_presentation:
+    # css: mystyles.css
+# ---
+```
+
+```{r setup, include=FALSE}
+# knitr ----
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  # fig.align = "center",
+  fig.asp = 0.618,
+  fig.width = 6,
+  out.width = "100%",
+  cache = TRUE,
+  echo = FALSE 
+  )
+# If you want to make sure the font size is consistent across all your figures,
+# whenever you set out.width, you’ll also need to adjust fig.width to maintain
+# the same ratio with your default out.width. For example, if your default
+# fig.width is 6 and out.width is 0.7, when you set out.width = "50%" you’ll
+# need to set fig.width to 4.3 (6 * 0.5 / 0.7).
+# plots
+```
+
+# Improving Our Software Infrastructure & Tools
+
+### forestgeo.github.io/forestr
+
+### **\@mauro_lepore**
+
+```{r}
+# knitr::include_graphics("insert_narrow_image.png")
+```
+
+<div class="notes">
+
+A lot of your effort is duplicated. For example, more than once person in this room may have written code that other person needs.
+
+We need a place where software problems can meet software solutions.
+
+I'll talk about
+
+- github
+
+- forestr
+
+ASK
+
+- Who uses GitHub?
+- Who uses the CTFS-R package?
+
+</div>
+
+
+
+
+## Outline
+
+What do we need and what we have?
+
+Where are we heading?
+
+How can you contribute?
+
+
+
+
+
+
+
+
+
+
+
+# What do we need?
+
+- We need GitHub
+
+- We need to improve CTFS R Package
+
+
+## Why we need better software infrastructure and tools?
+
+```{r, out.width="45%", fig.show='hold'}
+knitr::include_graphics("behavioural_architect_bad.jpg")
+knitr::include_graphics("behavioural_architect_good.jpg")
+```
+
+[Behaviour design](http://www.nirandfar.com/); [Focus on systems](http://jamesclear.com/goals-systems).
+
+## Why we need better software infrastructure and tools? | Is your system error prone?
+
+```{r}
+knitr::include_graphics("error.png")
+```
+
+## Fall effortlessly into the pit of success 
+
+```{r, out.width="70%", fig.align="center"}
+knitr::include_graphics("pit.jpg")
+```
+
+## Reuse good code ([tidyverse](http://tidyverse.org/) dplyr, tidyr, ggplot2)
+
+xxx image r4ds
+
+## Make your reaserch reproducible (e.g. with R, rmarkdown, GitHub)
+
+
+## Share your work
+
+(R for Data Science)
+
+
+
+## GitHub is one useful solution
+
+```{r}
+knitr::include_graphics("dogit.png")
+```
+
+## What changed? When? Why? Who changed it?
+
+```{r}
+knitr::include_graphics("github_what.png")
+```
+
+[Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
+
+## Can we discuss this change?
+
+```{r, out.width="95%", fig.align="center"}
+knitr::include_graphics("metadata.png")
+```
+
+Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
+
+
+
+
+
+# What do we have?
+
+
+
+
+# Where are we heading?
+
+Set priorities
+
+- tell me what you actually use
+
+improve what we have
+
+- documentation
+- tests
+- tutorials
+- refactor
+
+add what you have
+
+create what we lack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+where we are heading
+
+- we need better documentation
+- more tests
+- list priorities
+- new code
+
+how to contribute
+
+
+
+title and contact details
+
+- twitter maurolepore
+- github forestgeo
+
+
+
+engage audience with questions
+
+- who uses github
+    - how many people know about the CTFS R package
+    - how many people use the CTFS R package
+
+
+
+idea: the pit of success. the field guide to human error
+
+
+why listen? show some bits of progress so people get excited.
+
+- I'm here to help. What my job is?
+
+# What I ask | How can you contribute?
+
+
+
+
+what I  am asking people to do
+
+contribute
+   - re-write documentation
+   - tell me your issues
+   - tell me your interests
+   - review material
+   - contribute code
+   - what would you like to leran
+
+- ask
+
+    - 
+    - what they want to hear about?
+        - what functions they use
+        - what problems they find
+    - meeting session to discuss ideas
+        - code to contribute
+        - workshops
+
+
+
+
+
+# What else?
+
+
