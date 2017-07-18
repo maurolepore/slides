@@ -88,6 +88,10 @@ ASK
 
 
 
+## _The single biggest way to improve both the quality of your code and your productivity isto reuse good code._ | -― from "Code Complete (Developer Best Practices)" (https://goo.gl/83hsHb)
+
+
+
 ## Outline
 
 What do we need and what we have?
@@ -138,12 +142,24 @@ knitr::include_graphics("pit.jpg")
 
 xxx image r4ds
 
+- example of Jenny data
+
 ## Make your reaserch reproducible (e.g. with R, rmarkdown, GitHub)
 
 
+
+```{r}
+xxxcont <- function() {
+  "continue  here"
+}
+```
+
 ## Share your work
 
-(R for Data Science)
+## Share your issues
+
+- example of David with pdf.allplot (what functions need work?)
+
 
 
 
@@ -276,4 +292,13 @@ contribute
 
 # What else?
 
+
+
+# Show
+
+- ttt as an example of contribution by a researcher. How a script was transformed into a function, a website, a vignette
+- how to file an issue, e.g. report a problem
+- how to file a pull request, e.g. edit documentation
+- how to follow advances in #forestgeo #forestr
+- 
 
