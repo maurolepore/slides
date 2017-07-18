@@ -37,7 +37,8 @@ output:
 ```
 
 ```{r setup, include=FALSE}
-# knitr ----
+library(knitr)
+
 knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
@@ -100,14 +101,6 @@ knitr::include_graphics("behavioural_architect_good.jpg")
 
 ```{r, out.width="70%", fig.align="center"}
 knitr::include_graphics("pit.jpg")
-```
-
-
-
-## What will future-you say about your work now?
-
-```{r}
-knitr::include_graphics("bullshit.png")
 ```
 
 
@@ -223,21 +216,80 @@ xxxcont <- function() {
 }
 ```
 
-## Learn more  about GitHub
-
-xxxcont. email sent to Helene
 
 
+## Learn more about GitHub
 
-## Show our github page and discuss privacy
+Short explanation and setup (book chapter): https://goo.gl/xemDM4
+
+Detaild explanation and setup:
+       - book: https://goo.gl/QknWrm
+       - webinar: https://goo.gl/wpekRT
 
 
 
+## github.com/forestgeo
 
-## __forestr__
+```{r}
+include_graphics("forestgeo.png")
+```
 
-Learn more xxx
 
+![](https://github.com/forestgeo)
+
+
+
+## __forestr__, pricacy and following up
+
+```{r}
+include_graphics("forestr_privacy.png")
+```
+
+
+## xxx twitter
+
+```{r}
+xxxcont <- function() {
+  "add image of twitter"
+}
+```
+
+
+## __forestr__: repository  issues
+
+```{r}
+include_graphics("forestr_issues.png")
+```
+
+
+
+## __forestr__: website references
+
+```{r}
+include_graphics("forestr_refs.png")
+```
+
+
+
+## __forestr__: website functions help files
+
+```{r}
+include_graphics("forestr_fun.png")
+```
+
+
+
+## __forestr__: functions help files
+
+```{r}
+include_graphics("forestr_rstudio.jpg")
+```
+
+
+
+## Learn more about packages
+
+__forestr__ package: https://forestgeo.github.io/forestr/
 
 ...
 
