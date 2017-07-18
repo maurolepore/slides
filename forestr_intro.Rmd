@@ -56,118 +56,147 @@ knitr::opts_chunk$set(
 # plots
 ```
 
-# Improving Our Software Infrastructure & Tools
+
+
+# Improving the quality of you code and your productivity
 
 ### forestgeo.github.io/forestr
 
 ### **\@mauro_lepore**
 
-```{r}
-# knitr::include_graphics("insert_narrow_image.png")
-```
 
 <div class="notes">
 
-A lot of your effort is duplicated. For example, more than once person in this room may have written code that other person needs.
-
-We need a place where software problems can meet software solutions.
-
-I'll talk about
-
-- github
-
-- forestr
-
-ASK
-
-- Who uses GitHub?
-- Who uses the CTFS-R package?
+- github and rpackages help reproduce  research
+- should let us reach your research goals faster
+- if you contribute the ball rolls faster and  you get citations, the challenge is not to get published but to be cited.
 
 </div>
 
 
 
+## Is most research actually reproducible? Why?
 
-## _The single biggest way to improve both the quality of your code and your productivity isto reuse good code._ | -― from "Code Complete (Developer Best Practices)" (https://goo.gl/83hsHb)
+```{r}
+knitr::include_graphics("error.png")
+```
 
-
-
-## Outline
-
-What do we need and what we have?
-
-Where are we heading?
-
-How can you contribute?
+[Improve the system](http://jamesclear.com/goals-systems)
 
 
 
-
-
-
-
-
-
-
-
-# What do we need?
-
-- We need GitHub
-
-- We need to improve CTFS R Package
-
-
-## Why we need better software infrastructure and tools?
+## What is the benefit of a good system?
 
 ```{r, out.width="45%", fig.show='hold'}
 knitr::include_graphics("behavioural_architect_bad.jpg")
 knitr::include_graphics("behavioural_architect_good.jpg")
 ```
 
-[Behaviour design](http://www.nirandfar.com/); [Focus on systems](http://jamesclear.com/goals-systems).
+[Behaviour can be designed](http://www.nirandfar.com/)
 
-## Why we need better software infrastructure and tools? | Is your system error prone?
 
-```{r}
-knitr::include_graphics("error.png")
-```
 
-## Fall effortlessly into the pit of success 
+## You should fall effortlessly into the pit of success
 
 ```{r, out.width="70%", fig.align="center"}
 knitr::include_graphics("pit.jpg")
 ```
 
-## Reuse good code ([tidyverse](http://tidyverse.org/) dplyr, tidyr, ggplot2)
-
-xxx image r4ds
-
-- example of Jenny data
-
-## Make your reaserch reproducible (e.g. with R, rmarkdown, GitHub)
 
 
+## What will future-you say about your work now?
 
 ```{r}
-xxxcont <- function() {
-  "continue  here"
-}
+knitr::include_graphics("bullshit.png")
 ```
 
-## Share your work
-
-## Share your issues
-
-- example of David with pdf.allplot (what functions need work?)
 
 
+## Improving the quality of our code and our productivity
+
+### _The single biggest way to improve both the quality of your code and your productivity is to reuse good code._ 
+
+-― from "Code Complete (Developer Best Practices)" (https://goo.gl/83hsHb)
 
 
-## GitHub is one useful solution
+
+# 
+
+### github.com/forestgeo
+
+### __forestr__ package (and friends)
+
+
+
+# What do we need and what we have?
+
+
+
+## What our good code needs?
+
+A place to live and evolve collaboratively_
+
+- Code repository and forum: GitHub
+
+A structure that makes using  the code easy
+
+- R packages: __forestr__ and friends
+
+
+
+## GitHub
+
+```{r}
+knitr::include_graphics("ghpkg.png")
+```
+
+
+
+## How do you manage your projects?
+
+```{r}
+knitr::include_graphics("framework.png")
+```
+
+[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett. This gets messy and suggest that projects evolve linearly, which is false.
+
+
+
+## Do your projects evolve as a single straight line? | What challenges do you  face?
+
+```{r}
+knitr::include_graphics("branch.png")
+```
+
+[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
+
+<div class="notes">
+
+What are research projects like?
+
+- complex, 
+
+- involve multiple collaborators,
+
+- variable.
+
+What changes? -> What do you need?
+
+- the data and meta-data -> to track changes/versions;
+
+- access privilege -> to control the level of access that people have
+
+</div>
+
+
+
+# GitHub is one useful solution
 
 ```{r}
 knitr::include_graphics("dogit.png")
 ```
+
+
 
 ## What changed? When? Why? Who changed it?
 
@@ -176,6 +205,8 @@ knitr::include_graphics("github_what.png")
 ```
 
 [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
+
+
 
 ## Can we discuss this change?
 
@@ -186,15 +217,40 @@ knitr::include_graphics("metadata.png")
 Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
 
 
+```{r}
+xxxcont <- function() {
+  "continue  here"
+}
+```
+
+## Learn more  about GitHub
+
+xxxcont. email sent to Helene
 
 
 
-# What do we have?
+## Show our github page and discuss privacy
 
 
 
 
-# Where are we heading?
+## __forestr__
+
+Learn more xxx
+
+
+...
+
+
+
+## Show our  __forestr__ package and compare  it with the CTFS R package
+
+## __forestr__'s friends
+
+- __bci__
+- __ttt__
+
+## Where are we heading?
 
 Set priorities
 
@@ -301,4 +357,66 @@ contribute
 - how to file a pull request, e.g. edit documentation
 - how to follow advances in #forestgeo #forestr
 - 
+
+
+
+
+
+
+
+
+
+
+
+### Topics may be useful to share
+
+Fall in the pit of success of reproducible research
+- project management (RStudio, r projects and packages)
+- github
+- tidyverse
+
+- list recommended resources
+    - rstudio webinars
+    - r4ds
+    - other books
+
+- tips of the day
+    - how to find stuff
+    - recommend use of tags (shortcut `Ctrl+Alt+x`)
+    - reprex::reprex()
+    - shortcuts, how to find all of them and 
+    - cheetsheets
+    - webinars
+    - free private repositories on github academic
+    - free private repositories on bitbucket
+    - how to create a package
+    - tidyr
+    - dplyr
+    - readr
+    - ggplot2
+    - write an outline of your script with
+        - sections Ctrl + Shift+ O
+        - and shortcut Ctrl + Shift + O
+    - package data
+    
+
+
+
+
+
+
+
+# code repository
+
+```{r}
+# knitr::include_graphics("insert_narrow_image.png")
+```
+
+<div class="notes">
+
+...
+
+</div>
+
+
 
