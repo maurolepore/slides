@@ -1,5 +1,5 @@
 ---
-author: "Go to next slide"
+author: "Record audio"
 output:
   ioslides_presentation:
     css: idigbio_styles.css
@@ -59,20 +59,23 @@ knitr::opts_chunk$set(
 
 
 
-# Improving the quality of you code and your productivity
+# Reuse Good Code with GitHub & R
 
-### forestgeo.github.io/forestr
+### __\#forestgeo__
 
-### **\@mauro_lepore**
-
+### __\@mauro_lepore__
 
 <div class="notes">
 
-- github and rpackages help reproduce  research
-- should let us reach your research goals faster
-- if you contribute the ball rolls faster and  you get citations, the challenge is not to get published but to be cited.
+If you reuse good code you can be more productive.
+
+GitHub and R packages can help you do that.
 
 </div>
+
+
+
+# Motivation
 
 
 
@@ -105,59 +108,50 @@ knitr::include_graphics("pit.jpg")
 
 
 
-## Improving the quality of our code and our productivity
+## __GitHub & R__ help us reuse good code
 
-### _The single biggest way to improve both the quality of your code and your productivity is to reuse good code._ 
+### ___The single biggest way to improve both the quality of your code and your productivity is to reuse good code.___
 
 -― from "Code Complete (Developer Best Practices)" (https://goo.gl/83hsHb)
 
+<div class="notes">
 
+GitHub: is a place for the code to live and evolve
+R Packages: 
 
-# 
-
-### github.com/forestgeo
-
-### __forestr__ package (and friends)
-
-
-
-# What do we need and what we have?
-
-
-
-## What our good code needs?
-
-A place to live and evolve collaboratively_
-
-- Code repository and forum: GitHub
+- GitHub: Code repository and forum
 
 A structure that makes using  the code easy
 
 - R packages: __forestr__ and friends
 
+</div>
 
 
-## GitHub
 
-```{r}
-knitr::include_graphics("ghpkg.png")
+# GitHub | github.com/forestgeo
+
+
+
+##
+
+```{r gitub-forestgeo}
+include_graphics("forestgeo.png")
 ```
 
 
 
-## How do you manage your projects?
+## 
 
-```{r}
+```{r projects-how-we-manage}
 knitr::include_graphics("framework.png")
 ```
 
-[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett. This gets messy and suggest that projects evolve linearly, which is false.
 
 
+## 
 
-## Do your projects evolve as a single straight line? | What challenges do you  face?
-
-```{r}
+```{r projects-not-linear}
 knitr::include_graphics("branch.png")
 ```
 
@@ -183,17 +177,17 @@ What changes? -> What do you need?
 
 
 
-# GitHub is one useful solution
+## 
 
-```{r}
+```{r control}
 knitr::include_graphics("dogit.png")
 ```
 
 
 
-## What changed? When? Why? Who changed it?
+## 
 
-```{r}
+```{r overview-github}
 knitr::include_graphics("github_what.png")
 ```
 
@@ -201,63 +195,57 @@ knitr::include_graphics("github_what.png")
 
 
 
-## Can we discuss this change?
+## 
 
-```{r, out.width="95%", fig.align="center"}
+```{r discuss-change, out.width="95%", fig.align="center"}
 knitr::include_graphics("metadata.png")
 ```
 
 Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
 
 
-```{r}
-xxxcont <- function() {
-  "continue  here"
-}
-```
 
+## Learn more
 
-
-## Learn more about GitHub
-
-Short explanation and setup (book chapter): https://goo.gl/xemDM4
+Short explanation and setup: [book chapter](https://goo.gl/xemDM4)
 
 Detaild explanation and setup:
-       - book: https://goo.gl/QknWrm
-       - webinar: https://goo.gl/wpekRT
+
+- [book](https://goo.gl/QknWrm)
+- [video tutorial](https://goo.gl/wpekRT)
+- [webinar](https://goo.gl/6DHyZN)
 
 
 
-## github.com/forestgeo
+# __forestr__ | forestgeo.github.io/forestr
 
-```{r}
-include_graphics("forestgeo.png")
+
+
+##
+
+<div class="notes">
+
+keep updated
+
+</div>
+
+```{r follow-search-twitter}
+include_graphics("twitter_search.png")
 ```
 
 
-![](https://github.com/forestgeo)
 
+##
 
-
-## __forestr__, pricacy and following up
-
-```{r}
-include_graphics("forestr_privacy.png")
+```{r follow-watch-forestr}
+include_graphics("forestr_watch.png")
 ```
 
 
-## xxx twitter
 
-```{r}
-xxxcont <- function() {
-  "add image of twitter"
-}
-```
+## 
 
-
-## __forestr__: repository  issues
-
-```{r}
+```{r report-issues}
 include_graphics("forestr_issues.png")
 ```
 
