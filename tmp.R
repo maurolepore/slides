@@ -1,13 +1,8 @@
-# Save multiple objects into one file
-x <- 1:3
-y <- "hello"
-save(x, y, file = "data.Rdata")
+# install.packages("devtools")
+devtools::install_github(forestgeo/bci)
+library(bci)
 
-# see also
-
-# packages http://r-pkgs.had.co.nz/
-?devtools::create
-
-# RStudio projects, google: rstudio use projects
-
+?bci
+str(bci12full1)
+bci
 

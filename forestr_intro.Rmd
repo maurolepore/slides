@@ -61,8 +61,6 @@ knitr::opts_chunk$set(
 
 # Reuse Good Code with GitHub & R
 
-### __\#forestgeo__
-
 ### __\@mauro_lepore__
 
 <div class="notes">
@@ -244,7 +242,7 @@ include_graphics("forestr_issues.png")
 
 
 
-## Pasword: guestgeoforest1
+##
 
 ```{r report-issues-misc}
 include_graphics("issues_guest.png")
@@ -292,20 +290,58 @@ include_graphics("forestr_watch.png")
 
 
 
-## Learn more about packages
-
-__forestr__ package: https://forestgeo.github.io/forestr/
-
-...
+# Sharing data with R packages | __bci__
 
 
 
-## Show our  __forestr__ package and compare  it with the CTFS R package
+##
 
-## __forestr__'s friends
+```{r data-packages-bci}
+include_graphics("bci-rstudio.png")
+```
 
-- __bci__
-- __ttt__
+
+
+## Package your own data | devtools::create("mypackage")
+
+http://r-pkgs.had.co.nz/
+
+
+
+# Sharing R products quickly
+
+
+
+##
+
+```{r publish-rpubs-button}
+include_graphics("rpubs_publish.png")
+```
+
+
+
+##
+
+```{r publish-rpubs}
+include_graphics("rpubs.png")
+```
+
+
+
+##
+
+```{r publish-bookdown}
+include_graphics("bookdown.png")
+```
+
+
+
+# Contributed code | __ttt__
+
+
+
+
+
 
 ## Where are we heading?
 
