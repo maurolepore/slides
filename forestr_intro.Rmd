@@ -59,6 +59,18 @@ knitr::opts_chunk$set(
 
 
 
+##
+
+### Do you use the CTFS R package?
+
+### Do you use github?
+
+### Do you use functions in the __tidyverse__, such as __dplyr__, __ggplot2__ and __tidyr__?
+
+### Do you use any style guide (e.g.__[tidyverse style guide](http://style.tidyverse.org/)__; __[Google's style guide](https://google.github.io/styleguide/Rguide.xml)__)?
+
+
+
 # Reuse Good Code with GitHub & R
 
 ### __\@mauro_lepore__
@@ -203,18 +215,6 @@ Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc
 
 
 
-## Learn more
-
-Short explanation and setup: [book chapter](https://goo.gl/xemDM4)
-
-Detaild explanation and setup:
-
-- [book](https://goo.gl/QknWrm)
-- [video tutorial](https://goo.gl/wpekRT)
-- [webinar](https://goo.gl/6DHyZN)
-
-
-
 # __forestr__ | forestgeo.github.io/forestr
 
 
@@ -230,22 +230,6 @@ xxxcont <- function() {
 
 ```{r rstudio-help}
 include_graphics("forestr_rstudio.jpg")
-```
-
-
-
-## 
-
-```{r report-issues-forestr}
-include_graphics("forestr_issues.png")
-```
-
-
-
-##
-
-```{r report-issues-misc}
-include_graphics("issues_guest.png")
 ```
 
 
@@ -274,37 +258,15 @@ include_graphics("eda.png")
 
 
 
-##
-
-```{r follow-search-twitter}
-include_graphics("twitter_search.png")
-```
-
-
-
-##
-
-```{r follow-watch-forestr}
-include_graphics("forestr_watch.png")
-```
-
-
-
 # Sharing data with R packages | __bci__
 
 
 
-##
+## `devtools::create("mypackage")`
 
 ```{r data-packages-bci}
 include_graphics("bci-rstudio.png")
 ```
-
-
-
-## Package your own data | devtools::create("mypackage")
-
-http://r-pkgs.had.co.nz/
 
 
 
@@ -336,74 +298,92 @@ include_graphics("bookdown.png")
 
 
 
-# Contributed code | __ttt__
+# Contribute
+
+
+
+## File issues (see [ template](https://github.com/forestgeo/learn/issues/20))
+
+```{r report-issues-forestr}
+include_graphics("forestr_issues.png")
+```
+
+
+
+##
+
+```{r report-issues-misc}
+include_graphics("issues_guest.png")
+```
+
+
+
+##
+
+```{r ttt}
+include_graphics("ttt.png")
+```
+
+
+
+##
+
+```{r follow-watch-forestr}
+include_graphics("forestr_watch.png")
+```
+
+
+
+##
+
+```{r follow-search-twitter}
+include_graphics("twitter_search.png")
+```
 
 
 
 
 
 
-## Where are we heading?
+# Resources
 
-Set priorities
+##
 
-- tell me what you actually use
+GUITHUB
 
-improve what we have
+Short explanation and setup: [book chapter](https://goo.gl/xemDM4)
 
-- documentation
-- tests
-- tutorials
-- refactor
+Detailed explanation and setup:
 
-add what you have
-
-create what we lack
+- [book](https://goo.gl/QknWrm)
+- [video tutorial](https://goo.gl/wpekRT)
+- [webinar](https://goo.gl/6DHyZN)
 
 
 
+## maurolepore@gmail.com
+
+- what functions you use?
+
+- what problems you have?
+
+- what functions you need?
+
+- report errors
+
+- improve documentation
+
+- submit tutorials (checkout __learnr__)
+
+- suggest ideas
+
+- edit documentation and code
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-where we are heading
-
-- we need better documentation
-- more tests
-- list priorities
-- new code
-
-how to contribute
-
-
-
-title and contact details
-
-- twitter maurolepore
-- github forestgeo
-
-
-
-engage audience with questions
-
-- who uses github
-    - how many people know about the CTFS R package
-    - how many people use the CTFS R package
-
-
-
-idea: the pit of success. the field guide to human error
 
 
 why listen? show some bits of progress so people get excited.
@@ -510,6 +490,10 @@ Fall in the pit of success of reproducible research
 ...
 
 </div>
+
+
+
+
 
 
 
