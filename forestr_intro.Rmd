@@ -81,7 +81,7 @@ GitHub and R packages can help you do that.
 
 ## Is most research actually reproducible? Why?
 
-```{r}
+```{r error-field-guide}
 knitr::include_graphics("error.png")
 ```
 
@@ -91,7 +91,7 @@ knitr::include_graphics("error.png")
 
 ## What is the benefit of a good system?
 
-```{r, out.width="45%", fig.show='hold'}
+```{r design-behaviour, out.width="45%", fig.show='hold'}
 knitr::include_graphics("behavioural_architect_bad.jpg")
 knitr::include_graphics("behavioural_architect_good.jpg")
 ```
@@ -102,7 +102,7 @@ knitr::include_graphics("behavioural_architect_good.jpg")
 
 ## You should fall effortlessly into the pit of success
 
-```{r, out.width="70%", fig.align="center"}
+```{r fall-in-pit-of-success, out.width="70%", fig.align="center"}
 knitr::include_graphics("pit.jpg")
 ```
 
@@ -130,14 +130,6 @@ A structure that makes using  the code easy
 
 
 # GitHub | github.com/forestgeo
-
-
-
-##
-
-```{r gitub-forestgeo}
-include_graphics("forestgeo.png")
-```
 
 
 
@@ -185,6 +177,14 @@ knitr::include_graphics("dogit.png")
 
 
 
+##
+
+```{r gitub-forestgeo}
+include_graphics("forestgeo.png")
+```
+
+
+
 ## 
 
 ```{r overview-github}
@@ -220,14 +220,63 @@ Detaild explanation and setup:
 # __forestr__ | forestgeo.github.io/forestr
 
 
+```{r}
+xxxcont <- function() {
+  "see if it makes sence to start with rstudio"
+}
+```
+
+
+
+## 
+
+```{r rstudio-help}
+include_graphics("forestr_rstudio.jpg")
+```
+
+
+
+## 
+
+```{r report-issues-forestr}
+include_graphics("forestr_issues.png")
+```
+
+
+
+## Pasword: guestgeoforest1
+
+```{r report-issues-misc}
+include_graphics("issues_guest.png")
+```
+
+
 
 ##
 
-<div class="notes">
+```{r website-refs}
+include_graphics("forestr_refs.png")
+```
 
-keep updated
 
-</div>
+
+## 
+
+```{r website-funs-help}
+include_graphics("forestr_fun.png")
+```
+
+
+
+## 
+
+```{r articles-eda}
+include_graphics("eda.png")
+```
+
+
+
+##
 
 ```{r follow-search-twitter}
 include_graphics("twitter_search.png")
@@ -239,38 +288,6 @@ include_graphics("twitter_search.png")
 
 ```{r follow-watch-forestr}
 include_graphics("forestr_watch.png")
-```
-
-
-
-## 
-
-```{r report-issues}
-include_graphics("forestr_issues.png")
-```
-
-
-
-## __forestr__: website references
-
-```{r}
-include_graphics("forestr_refs.png")
-```
-
-
-
-## __forestr__: website functions help files
-
-```{r}
-include_graphics("forestr_fun.png")
-```
-
-
-
-## __forestr__: functions help files
-
-```{r}
-include_graphics("forestr_rstudio.jpg")
 ```
 
 
