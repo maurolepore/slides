@@ -1,6 +1,6 @@
 ---
 title: rpubs.com/forestgeo/update
-author: "Record audio"
+author: "Record audio?"
 output:
   ioslides_presentation:
     css: idigbio_styles.css
@@ -87,11 +87,16 @@ __My goal: to learn how I can help you__
 - Mechanics via listed resources or see me later
 
 
+
+## Do you use the CTFS R package? What functions?
+
+
+
 # Update | forestgeo & forestr
 
 
 
-## [Improve systems](http://jamesclear.com/goals-systems)
+## A good system lets you fail safely
 
 ```{r error-field-guide}
 knitr::include_graphics("error.png")
@@ -99,7 +104,7 @@ knitr::include_graphics("error.png")
 
 
 
-## So you can fail safely
+## Fast failure means fast feedback
 
 ```{r fail-safely}
 knitr::include_graphics("fail.png")
@@ -116,11 +121,11 @@ knitr::include_graphics("pit.jpg")
 
 # GitHub | github.com/forestgeo
 
-[Why?](https://goo.gl/PRtpmZ) & [How?](http://r-pkgs.had.co.nz/git.html)
+### [Why?](https://goo.gl/PRtpmZ) & [How?](http://r-pkgs.had.co.nz/git.html)
 
 
 
-## 
+## You may have a good system already
 
 ```{r projects-how-we-manage}
 knitr::include_graphics("framework.png")
@@ -128,7 +133,7 @@ knitr::include_graphics("framework.png")
 
 
 
-## 
+## Real projects are complex | Is there a better system?
 
 ```{r projects-not-linear}
 knitr::include_graphics("branch.png")
@@ -136,27 +141,9 @@ knitr::include_graphics("branch.png")
 
 [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
 
-<div class="notes">
-
-What are research projects like?
-
-- complex, 
-
-- involve multiple collaborators,
-
-- variable.
-
-What changes? -> What do you need?
-
-- the data and meta-data -> to track changes/versions;
-
-- access privilege -> to control the level of access that people have
-
-</div>
 
 
-
-## 
+## GitHub gives you research super-powers
 
 ```{r control}
 knitr::include_graphics("dogit.png")
@@ -174,7 +161,7 @@ knitr::include_graphics("github_what.png")
 
 
 
-## 
+## Data and metadata stay synchronized
 
 ```{r discuss-change, out.width="95%", fig.align="center"}
 knitr::include_graphics("metadata.png")
@@ -184,7 +171,7 @@ Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc
 
 
 
-##
+## We have public and private repos (see enterprise)
 
 ```{r gitub-forestgeo}
 include_graphics("forestgeo.png")
@@ -202,15 +189,13 @@ include_graphics("forestgeo.png")
 
 
 
-## 
+## Wouldn't this be nice?
 
 ```{r rstudio-help}
 include_graphics("forestr_rstudio.jpg")
 ```
 
 
-
-##
 
 ```{r website-refs}
 include_graphics("forestr_refs.png")
@@ -278,7 +263,7 @@ include_graphics("forestr_issues.png")
 
 
 
-## Use your account or forestgeoguest
+## Issues: use your account or forestgeoguest
 
 ```{r report-issues-misc}
 include_graphics("issues_guest.png")
@@ -312,9 +297,11 @@ include_graphics("twitter_search.png")
 
 ## Summary
 
-### You will soon have new software tools to use
+### You already have some new tools
 
-### You can help improve those tools in multiple ways
+### More tools are comming
+
+### You have multiple ways to help
 
 ### Stay tuned
 
@@ -337,13 +324,6 @@ Supported me with administration:
 # Discussion | __\@mauro_lepore__
 
 
-- Do you use the CTFS R package?
-
-- Do you use github?
-
-- Do you use functions in the __tidyverse__, such as __dplyr__, __ggplot2__ and __tidyr__?
-
-
 
 # Resources
 
@@ -351,7 +331,7 @@ Supported me with administration:
 
 ##
 
-Books: excelent and free
+Books: excellent and free
 
 - [R for data science](http://r4ds.had.co.nz/)
   
@@ -438,11 +418,5 @@ end
 Invisible notes.
 
 </div>
-
-```{r}
-forestgeo_forestr_update_puerto_rico <- function() {
-  "Update & How You Can Contribute"
-}
-```
 
 
