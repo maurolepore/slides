@@ -427,7 +427,7 @@ end
 
 
 
-# Code deposit
+# Misc
 
 ```{r}
 # knitr::include_graphics("some_image.png")
@@ -438,4 +438,11 @@ end
 Invisible notes.
 
 </div>
+
+```{r}
+forestgeo_forestr_update_puerto_rico <- function() {
+  "Update & How You Can Contribute"
+}
+```
+
 
