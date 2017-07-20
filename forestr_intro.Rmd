@@ -323,6 +323,8 @@ Supported me with administration:
 
 # Discussion | __\@mauro_lepore__
 
+### We may also meet during this workshop
+
 
 
 # Resources
@@ -362,16 +364,6 @@ __[The tidyverse style guide](http://style.tidyverse.org/)__
 # 
 
 end
-
-# xxxcont.
-
-- edit documentation and code: __add to how to contribute__
-
-- tell me what you would like to learn more about
-
-- shall we have a tip of the day?
-
-- shall we have meetings during this workshop?
 
 
 
@@ -420,3 +412,13 @@ Invisible notes.
 </div>
 
 
+
+# xxxcont.
+
+```{r}
+xxxcont <- "cont.here"
+```
+
+- Show how to pull request edits to documentation and code
+
+- shall we have meetings during this workshop?
