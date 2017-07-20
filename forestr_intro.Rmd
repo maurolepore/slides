@@ -59,19 +59,7 @@ knitr::opts_chunk$set(
 
 
 
-##
-
-### Do you use the CTFS R package?
-
-### Do you use github?
-
-### Do you use functions in the __tidyverse__, such as __dplyr__, __ggplot2__ and __tidyr__?
-
-### Do you use any style guide (e.g.__[tidyverse style guide](http://style.tidyverse.org/)__; __[Google's style guide](https://google.github.io/styleguide/Rguide.xml)__)?
-
-
-
-# Reuse Good Code with GitHub & R
+# Good-Code Reuse with GitHub & R | Update & How You Can Contribute
 
 ### __\@mauro_lepore__
 
@@ -85,28 +73,36 @@ GitHub and R packages can help you do that.
 
 
 
-# Motivation
+## Overview
+
+__My goal: to learn how I can help you__
+
+- Show progress and outline future direction
+
+- Show how you can contribute
+
+- Discussion focused on the why and what, not how
+
+- Mechanics via listed resources or see me later
+
+
+# Update | forestgeo & forestr
 
 
 
-## Is most research actually reproducible? Why?
+## [Improve systems](http://jamesclear.com/goals-systems)
 
 ```{r error-field-guide}
 knitr::include_graphics("error.png")
 ```
 
-[Improve the system](http://jamesclear.com/goals-systems)
 
 
+## So you can fail safely
 
-## What is the benefit of a good system?
-
-```{r design-behaviour, out.width="45%", fig.show='hold'}
-knitr::include_graphics("behavioural_architect_bad.jpg")
-knitr::include_graphics("behavioural_architect_good.jpg")
+```{r fail-safely}
+knitr::include_graphics("fail.png")
 ```
-
-[Behaviour can be designed](http://www.nirandfar.com/)
 
 
 
@@ -117,29 +113,9 @@ knitr::include_graphics("pit.jpg")
 ```
 
 
-
-## __GitHub & R__ help us reuse good code
-
-### ___The single biggest way to improve both the quality of your code and your productivity is to reuse good code.___
-
--― from "Code Complete (Developer Best Practices)" (https://goo.gl/83hsHb)
-
-<div class="notes">
-
-GitHub: is a place for the code to live and evolve
-R Packages: 
-
-- GitHub: Code repository and forum
-
-A structure that makes using  the code easy
-
-- R packages: __forestr__ and friends
-
-</div>
-
-
-
 # GitHub | github.com/forestgeo
+
+[Why?](https://goo.gl/PRtpmZ) & [How?](http://r-pkgs.had.co.nz/git.html)
 
 
 
@@ -187,14 +163,6 @@ knitr::include_graphics("dogit.png")
 
 
 
-##
-
-```{r gitub-forestgeo}
-include_graphics("forestgeo.png")
-```
-
-
-
 ## 
 
 ```{r overview-github}
@@ -215,14 +183,21 @@ Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc
 
 
 
-# __forestr__ | forestgeo.github.io/forestr
+##
 
-
-```{r}
-xxxcont <- function() {
-  "see if it makes sence to start with rstudio"
-}
+```{r gitub-forestgeo}
+include_graphics("forestgeo.png")
 ```
+
+
+
+# R packages | github.com/forestgeo/forestr
+
+
+
+## ___The single biggest way to improve both the quality of your code and your productivity is to reuse good code.___
+
+### -― from "[Code Complete (Developer Best Practices)](https://goo.gl/83hsHb)"
 
 
 
@@ -258,11 +233,7 @@ include_graphics("eda.png")
 
 
 
-# Sharing data with R packages | __bci__
-
-
-
-## `devtools::create("mypackage")`
+## `devtools::create("bci")` [r-pkgs.had.co.nz](http://r-pkgs.had.co.nz/)
 
 ```{r data-packages-bci}
 include_graphics("bci-rstudio.png")
@@ -270,11 +241,11 @@ include_graphics("bci-rstudio.png")
 
 
 
-# Sharing R products quickly
+# How You Can Contribute
 
 
 
-##
+## Share R products: they are easy to publish 
 
 ```{r publish-rpubs-button}
 include_graphics("rpubs_publish.png")
@@ -282,7 +253,7 @@ include_graphics("rpubs_publish.png")
 
 
 
-##
+## Publish publicly
 
 ```{r publish-rpubs}
 include_graphics("rpubs.png")
@@ -290,7 +261,7 @@ include_graphics("rpubs.png")
 
 
 
-##
+## Publish privately
 
 ```{r publish-bookdown}
 include_graphics("bookdown.png")
@@ -298,11 +269,7 @@ include_graphics("bookdown.png")
 
 
 
-# Contribute
-
-
-
-## File issues (see [ template](https://github.com/forestgeo/learn/issues/20))
+## File issues ([ template](https://github.com/forestgeo/learn/issues/20))
 
 ```{r report-issues-forestr}
 include_graphics("forestr_issues.png")
@@ -310,7 +277,7 @@ include_graphics("forestr_issues.png")
 
 
 
-##
+## Use your account or forestgeoguest
 
 ```{r report-issues-misc}
 include_graphics("issues_guest.png")
@@ -318,7 +285,7 @@ include_graphics("issues_guest.png")
 
 
 
-##
+## Contribute code
 
 ```{r ttt}
 include_graphics("ttt.png")
@@ -326,7 +293,7 @@ include_graphics("ttt.png")
 
 
 
-##
+## Get emails about packages you like
 
 ```{r follow-watch-forestr}
 include_graphics("forestr_watch.png")
@@ -334,7 +301,7 @@ include_graphics("forestr_watch.png")
 
 
 
-##
+## Keep updated
 
 ```{r follow-search-twitter}
 include_graphics("twitter_search.png")
@@ -342,94 +309,62 @@ include_graphics("twitter_search.png")
 
 
 
+## Summary
+
+### You will soon have new software tools to use
+
+### You can help improve those tools in multiple ways
+
+### Stay tuned
+
+
+
+## Thank you all; also thanks to:
+
+Supported the project with code or ideas: 
+
+### __Gabriel Arellano, Sabrina Russo, SeanMcMahon and lab, Suzanne Lao, Kristina Teixeira and other participants of the databases workshop 2017, Stuart Davies.__
+
+.
+
+Supported me with administration:
+
+###__Smithsonian HR, Adriana Bilgray and team, Haley Overstreet, Lauren Krizel.__
+
+
+
+# Discussion | \@mauro_lepore
+
+- Do you use the CTFS R package?
+
+- Do you use github?
+
+- Do you use functions in the __tidyverse__, such as __dplyr__, __ggplot2__ and __tidyr__?
 
 
 
 # Resources
 
+
+
 ##
 
-GUITHUB
+Books: excelent and free
 
-Short explanation and setup: [book chapter](https://goo.gl/xemDM4)
+- [R for data science](http://r4ds.had.co.nz/)
+  
+- [R packages](http://r-pkgs.had.co.nz/)
+  
+    - chapter on [Git and GitHub](http://r-pkgs.had.co.nz/git.html)
+      
+- [Advanced R](http://adv-r.had.co.nz/)
+    
 
-Detailed explanation and setup:
+[Some excellent Webinars](https://www.rstudio.com/resources/webinars/); see rstudio conference 2017
 
-- [book](https://goo.gl/QknWrm)
-- [video tutorial](https://goo.gl/wpekRT)
-- [webinar](https://goo.gl/6DHyZN)
+[Data Science in the Tidyverse – Hadley Wickham](https://www.rstudio.com/resources/videos/data-science-in-the-tidyverse/),  by Hadley Wickham
 
-
-
-## maurolepore@gmail.com
-
-- what functions you use?
-
-- what problems you have?
-
-- what functions you need?
-
-- report errors
-
-- improve documentation
-
-- submit tutorials (checkout __learnr__)
-
-- suggest ideas
-
-- edit documentation and code
-
-
-
-
-
-
-
-
-why listen? show some bits of progress so people get excited.
-
-- I'm here to help. What my job is?
-
-# What I ask | How can you contribute?
-
-
-
-
-what I  am asking people to do
-
-contribute
-   - re-write documentation
-   - tell me your issues
-   - tell me your interests
-   - review material
-   - contribute code
-   - what would you like to leran
-
-- ask
-
-    - 
-    - what they want to hear about?
-        - what functions they use
-        - what problems they find
-    - meeting session to discuss ideas
-        - code to contribute
-        - workshops
-
-
-
-
-
-# What else?
-
-
-
-# Show
-
-- ttt as an example of contribution by a researcher. How a script was transformed into a function, a website, a vignette
-- how to file an issue, e.g. report a problem
-- how to file a pull request, e.g. edit documentation
-- how to follow advances in #forestgeo #forestr
-- 
+__[The tidyverse style guide](http://style.tidyverse.org/)__
 
 
 
@@ -441,59 +376,64 @@ contribute
 
 
 
-### Topics may be useful to share
 
-Fall in the pit of success of reproducible research
+# 
+
+end
+
+# xxxcont.
+
+- edit documentation and code: __add to how to contribute__
+
+- tell me what you would like to learn more about
+
+- shall we have a tip of the day?
+
+- shall we have meetings during this workshop?
+
+
+
+## Topics that may be useful to share
+
+
 - project management (RStudio, r projects and packages)
 - github
 - tidyverse
 
-- list recommended resources
-    - rstudio webinars
-    - r4ds
-    - other books
 
-- tips of the day
-    - how to find stuff
-    - recommend use of tags (shortcut `Ctrl+Alt+x`)
-    - reprex::reprex()
-    - shortcuts, how to find all of them and 
-    - cheetsheets
-    - webinars
-    - free private repositories on github academic
-    - free private repositories on bitbucket
-    - how to create a package
-    - tidyr
-    - dplyr
-    - readr
-    - ggplot2
-    - write an outline of your script with
-        - sections Ctrl + Shift+ O
-        - and shortcut Ctrl + Shift + O
-    - package data
+
+## Tips that may be useful to share
+
+- how to find stuff
+- recommend use of tags (shortcut `Ctrl+Alt+x`)
+- reprex::reprex()
+- shortcuts, how to find all of them and 
+- cheetsheets
+- webinars
+- free private repositories on github academic
+- free private repositories on bitbucket
+- how to create a package
+- tidyr
+- dplyr
+- readr
+- ggplot2
+- write an outline of your script with
+    - sections Ctrl + Shift+ O
+    - and shortcut Ctrl + Shift + O
+- package data
     
 
 
 
-
-
-
-
-# code repository
+# Code deposit
 
 ```{r}
-# knitr::include_graphics("insert_narrow_image.png")
+# knitr::include_graphics("some_image.png")
 ```
 
 <div class="notes">
 
-...
+Invisible notes.
 
 </div>
-
-
-
-
-
-
 
