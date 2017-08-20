@@ -37,7 +37,7 @@ This presentation focuses on users of R Studio. It bases on my personal experien
 
 2. Learn HOW to use git and gitHub: [< 1h webinar](https://www.rstudio.com/resources/webinars/rstudio-essentials-webinar-series-managing-part-2/)
 
-3. Learn common actions using RStudio + git + gitHub: [chapter in R packages book](http://r-pkgs.had.co.nz/git.html)
+3. Learn [common use of RStudio + git + gitHub](http://r-pkgs.had.co.nz/git.html)
 
 4. Get quick help on both git and gitHub: [gitHub help](https://help.github.com/)
 
