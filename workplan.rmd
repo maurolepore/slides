@@ -70,6 +70,8 @@ Add lots of references of where I take my ideas from.
 
 
 
+OVERARCHING GOALS (broken down)
+
 CTFS-ForestGEO developed a package of analytical software in the R programming language. CTFS-ForestGEO seeks a person to:
 
 1. update the package.
@@ -134,11 +136,82 @@ CTFS-ForestGEO developed a package of analytical software in the R programming l
     1. create platforms for:
         1. github.com/forestgeo:
             1. hosting code repositories, packages and package websites
-            1. discussing issues
+            1. discussing current issues, proposed changes, collaboration, etc.
             1. managing collaboration
         1. (rpubs.com/forestgeo): publishing R products publicly
         1. bookdown.com/forestgeoguest: publishing R products 
            with privileges control
         1. @forestgeo, #forestgeo, #forestr, etc.: announcing developments.
 
-We are looking for someone able to clearly document help pages and to write easy-to-read code. The R developer will work closely with users of the functions, so ability to communicate and understand the needs of a broad range of researchers and students is important. The tasks involved in the position are: (1) Produce and maintain a package sensu stricto (currently we have functions and help file, but they are not compliant with current R version). (2) Set up a fully documented and active github (or other) repository for the package. (3) Fully document the functions and complete help files for each function. (4) Optimize code for speed. (5) Integrate code written by other researchers into the package. (6) Integrate the existing R functions to interact directly with output tables from the MySQL database. (7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. Required skills: (1) Experience in building R packages, good understanding of S3 and S4 methods, and knowledge of generic R work as well as R environments. (2) Experience in git and github. (3) Experience in code debugging, profiling, and optimizing. (4) Strong attention to detail and organizational skills. Desirable skills: (1) Experience with R Markdown and Shiny. (2) Experience with lower level languages, ideally C++. (3) Previous experience with forest ecology or plant dynamics. For further information on the position please contact Dr. Stuart Davies (daviess@si.edu), Director, CTFS-ForestGEO.
+
+
+GENERAL TRAITS
+
+Clearly document help pages.
+Write easy-to-read code.
+Communicate and understand the needs of a broad range of researchers and students.
+
+
+
+TASKS
+
+(1) Produce and maintain a package sensu stricto
+
+Done, and to be maintained over the year. Optimization and expantion is important but some updates come first (documentation, assertions, tests)
+
+(2) Set up a fully documented and active github (or other) repository for the package.
+
+Done, and to be maintained over the year.
+
+(3) Fully document the functions and complete help files for each function.
+
+Work in progress. All priority functions to be documented  within the first year. Abundance module to be developed during September, and finished by the end of Septemer? 
+
+An analysis of how many functions are needed for each function I want in a package is important. This would show how much effort really goes into developing each new function.
+
+How many functions are there? How many in total if I count their dependencies? How many functions on average each new function forces me to develop (should decrease with increasing number of documented functions.) How many lines of code? How much is test coverage now? What is the recommendation?
+
+(4) Optimize code for speed.
+
+Towards the end of the first period
+
+(5) Integrate code written by other researchers into the package.
+
+As it becomes available. 
+
+* __ttt__ by Sabrina  Russo, in a couple of months
+* Ervan, by middle of the first term (January?)
+
+(6) Integrate the existing R functions to interact directly with output tables from the MySQL database.
+
+Needs clarification. What functions are those?
+
+(7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. 
+
+Assuming these functions are the ones that Suzanne shared with me, i.e. those which purpose is to produce r-tables from database data (__rtbl__)
+
+Probabbly after releasing some module of __forestr__, e.g. after releasing abundance. If so, I may work on __rtbl__ during October and hav it finished by the end of October.
+
+
+
+SKILLS
+
+Required skills: 
+
+(1) Experience in building R packages, good understanding of S3 and S4 methods, and knowledge of generic R work as well as R environments. 
+
+(2) Experience in git and github. 
+
+(3) Experience in code debugging, profiling, and optimizing. 
+
+(4) Strong attention to detail and organizational skills. 
+
+
+
+Desirable skills: 
+
+(1) Experience with R Markdown and Shiny. 
+
+(2) Experience with lower level languages, ideally C++. 
+
+(3) Previous experience with forest ecology or plant dynamics.
