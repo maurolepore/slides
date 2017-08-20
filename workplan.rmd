@@ -1,0 +1,144 @@
+
+
+---
+title: "Work plan"
+subtitle: "Proposed work plan until May 1."
+author: "maurolepore@gmail.com"
+date: "2017-08-20"
+output: 
+  rmarkdown::html_document:
+    toc: true
+    toc_depth: 6
+---
+
+```{r setup, include=FALSE}
+# > There is one chunk name that imbues special behaviour: setup. When you're in
+# a notebook mode, the chunk named setup will be run automatically once, before 
+# any other code is run.
+# --http://r4ds.had.co.nz/r-markdown.html#chunk-options
+
+
+
+# Load packages (including data-packages) ----
+
+library(ggplot2)
+library(dplyr)
+
+
+
+# Load un-packaged dependencies ----
+
+
+
+
+
+# Figures ----
+
+# > If you want to make sure the font size is consistent across all your 
+# figures, whenever you set out.width, you'll also need to adjust fig.width to 
+# maintain the same ratio with your default out.width. For example, if your 
+# default fig.width is 6 and out.width is 0.7, when you set out.width = "50%" 
+# you'll need to set fig.width to 4.3 (6 * 0.5 / 0.7).
+# --http://r4ds.had.co.nz/
+
+set.seed(1014)
+options(digits = 3)
+
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = "#>",
+  collapse = TRUE,
+  cache = TRUE,
+  out.width = "70%",
+  fig.align = "center",
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+
+options(dplyr.print_min = 6, dplyr.print_max = 6)
+
+# customize ggplot
+
+update_geom_defaults("point", 
+  list(shape = 21, colour = "black", size = 5, stroke = 1)
+)
+update_geom_defaults("text", list(size = 4.5))
+```
+
+Add lots of references of where I take my ideas from.
+
+
+
+CTFS-ForestGEO developed a package of analytical software in the R programming language. CTFS-ForestGEO seeks a person to:
+
+1. update the package.
+    1. curate: decide what functions are useful and worthwhile keeping. DONE
+    1. document: improve help files.
+        1. titles, description and details.
+        1. argumets (reuse templates)
+        1. authors
+        1. group related functions in one place
+        1. add examples
+        1. build a website
+    1. validate: validate inputs or warn and err accoridingly. This helps users
+       to understand what went wrong.
+    1. test: This helps developers to notice that something  went wrong so they 
+       can promptly fix it.
+        1. regression tests: check old and new versions of a function outut the
+           same.
+        1. test that functions do what they are expected to do.
+        1. checks: devtools::check()
+        1. __lintr__ to check for style
+        1. __goodpractice::gp()__ to check for general good practices
+        1. TravisCI to check package builds on all platforms.
+    1. refactor: re-write code to improve it. E.g.
+        1. names: make them more elocuent, consistent
+        1. arguments: 
+            1. name arguments more elocuently
+            1. order arguments more sensibly (data, details)
+            1. give arguments most common or safest defaults
+        1. code: 
+            1. improve style for better readability and consistency with modern
+               style guides.
+            1. improve safety
+            1. reduce complexity
+                1. reduce nestedness (mostly unnecessary _if_ blocks)
+                1. remove the boilperate code of `for` loops by replaceing `for`
+                   loops by functional programming approaches (most generally,
+                   calls  to `lapply(X, FUN)`)
+            1. improve clarity
+
+
+1. optimize the package.
+    1. Human brain(human brain): make useful code easier to find and use.
+        1. naming functions better.
+        1. grouping functions coherently.
+        1. writting more complete and clearer documentation (goepen)
+        1. facilitating access to documentation via websites
+        1. announcing advances on twitter, workshops
+        1. facilitating disussions on GitHub
+        1. building capacity via code reviews, workshops, seminars, tutorials.
+    1. Access to data:
+        1. provide easy access to data for examples (__bci__, __bciex__).
+        1. help the community to develop their own data packages.
+        1. help the community to develop a friction-less workflow
+    1. Code speed
+        1. provide light data for examples and tests to run fast (__bciex__) 
+        1. identify speed bottlenecks (__profviz__)
+        1. replace slow by fast code. E.g. compare __base__ vs. __dplyr__ vs.
+           __data.table__
+
+1. establish a framework for future maintenance and expansion.
+    1. build R packages _sensu stricto__
+    1. create platforms for:
+        1. github.com/forestgeo:
+            1. hosting code repositories, packages and package websites
+            1. discussing issues
+            1. managing collaboration
+        1. (rpubs.com/forestgeo): publishing R products publicly
+        1. bookdown.com/forestgeoguest: publishing R products 
+           with privileges control
+        1. @forestgeo, #forestgeo, #forestr, etc.: announcing developments.
+
+We are looking for someone able to clearly document help pages and to write easy-to-read code. The R developer will work closely with users of the functions, so ability to communicate and understand the needs of a broad range of researchers and students is important. The tasks involved in the position are: (1) Produce and maintain a package sensu stricto (currently we have functions and help file, but they are not compliant with current R version). (2) Set up a fully documented and active github (or other) repository for the package. (3) Fully document the functions and complete help files for each function. (4) Optimize code for speed. (5) Integrate code written by other researchers into the package. (6) Integrate the existing R functions to interact directly with output tables from the MySQL database. (7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. Required skills: (1) Experience in building R packages, good understanding of S3 and S4 methods, and knowledge of generic R work as well as R environments. (2) Experience in git and github. (3) Experience in code debugging, profiling, and optimizing. (4) Strong attention to detail and organizational skills. Desirable skills: (1) Experience with R Markdown and Shiny. (2) Experience with lower level languages, ideally C++. (3) Previous experience with forest ecology or plant dynamics. For further information on the position please contact Dr. Stuart Davies (daviess@si.edu), Director, CTFS-ForestGEO.
