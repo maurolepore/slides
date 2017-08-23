@@ -1,6 +1,5 @@
 ---
-title: bookdown.com/forestgeoguest/workplan_ML
-subtitle: "In construction"
+subtitle: https://bookdown.org/forestgeoguest/workplan_ml
 author: "Mauro Lepore"
 date: "2017-08-20"
 output:
@@ -62,16 +61,13 @@ knitr::opts_chunk$set(
 ```
 
 
+# Workplan Aug 23'17-May 1'18 | Discuss and adjust
 
-# Proposed work plan | Today-May 1, 2018
-
-### __leporem\@si.edu__
+### https://bookdown.org/forestgeoguest/workplan_ml
 
 
 
 ## Outline
-
-### Goal To discuss my workplan until May 1, 2018.
 
 ### Show tasks and proposed timeline (based on job description)
 
@@ -111,6 +107,88 @@ tribble(
 
 
 ## Outline
+
+
+## The tasks involved in the position are:
+
+(1) Build Package
+
+* Produce and maintain a package sensu stricto.
+
+(2) Host on GitHub
+
+* Set up a fully documented and active code repository.
+
+(3) Document
+
+Fully document the functions including help files.
+
+(4) Optimize
+
+Optimize code for speed. 
+
+(5) Add contributions
+
+* Integrate code written by other researchers.
+
+(6) Interact with database
+
+* Write functions to interact directly with output tables from the MySQL database. 
+
+(7) Write functions to pre-process and format CTFS-ForestGEO data.
+
+* Wrangle data
+
+
+##
+
+```{r}
+# Check if the problem is that dates need to be character vectors
+
+tribble(
+  ~n, ~m, ~tasks,                    ~start,      ~end,     ,  ~label,  ~note,
+   1,    , "Build Package",           2017-02-01,  2017-08-07,  "done",  "ctfs, forstr",
+   
+   # Forestr
+   1,    , "Maintain Package",        2017-02-01,  2018-05-01,  "cont",  "forstr",
+   1,   T, "Maintain Package",        2017-08-05,  2017-09-28,  "todo",  "forstr family abundance (~ xxx funs)",
+   1,   T, "Maintain Package",        2017-10-02,  2017-11-02,  "todo",  "forstr family biomass",
+  
+   2,    , "Host on GitHub",          2017-02-01,  2017-08-07,  "done",  "forstr",
+   3,    , "Document functions",      2017-02-01,  2017-05-01,  "cont",  "reviews welcome",
+   4,    , "Optimize for speed",      2017-02-01,  2018-05-01,  "cont",  "human brain, code",
+   
+   5,    , "Add contributions",       2017-03-09,  2017-05-01,  "cont",  "ttt, Ervan, other",
+   5,   T, "Add contributions",       2017-03-09,  2017-09-15,  "cont",  "ttt",
+  
+   6,    , "Interact with database",  2017-07-21,  2017-05-01,  "cont",  "~rtbl?, confirm task and prioriry",
+   6,   T, "Interact with database",  2017-07-21,  2017-11-01,  "cont",  "rtbl.bci",
+  
+   7,    , "Wrangle data",            2017-07-21,  2017-08-07,  "cont",  "~rtbl?, confirm task and prioriry",
+   
+   # Other important stuff that is not in job description
+   8,    , "Package example data",    2017-07-28,  2017-09-15,  "todo",  "bciex",
+   9,    , "Provide beta access",     2017-07-30,  2017-07-29,  "cont",  "try",
+  10,    , "Meet PIs",                2017-09-29,  2019-09-29,  "todo",  "Krista (SCBI)"
+)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
