@@ -1,76 +1,131 @@
-
-
 ---
-title: "Work plan"
-subtitle: "Proposed work plan until May 1."
-author: "maurolepore@gmail.com"
+title: bookdown.com/forestgeoguest/workplan_ML
+subtitle: "In construction"
+author: "Mauro Lepore"
 date: "2017-08-20"
-output: 
-  rmarkdown::html_document:
-    toc: true
-    toc_depth: 6
+output:
+  ioslides_presentation:
+    css: idigbio_styles.css
+    smaller: yes
+    widescreen: yes
+  beamer_presentation: default
 ---
+
+```{r removeSlideNumbers, include=FALSE}
+# From https://github.com/rstudio/rmarkdown/issues/244
+# To remove slide numbers to one of two things:
+
+# One: Place this under the yamal header of the .Rmd file
+
+# <style type="text/css">
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+# </style>
+
+
+
+# Or, two: Place this in a separate mystyle.css file (remove <style> tag)
+
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+
+# For approach two, the yamal header should look like this:
+# ---
+# output:
+#   ioslides_presentation:
+    # css: mystyles.css
+# ---
+```
 
 ```{r setup, include=FALSE}
-# > There is one chunk name that imbues special behaviour: setup. When you're in
-# a notebook mode, the chunk named setup will be run automatically once, before 
-# any other code is run.
-# --http://r4ds.had.co.nz/r-markdown.html#chunk-options
-
-
-
-# Load packages (including data-packages) ----
-
-library(ggplot2)
-library(dplyr)
-
-
-
-# Load un-packaged dependencies ----
-
-
-
-
-
-# Figures ----
-
-# > If you want to make sure the font size is consistent across all your 
-# figures, whenever you set out.width, you'll also need to adjust fig.width to 
-# maintain the same ratio with your default out.width. For example, if your 
-# default fig.width is 6 and out.width is 0.7, when you set out.width = "50%" 
-# you'll need to set fig.width to 4.3 (6 * 0.5 / 0.7).
-# --http://r4ds.had.co.nz/
-
-set.seed(1014)
-options(digits = 3)
+library(tidyverse)
+library(knitr)
 
 knitr::opts_chunk$set(
-  echo = TRUE,
   comment = "#>",
   collapse = TRUE,
-  cache = TRUE,
-  out.width = "70%",
-  fig.align = "center",
+  # fig.align = "center",
+  fig.asp = 0.618,
   fig.width = 6,
-  fig.asp = 0.618,  # 1 / phi
-  fig.show = "hold"
-)
-
-options(dplyr.print_min = 6, dplyr.print_max = 6)
-
-# customize ggplot
-
-update_geom_defaults("point", 
-  list(shape = 21, colour = "black", size = 5, stroke = 1)
-)
-update_geom_defaults("text", list(size = 4.5))
+  out.width = "100%",
+  cache = TRUE,
+  echo = FALSE 
+  )
+# If you want to make sure the font size is consistent across all your figures,
+# whenever you set out.width, you’ll also need to adjust fig.width to maintain
+# the same ratio with your default out.width. For example, if your default
+# fig.width is 6 and out.width is 0.7, when you set out.width = "50%" you’ll
+# need to set fig.width to 4.3 (6 * 0.5 / 0.7).
+# plots
 ```
+
+
+
+# Proposed work plan | Today-May 1, 2018
+
+### __leporem\@si.edu__
+
+
+
+## Outline
+
+### Goal To discuss my workplan until May 1, 2018.
+
+### Show tasks and proposed timeline (based on job description)
+
+### Brake down tasks, discuss and edit timeline
+
+
+
+
+# Tasks and timeline
+
+# Tasks broken down | Discuss as we go over each task
+
+# Summary
+
+```{r}
+caption <- "Summary of work plan for Sep'17-May'18."
+tribble(
+  
+  ~task, ~priority, ~note,
+  # -----------------------------------------------------------------------
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz"
+  # -----------------------------------------------------------------------
+)
+```
+
+
+## to incorporate
+
+
+
+
+## Outline
+
+
+
+
+
+
+
+
+
 
 Add lots of references of where I take my ideas from.
 
 
 
-OVERARCHING GOALS (broken down)
+ # OVERARCHING GOALS (broken down)
 
 CTFS-ForestGEO developed a package of analytical software in the R programming language. CTFS-ForestGEO seeks a person to:
 
@@ -145,7 +200,7 @@ CTFS-ForestGEO developed a package of analytical software in the R programming l
 
 
 
-GENERAL TRAITS
+# GENERAL TRAITS
 
 Clearly document help pages.
 Write easy-to-read code.
@@ -153,11 +208,17 @@ Communicate and understand the needs of a broad range of researchers and student
 
 
 
-TASKS
+# TASKS
+
+Catagories
 
 (1) Produce and maintain a package sensu stricto
 
 Done, and to be maintained over the year. Optimization and expantion is important but some updates come first (documentation, assertions, tests)
+
+* Produce forestr: done.
+* Produce other packages: as they become available: continuous.
+
 
 (2) Set up a fully documented and active github (or other) repository for the package.
 
@@ -194,9 +255,9 @@ Probabbly after releasing some module of __forestr__, e.g. after releasing abund
 
 
 
-SKILLS
+# SKILLS
 
-Required skills: 
+## Required skills: 
 
 (1) Experience in building R packages, good understanding of S3 and S4 methods, and knowledge of generic R work as well as R environments. 
 
@@ -208,7 +269,7 @@ Required skills:
 
 
 
-Desirable skills: 
+## Desirable skills: 
 
 (1) Experience with R Markdown and Shiny. 
 
