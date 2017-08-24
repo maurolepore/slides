@@ -38,7 +38,20 @@ output:
 
 ```{r setup, include=FALSE}
 library(tidyverse)
+library(lubridate)
 library(knitr)
+library(ctfs)
+library(DependenciesGraphs)
+library(handy)
+
+
+
+load("./functions_priority.rda")
+
+
+functions_priority <- functions_priority %>% mutate_at("priority", as.character)
+
+
 
 knitr::opts_chunk$set(
   comment = "#>",
@@ -56,6 +69,9 @@ knitr::opts_chunk$set(
 # fig.width is 6 and out.width is 0.7, when you set out.width = "50%" you’ll
 # need to set fig.width to 4.3 (6 * 0.5 / 0.7).
 # plots
+
+
+
 ```
 
 
@@ -104,14 +120,14 @@ timeline <- tribble(
    5,   F,     F,      "Add contributions",       "2017-03-09",  "2018-05-01",  "cont",     "ttt, Ervan, other",
    5,   T,     F,      "Add contributions",       "2017-03-09",  "2017-09-15",  "cont",     "ttt",
   
-   6,   F,     F,      "Wrangle data",            "2017-07-21",  "2018-05-01",  "todo",     "~rtbl?, confirm task and prioriry",
-   6,   T,     F,      "Wrangle data",            "2017-07-21",  "2017-11-01",  "todo",     "rtbl.bci",
+   6,   F,     F,      "Interact with database",  "2017-07-21",  "2018-05-01",  "cont",     "~rtbl?, confirm task and prioriry",
   
-   7,   F,     F,      "Interact with database",  "2017-07-21",  "2018-05-01",  "cont",     "~rtbl?, confirm task and prioriry",
+   7,   F,     F,      "Wrangle data",            "2017-07-21",  "2018-05-01",  "todo",     "~rtbl?, confirm task and prioriry",
+   7,   T,     F,      "Wrangle data",            "2017-07-21",  "2017-11-01",  "todo",     "rtbl.bci",
    
    # Other important stuff that is not in job description
    8,   F,     T,     "Package example data",    "2017-07-28",  "2017-09-15",  "todo",     "bciex",
-   9,   F,     T,     "Provide beta access",     "2017-07-30",  "2017-07-29",  "cont",     "try",
+   9,   F,     T,     "Provide beta access",     "2017-07-29",  "2017-07-30",  "cont",     "try",
   10,   F,     T,     "Meet PIs",                "2017-09-29",  "2017-09-29",  "todo",     "Krista (SCBI)"
 )
 timeline <- timeline %>% 
@@ -119,62 +135,150 @@ timeline <- timeline %>%
   mutate(task = forcats::fct_reorder(as.factor(task), rev(n)))
 ```
 
-```{r}
-segments <-   geom_segment(
-    aes(x = task, y = date_start, xend = task, yend = date_end, linetype = progress, colour = progress),
-    size = .75
-  ) 
+```{r timeline-listed}
+aesthetics <- aes(x = task, y = date_start, xend = task, yend = date_end, linetype = progress, colour = progress)
 
 timeline %>% 
   filter(!mlst, !extra) %>% 
   ggplot() +
-  segments + 
+  geom_segment(aesthetics, size = .75) +
   geom_hline(
     yintercept = as.numeric(lubridate::as_date(lubridate::today())),
     colour = "white", size = 2
   ) +
-  segments + 
-  labs(title = "Timeline", y = "date") +
-  # scale_linetype_manual(values = c("dotted", "solid", "longdashed")) +
+  geom_segment(aesthetics, size = .75) +
+  labs(title = "Timeline of tasks listed in job description.", y = "date") +
   coord_flip()
 ```
+
+
+
+##
+
+```{r timeline-extras, warning=FALSE}
+timeline %>% 
+  filter(!mlst, extra) %>% 
+  ggplot() +
+  geom_segment(aesthetics, size = .75) +
+  geom_hline(
+    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
+    colour = "white", size = 2
+  ) +
+  geom_segment(aesthetics, size = .75) +
+  geom_point(aesthetics) +
+  labs(title = "Example of some extra tasks.", y = "date") +
+  coord_flip(ylim = as_date(c("2017-02-01", "2018-05-01")))
+```
+
+
+
+## 
+
+```{r all-functions-count}
+total_functions_n <- functions_priority %>% nrow()
+```
+
+### How many functions there were in total? `r total_functions_n`
+
+```{r selected-functions, echo=FALSE}
+selected_functions <- functions_priority %>% filter(priority %in% c("a", "b"))
+selected_functions_n <- nrow(selected_functions)
+```
+
+### How many functions were selected to work on? `r selected_functions_n`
+
+```{r}
+value <- round(selected_functions_n / total_functions_n * 100)
+```
+
+### That is `r paste0(value, "%")`
+
+##
+
+```{r funs-per-module}
+selected_functions %>% 
+  dplyr::count(folder) %>% 
+  dplyr::filter(!is.na(folder)) %>% 
+  arrange(n) %>% 
+  kable(caption = "Number of functions to keep from each module.")
+```
+
+
+
+##
+
+```{r depencencies-abundance}
+selected_functions %>% 
+  filter(folder %in% "abundance") %>% 
+  select(-notes) %>% 
+  kable(caption = "Dependencies per function. Example for `abundance()`)")
+```
+
+
+
+##
+
+```{r, include=FALSE}
+explore_dependencies("ctfs", "abundanceperquad")
+```
+
+![](abundanceperquad.png)
+
+
+
+##
+
+```{r dependencies-mortality}
+selected_functions %>% 
+  filter(folder %in% "mortality") %>% 
+  select(-notes) %>% 
+  kable(caption = "Dependencies per function. Example for `mortality()`)")
+```
+
+
+
+##
+
+```{r, include=FALSE}
+explore_dependencies("ctfs", "mortality")
+```
+
+![](mortality.png)
+
+
+
+##
+
+```{r, out.width="45%"}
+include_graphics(c("change_1.png", "change_2.png"))
+```
+
+
 
 
 # Discussion Task by Task
 
 
 
-## Comments about TASKS
-
-Catagories
-
-(1) Produce and maintain a package sensu stricto
-
-Optimization and expantion is important but some updates come first (documentation, assertions, tests)
 
 
+## Excluded functions of priority c
 
-(3) Fully document the functions and complete help files for each function.
+```{r}
+functions_priority %>% 
+  filter(priority %in% c("c")) %>% 
+  pull(fun) %>% 
+  paste(collapse = ", ")
+```
 
-An analysis of how many functions are needed for each function I want in a package is important. This would show how much effort really goes into developing each new function.
+## Excluded functions of priority d
 
-How many functions are there? How many in total if I count their dependencies? How many functions on average each new function forces me to develop (should decrease with increasing number of documented functions.) How many lines of code? How much is test coverage now? What is the recommendation?
-
-(4) Optimize code for speed.
-
-If time allows, do this towards the end of the first period
-
-
-(7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. 
-
-Assuming these functions are the ones that Suzanne shared with me, i.e. those which purpose is to produce r-tables from database data (__rtbl__)
-
-Probabbly after releasing some module of __forestr__, e.g. after releasing abundance. If so, I may work on __rtbl__ during October and hav it finished by the end of October.
-
-
-
-
-
+```{r}
+functions_priority %>% 
+  filter(priority %in% c("d")) %>% 
+  pull(fun) %>% 
+  paste(collapse = ", ")
+```
 
 
 
@@ -290,6 +394,47 @@ tribble(
 #
 
 end.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Comments about TASKS
+
+Catagories
+
+(1) Produce and maintain a package sensu stricto
+
+Optimization and expantion is important but some updates come first (documentation, assertions, tests)
+
+
+(4) Optimize code for speed.
+
+If time allows, do this towards the end of the first period
+
+
+(7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. 
+
+Assuming these functions are the ones that Suzanne shared with me, i.e. those which purpose is to produce r-tables from database data (__rtbl__)
+
+Probabbly after releasing some module of __forestr__, e.g. after releasing abundance. If so, I may work on __rtbl__ during October and hav it finished by the end of October.
+
+
+
+
+
+
+
+
+
 
 
 # Leftovers
