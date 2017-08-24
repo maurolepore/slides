@@ -1,6 +1,4 @@
 ---
-subtitle: https://bookdown.org/forestgeoguest/workplan_ml
-author: "Mauro Lepore"
 date: "2017-08-20"
 output:
   ioslides_presentation:
@@ -48,7 +46,7 @@ knitr::opts_chunk$set(
   # fig.align = "center",
   fig.asp = 0.618,
   fig.width = 6,
-  out.width = "100%",
+  out.width = "90%",
   cache = TRUE,
   echo = FALSE 
   )
@@ -61,119 +59,117 @@ knitr::opts_chunk$set(
 ```
 
 
-# Workplan Aug 23'17-May 1'18 | Discuss and adjust
+# Workplan Aug 24'17-May 1'18 | Review and Discuss
 
 ### https://bookdown.org/forestgeoguest/workplan_ml
 
 
 
-## Outline
+## Task Listed in Job Description
 
-### Show tasks and proposed timeline (based on job description)
+1. __Build forestr.__ Produce and maintain a package sensu stricto.
 
-### Brake down tasks, discuss and edit timeline
+1. __Host on GitHub.__ Set up a fully documented and active code repository.
 
+1. __Document functions.__ Fully document the functions including help files.
 
+1. __Optimize for speed__. Add contributions.
 
+1. __Add contributions.__ Integrate code written by other researchers.
 
-# Tasks and timeline
+1. __\*Interact with database.__ Write functions to interact directly with output tables from the MySQL database. 
 
-# Tasks broken down | Discuss as we go over each task
+1. __\*Wrangle data.__ Write functions to pre-process and format CTFS-ForestGEO data.
 
-# Summary
-
-```{r}
-caption <- "Summary of work plan for Sep'17-May'18."
-tribble(
-  
-  ~task, ~priority, ~note,
-  # -----------------------------------------------------------------------
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz"
-  # -----------------------------------------------------------------------
-)
-```
-
-
-## to incorporate
+* Please clarify.
 
 
 
+## 
 
-## Outline
-
-
-## The tasks involved in the position are:
-
-(1) Build Package
-
-* Produce and maintain a package sensu stricto.
-
-(2) Host on GitHub
-
-* Set up a fully documented and active code repository.
-
-(3) Document
-
-Fully document the functions including help files.
-
-(4) Optimize
-
-Optimize code for speed. 
-
-(5) Add contributions
-
-* Integrate code written by other researchers.
-
-(6) Interact with database
-
-* Write functions to interact directly with output tables from the MySQL database. 
-
-(7) Write functions to pre-process and format CTFS-ForestGEO data.
-
-* Wrangle data
-
-
-##
-
-```{r}
+```{r timeline, echo=FALSE}
 # Check if the problem is that dates need to be character vectors
 
-tribble(
-  ~n, ~m, ~tasks,                    ~start,      ~end,     ,  ~label,  ~note,
-   1,    , "Build Package",           2017-02-01,  2017-08-07,  "done",  "ctfs, forstr",
+timeline <- tribble(
+  ~n,  ~mlst,  ~extra, ~task,                     ~date_start,    ~date_end,    ~progress,  ~note,
+   1,   F,     F,      "Build forestr",           "2017-02-01",  "2017-08-07",  "done",     "also ctfs",
+   1,   T,     F,      "Maintain forestr",        "2017-08-05",  "2017-09-28",  "todo",     "family abundance (~ xxx funs)",
+   1,   F,     F,      "Maintain forestr",        "2017-02-01",  "2018-05-01",  "cont",     "",
+   1,   T,     F,      "Maintain forestr",        "2017-10-02",  "2017-11-02",  "todo",     "family biomass (~ xxx funs)",
+  
+   2,   F,     F,      "Host on GitHub",          "2017-02-01",  "2017-08-07",  "done",     "forstr",
+   3,   F,     F,      "Document functions",      "2017-02-01",  "2018-05-01",  "cont",     "reviews welcome",
+   4,   F,     F,      "Optimize for speed",      "2018-02-01",  "2018-05-01",  "cont",     "human brain, code",
    
-   # Forestr
-   1,    , "Maintain Package",        2017-02-01,  2018-05-01,  "cont",  "forstr",
-   1,   T, "Maintain Package",        2017-08-05,  2017-09-28,  "todo",  "forstr family abundance (~ xxx funs)",
-   1,   T, "Maintain Package",        2017-10-02,  2017-11-02,  "todo",  "forstr family biomass",
+   5,   F,     F,      "Add contributions",       "2017-03-09",  "2018-05-01",  "cont",     "ttt, Ervan, other",
+   5,   T,     F,      "Add contributions",       "2017-03-09",  "2017-09-15",  "cont",     "ttt",
   
-   2,    , "Host on GitHub",          2017-02-01,  2017-08-07,  "done",  "forstr",
-   3,    , "Document functions",      2017-02-01,  2017-05-01,  "cont",  "reviews welcome",
-   4,    , "Optimize for speed",      2017-02-01,  2018-05-01,  "cont",  "human brain, code",
-   
-   5,    , "Add contributions",       2017-03-09,  2017-05-01,  "cont",  "ttt, Ervan, other",
-   5,   T, "Add contributions",       2017-03-09,  2017-09-15,  "cont",  "ttt",
+   6,   F,     F,      "Wrangle data",            "2017-07-21",  "2018-05-01",  "todo",     "~rtbl?, confirm task and prioriry",
+   6,   T,     F,      "Wrangle data",            "2017-07-21",  "2017-11-01",  "todo",     "rtbl.bci",
   
-   6,    , "Interact with database",  2017-07-21,  2017-05-01,  "cont",  "~rtbl?, confirm task and prioriry",
-   6,   T, "Interact with database",  2017-07-21,  2017-11-01,  "cont",  "rtbl.bci",
-  
-   7,    , "Wrangle data",            2017-07-21,  2017-08-07,  "cont",  "~rtbl?, confirm task and prioriry",
+   7,   F,     F,      "Interact with database",  "2017-07-21",  "2018-05-01",  "cont",     "~rtbl?, confirm task and prioriry",
    
    # Other important stuff that is not in job description
-   8,    , "Package example data",    2017-07-28,  2017-09-15,  "todo",  "bciex",
-   9,    , "Provide beta access",     2017-07-30,  2017-07-29,  "cont",  "try",
-  10,    , "Meet PIs",                2017-09-29,  2019-09-29,  "todo",  "Krista (SCBI)"
+   8,   F,     T,     "Package example data",    "2017-07-28",  "2017-09-15",  "todo",     "bciex",
+   9,   F,     T,     "Provide beta access",     "2017-07-30",  "2017-07-29",  "cont",     "try",
+  10,   F,     T,     "Meet PIs",                "2017-09-29",  "2017-09-29",  "todo",     "Krista (SCBI)"
 )
+timeline <- timeline %>% 
+  mutate_at(c("date_start", "date_end"), lubridate::as_date) %>% 
+  mutate(task = forcats::fct_reorder(as.factor(task), rev(n)))
+```
+
+```{r}
+segments <-   geom_segment(
+    aes(x = task, y = date_start, xend = task, yend = date_end, linetype = progress, colour = progress),
+    size = .75
+  ) 
+
+timeline %>% 
+  filter(!mlst, !extra) %>% 
+  ggplot() +
+  segments + 
+  geom_hline(
+    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
+    colour = "white", size = 2
+  ) +
+  segments + 
+  labs(title = "Timeline", y = "date") +
+  # scale_linetype_manual(values = c("dotted", "solid", "longdashed")) +
+  coord_flip()
 ```
 
 
+# Discussion Task by Task
+
+
+
+## Comments about TASKS
+
+Catagories
+
+(1) Produce and maintain a package sensu stricto
+
+Optimization and expantion is important but some updates come first (documentation, assertions, tests)
+
+
+
+(3) Fully document the functions and complete help files for each function.
+
+An analysis of how many functions are needed for each function I want in a package is important. This would show how much effort really goes into developing each new function.
+
+How many functions are there? How many in total if I count their dependencies? How many functions on average each new function forces me to develop (should decrease with increasing number of documented functions.) How many lines of code? How much is test coverage now? What is the recommendation?
+
+(4) Optimize code for speed.
+
+If time allows, do this towards the end of the first period
+
+
+(7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. 
+
+Assuming these functions are the ones that Suzanne shared with me, i.e. those which purpose is to produce r-tables from database data (__rtbl__)
+
+Probabbly after releasing some module of __forestr__, e.g. after releasing abundance. If so, I may work on __rtbl__ during October and hav it finished by the end of October.
 
 
 
@@ -185,27 +181,9 @@ tribble(
 
 
 
+# Main Goals
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Add lots of references of where I take my ideas from.
-
-
-
- # OVERARCHING GOALS (broken down)
-
-CTFS-ForestGEO developed a package of analytical software in the R programming language. CTFS-ForestGEO seeks a person to:
+## update the package.
 
 1. update the package.
     1. curate: decide what functions are useful and worthwhile keeping. DONE
@@ -245,7 +223,9 @@ CTFS-ForestGEO developed a package of analytical software in the R programming l
             1. improve clarity
 
 
-1. optimize the package.
+
+## optimize the package.
+
     1. Human brain(human brain): make useful code easier to find and use.
         1. naming functions better.
         1. grouping functions coherently.
@@ -264,7 +244,8 @@ CTFS-ForestGEO developed a package of analytical software in the R programming l
         1. replace slow by fast code. E.g. compare __base__ vs. __dplyr__ vs.
            __data.table__
 
-1. establish a framework for future maintenance and expansion.
+## establish a framework for future maintenance and expansion.
+
     1. build R packages _sensu stricto__
     1. create platforms for:
         1. github.com/forestgeo:
@@ -278,58 +259,47 @@ CTFS-ForestGEO developed a package of analytical software in the R programming l
 
 
 
-# GENERAL TRAITS
+
+
+
+# Summary
+
+```{r}
+caption <- "Summary of work plan for Sep'17-May'18."
+tribble(
+  
+  ~task, ~priority, ~note,
+  # -----------------------------------------------------------------------
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz",
+  "xxx", "yyy", "zzz"
+  # -----------------------------------------------------------------------
+)
+```
+
+
+
+
+## Thanks for helping and sharing your ideas!
+
+#
+
+end.
+
+
+# Leftovers
+
+
+## GENERAL TRAITS
 
 Clearly document help pages.
 Write easy-to-read code.
 Communicate and understand the needs of a broad range of researchers and students.
-
-
-
-# TASKS
-
-Catagories
-
-(1) Produce and maintain a package sensu stricto
-
-Done, and to be maintained over the year. Optimization and expantion is important but some updates come first (documentation, assertions, tests)
-
-* Produce forestr: done.
-* Produce other packages: as they become available: continuous.
-
-
-(2) Set up a fully documented and active github (or other) repository for the package.
-
-Done, and to be maintained over the year.
-
-(3) Fully document the functions and complete help files for each function.
-
-Work in progress. All priority functions to be documented  within the first year. Abundance module to be developed during September, and finished by the end of Septemer? 
-
-An analysis of how many functions are needed for each function I want in a package is important. This would show how much effort really goes into developing each new function.
-
-How many functions are there? How many in total if I count their dependencies? How many functions on average each new function forces me to develop (should decrease with increasing number of documented functions.) How many lines of code? How much is test coverage now? What is the recommendation?
-
-(4) Optimize code for speed.
-
-Towards the end of the first period
-
-(5) Integrate code written by other researchers into the package.
-
-As it becomes available. 
-
-* __ttt__ by Sabrina  Russo, in a couple of months
-* Ervan, by middle of the first term (January?)
-
-(6) Integrate the existing R functions to interact directly with output tables from the MySQL database.
-
-Needs clarification. What functions are those?
-
-(7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. 
-
-Assuming these functions are the ones that Suzanne shared with me, i.e. those which purpose is to produce r-tables from database data (__rtbl__)
-
-Probabbly after releasing some module of __forestr__, e.g. after releasing abundance. If so, I may work on __rtbl__ during October and hav it finished by the end of October.
 
 
 
