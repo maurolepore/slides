@@ -1,5 +1,5 @@
 ---
-date: "2017-08-20"
+date: "2017-08-24"
 output:
   ioslides_presentation:
     css: idigbio_styles.css
@@ -74,14 +74,21 @@ knitr::opts_chunk$set(
 
 ```
 
+## All successful software gets changed
 
-# Workplan Aug 24'17-May 1'18 | Review and Discuss
+```{r, out.width="35%"}
+include_graphics(c("change_1.png", "change_2.png"))
+```
+
+
+
+# Workplan Until May 1'18 | Review and Discuss
 
 ### https://bookdown.org/forestgeoguest/workplan_ml
 
 
 
-## Task Listed in Job Description
+## Task Listed in the Job Description
 
 1. __Build forestr.__ Produce and maintain a package sensu stricto.
 
@@ -93,15 +100,15 @@ knitr::opts_chunk$set(
 
 1. __Add contributions.__ Integrate code written by other researchers.
 
-1. __\*Interact with database.__ Write functions to interact directly with output tables from the MySQL database. 
+1. __\* Interact with database.__ Write functions to interact directly with output tables from the MySQL database. 
 
-1. __\*Wrangle data.__ Write functions to pre-process and format CTFS-ForestGEO data.
+1. __\* Wrangle data.__ Write functions to pre-process and format CTFS-ForestGEO data.
 
 * Please clarify.
 
 
 
-## 
+## Timeline of tasks listed in job description
 
 ```{r timeline, echo=FALSE}
 # Check if the problem is that dates need to be character vectors
@@ -109,9 +116,21 @@ knitr::opts_chunk$set(
 timeline <- tribble(
   ~n,  ~mlst,  ~extra, ~task,                     ~date_start,    ~date_end,    ~progress,  ~note,
    1,   F,     F,      "Build forestr",           "2017-02-01",  "2017-08-07",  "done",     "also ctfs",
-   1,   T,     F,      "Maintain forestr",        "2017-08-05",  "2017-09-28",  "todo",     "family abundance (~ xxx funs)",
    1,   F,     F,      "Maintain forestr",        "2017-02-01",  "2018-05-01",  "cont",     "",
-   1,   T,     F,      "Maintain forestr",        "2017-10-02",  "2017-11-02",  "todo",     "family biomass (~ xxx funs)",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-08-05",  "2017-09-15",  "todo",     "module abundance (8 funs)",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-09-15",  "2017-10-15",  "todo",     "module biomass (3 funs)",
+   1,   T,     F,      "Maintain forestr",        "2017-09-15",  "2017-10-15",  "todo",     "module mortality (5 funs)",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-10-15",  "2017-11-15",  "todo",     "module growth (7 funs)",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-11-15",  "2017-12-15",  "todo",     "module demochange (3 funs)",
+   1,   T,     F,      "Maintain forestr",        "2017-11-15",  "2017-12-15",  "todo",     "module topography (6 funs)",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-12-15",  "2018-05-01",  "todo",     "remaining modules",
+  
+  
   
    2,   F,     F,      "Host on GitHub",          "2017-02-01",  "2017-08-07",  "done",     "forstr",
    3,   F,     F,      "Document functions",      "2017-02-01",  "2018-05-01",  "cont",     "reviews welcome",
@@ -138,6 +157,8 @@ timeline <- timeline %>%
 ```{r timeline-listed}
 aesthetics <- aes(x = task, y = date_start, xend = task, yend = date_end, linetype = progress, colour = progress)
 
+milestones <- filter(timeline, mlst, !extra)
+
 timeline %>% 
   filter(!mlst, !extra) %>% 
   ggplot() +
@@ -147,13 +168,15 @@ timeline %>%
     colour = "white", size = 2
   ) +
   geom_segment(aesthetics, size = .75) +
-  labs(title = "Timeline of tasks listed in job description.", y = "date") +
+  geom_point(data = milestones, aes(x = task, y = date_end)) +
+  geom_text(data = milestones, aes(x = task, y = date_end, label = note), angle = 45, size = 2, hjust = -0.15) +
+  labs(y = "date") +
   coord_flip()
 ```
 
 
 
-##
+## Example of some extra tasks
 
 ```{r timeline-extras, warning=FALSE}
 timeline %>% 
@@ -166,32 +189,29 @@ timeline %>%
   ) +
   geom_segment(aesthetics, size = .75) +
   geom_point(aesthetics) +
-  labs(title = "Example of some extra tasks.", y = "date") +
+  geom_text(aes(x = task, y = date_start, label = note), vjust = -1) +
+  labs(y = "date") +
   coord_flip(ylim = as_date(c("2017-02-01", "2018-05-01")))
 ```
 
 
 
-## 
+## Functions count in CTFS R Package and forestr
 
 ```{r all-functions-count}
 total_functions_n <- functions_priority %>% nrow()
 ```
-
-### How many functions there were in total? `r total_functions_n`
+### In CTFS R Package: `r total_functions_n`
 
 ```{r selected-functions, echo=FALSE}
 selected_functions <- functions_priority %>% filter(priority %in% c("a", "b"))
 selected_functions_n <- nrow(selected_functions)
-```
 
-### How many functions were selected to work on? `r selected_functions_n`
-
-```{r}
 value <- round(selected_functions_n / total_functions_n * 100)
 ```
+### Selected for __forestr__: `r selected_functions_n` (`r paste0(value, "%")`)
 
-### That is `r paste0(value, "%")`
+
 
 ##
 
@@ -200,23 +220,23 @@ selected_functions %>%
   dplyr::count(folder) %>% 
   dplyr::filter(!is.na(folder)) %>% 
   arrange(n) %>% 
-  kable(caption = "Number of functions to keep from each module.")
+  kable(caption = "__forestr__: functions count per module.")
 ```
 
 
 
-##
+## Example: functions in the module abundance
 
 ```{r depencencies-abundance}
 selected_functions %>% 
   filter(folder %in% "abundance") %>% 
   select(-notes) %>% 
-  kable(caption = "Dependencies per function. Example for `abundance()`)")
+  kable()
 ```
 
 
 
-##
+## Example: dependencies of `abundanceperquad()`
 
 ```{r, include=FALSE}
 explore_dependencies("ctfs", "abundanceperquad")
@@ -226,61 +246,10 @@ explore_dependencies("ctfs", "abundanceperquad")
 
 
 
-##
-
-```{r dependencies-mortality}
-selected_functions %>% 
-  filter(folder %in% "mortality") %>% 
-  select(-notes) %>% 
-  kable(caption = "Dependencies per function. Example for `mortality()`)")
-```
-
-
-
-##
-
-```{r, include=FALSE}
-explore_dependencies("ctfs", "mortality")
-```
-
-![](mortality.png)
-
-
-
-##
-
-```{r, out.width="45%"}
-include_graphics(c("change_1.png", "change_2.png"))
-```
-
 
 
 
 # Discussion Task by Task
-
-
-
-
-
-## Excluded functions of priority c
-
-```{r}
-functions_priority %>% 
-  filter(priority %in% c("c")) %>% 
-  pull(fun) %>% 
-  paste(collapse = ", ")
-```
-
-## Excluded functions of priority d
-
-```{r}
-functions_priority %>% 
-  filter(priority %in% c("d")) %>% 
-  pull(fun) %>% 
-  paste(collapse = ", ")
-```
-
-
 
 
 
@@ -438,6 +407,54 @@ Probabbly after releasing some module of __forestr__, e.g. after releasing abund
 
 
 # Leftovers
+
+
+
+## Example: functions in the module mortality
+
+```{r dependencies-mortality}
+selected_functions %>% 
+  filter(folder %in% "mortality") %>% 
+  select(-notes) %>% 
+  kable()
+```
+
+
+
+## Example: dependencies of `mortality()`
+
+```{r, include=FALSE}
+explore_dependencies("ctfs", "mortality")
+```
+
+![](mortality.png)
+
+
+
+## Excluded functions of priority c
+
+```{r}
+functions_priority %>% 
+  filter(priority %in% c("c")) %>% 
+  pull(fun) %>% 
+  paste(collapse = ", ")
+```
+
+## Excluded functions of priority d
+
+```{r}
+functions_priority %>% 
+  filter(priority %in% c("d")) %>% 
+  pull(fun) %>% 
+  paste(collapse = ", ")
+```
+
+
+
+
+
+
+
 
 
 ## GENERAL TRAITS
