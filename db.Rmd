@@ -1,0 +1,253 @@
+---
+title: "CTFS-ForestGEO: R package development"
+author: "Mauro Lepore"
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+```{r setup, include=FALSE}
+# knitr ----
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  fig.align = "center",
+  fig.asp = 0.618,
+  fig.width = 6,
+  out.width = "80%",
+  cache = TRUE,
+  echo = FALSE 
+  )
+# If you want to make sure the font size is consistent across all your figures,
+# whenever you set out.width, you’ll also need to adjust fig.width to maintain
+# the same ratio with your default out.width. For example, if your default
+# fig.width is 6 and out.width is 0.7, when you set out.width = "50%" you’ll
+# need to set fig.width to 4.3 (6 * 0.5 / 0.7).
+```
+
+## Motivate
+
+### Shared context
+
+We have a useful R package
+
+### Problem, condition
+
+Under-exploited potential: reinventing the wheel
+
+### Problem, consequences
+
+Output (e.g. papers) may be fewer than possible, and their quality lower.
+
+### Solution
+
+Understand needs (practical + cognitive), build, support.
+
+
+
+
+<div class="notes">
+
+### Shared context
+
+Richard Condit built a useful R package. It has made the product of your work available to researchers in a shape they can analyse.
+
+### Problem, condition
+
+But the potential of the R package under-exploited. Researchers may be wasting time and producing inconsistent work, because they are building some tools from scratch in their own way, unaware if others built the same tool before or better.
+
+### Problem, consequences
+
+Such efficiency leak can eventually impair not only the number of papers produced but also their  quality.
+
+### Solution
+
+We may not be able to build an R package that is perfectly fit  for every researcher, but we must try to understand what tools they need most, (practical and  cognitive), give them that, and support them along the process.
+
+</div>
+
+
+
+
+
+## Inform
+
+### Role
+
+Develop an [R package](http://ctfs.si.edu/Public/CTFSRPackage/) for use with repeated censuses of the CTFSForestGEO data.
+
+### Goals:
+
+- to update the R package
+
+- to optimize the R package
+
+- to establish a framework for future maintenance and expansion
+
+## Inform
+
+### Some tasks
+
+1. Produce and maintain a package sensu stricto
+
+    - devtools; e.g. structure: [tidyverse](http://tidyverse.org/); phylosophy: [zoon](https://zoonproject.wordpress.com/); data: e.g. [babynames](https://github.com/hadley/babynames)
+
+2. Set up a fully documented and active github
+
+    - github repo, README.md, [pkgdown](http://hadley.github.io/pkgdown/index.html)
+
+3. Fully document the functions and complete help files for each function. 
+
+    - roxygen2,[pkgdown](http://hadley.github.io/pkgdown/index.html)
+
+4. Optimize code for speed.
+
+    - profvis, dplyr, c++
+
+5. Integrate code written by other researchers into the package. 
+
+    - github issues and pull requests
+
+## Inform
+
+### Tasks most relevant to database managers
+
+6. **Integrate the existing R functions to interact directly with output tables from the MySQL database**.
+
+    - **dplyr to read directly database?**
+
+7. Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data.
+
+    - translate Condit's algorithm to R?
+
+## Ask
+
+### What opportunities there are to learn what people need?
+
+- workshops?
+
+### Translate Condit's algoritm to R
+
+### Do people need direct interaction with the database?
+
+...
+
+Notes from meeting [Stuart, Sean, Gabriel](https://mail.google.com/mail/u/0/#search/to%3Adaviess%40si.edu+has%3Aattachment/158c7ddcbb1b48db)
+
+## Plan
+
+1. Set up
+
+    - start with what we have
+    
+    - design what we want
+
+2. Develop
+
+    - **ID what users need**
+    
+    - build capacity (R workshop, e.g. replicate the one Owen organizes at STRI)
+    
+    - provide key functionality
+
+    - support users, build trust, engage
+
+3. Expand
+
+    - incorporate users functionality
+
+
+# Supplement
+
+## Notes
+
+I have not used this presentation but it could be used to present the project during the analitical workshop in Puerto Rico.
+
+## Ideas
+
+- build a modular system (e.g. tidyverse)
+
+- build data package(s)
+
+- build functions to wrangle data from database format to analyses format
+
+The script that is written grows as more issues are detected or more plots/censuses are added. Currently, the scripts do 2 things that may need to be separated. 
+
+    1. make R tables from raw data in the database
+    2. wrangle the data in R tables to meet validation criteria
+
+In an improved version, (1) could be a relatively simple function, and (2) could be an R markdown document explaining in human readable languagge what decisions were made and presenting the code for it.
+
+In fact, the R Package could take this task. In data-raw, data could be cleaned and the process documented in a vignette. Data could be imported from an external data package so that the vignette could access the data directy, then wrangle it, then use it.
+
+- standardize preliminary analyses
+
+- visualize data to evaluate quality
+
+- quarry the database directly with dplyr?
+
+- Is bookmarkable shiny state useful to database managers?
+
+## maurolepore@gmail.com
+
+# Others presentations
+
+## Suzanne
+
+Overall database management
+
+
+2015 BCI data has been updated. Not yet public.
+
+Why are we making the R tables?
+
+Issue is _status_ variabes
+
+The algorith has soe few things that  have not been accounted for
+
+
+# Issues to consider
+
+- reproducible research, wrangle steps should be documented
+
+- validate data, flag invalid data
+
+
+## Add to R package
+
+Add to R package Ben Turner's scripts to make maps of soil (to krige data https://en.wikipedia.org/wiki/Kriging)
+
+
+## Talk to Morris
+
+what he needs to ask?
+
+- what alternatives there are to work (under contract) until the visa comes out, from DC or Panama
+
+## Website
+
+
+## R
+
+## Data visualisation
+
+http://r4ds.had.co.nz/data-visualisation.html
+
+## Dplyr: A grammar of data manipulation
+
+https://github.com/hadley/dplyr
+
+## Data transformation
+
+http://r4ds.had.co.nz/transform.html#select-columns-with-select
+
+## Relational data
+
+http://r4ds.had.co.nz/relational-data.html
+
+also, 
+library(dplyr)
+vignette("databases")
+browseVignettes("dplyr")
+

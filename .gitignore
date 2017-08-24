@@ -6,3 +6,8 @@ rsconnect
 git_and_gitHub.html
 *.html
 !email_bookmarks.html
+idigbio_cache/
+idigbio_files/
+workplan_cache
+workplan_ml_cache
+workplan_ml_files/

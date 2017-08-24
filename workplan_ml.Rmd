@@ -1,0 +1,308 @@
+---
+date: "2017-08-24"
+output:
+  ioslides_presentation:
+    css: idigbio_styles.css
+    smaller: yes
+    widescreen: yes
+  beamer_presentation: default
+---
+
+```{r removeSlideNumbers, include=FALSE}
+# From https://github.com/rstudio/rmarkdown/issues/244
+# To remove slide numbers to one of two things:
+
+# One: Place this under the yamal header of the .Rmd file
+
+# <style type="text/css">
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+# </style>
+
+
+
+# Or, two: Place this in a separate mystyle.css file (remove <style> tag)
+
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+
+# For approach two, the yamal header should look like this:
+# ---
+# output:
+#   ioslides_presentation:
+    # css: mystyles.css
+# ---
+```
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(knitr)
+library(ctfs)
+library(DependenciesGraphs)
+library(handy)
+
+
+
+load("./functions_priority.rda")
+
+
+functions_priority <- functions_priority %>% mutate_at("priority", as.character)
+
+
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  # fig.align = "center",
+  fig.asp = 0.618,
+  fig.width = 6,
+  out.width = "90%",
+  cache = TRUE,
+  echo = FALSE 
+  )
+# If you want to make sure the font size is consistent across all your figures,
+# whenever you set out.width, you’ll also need to adjust fig.width to maintain
+# the same ratio with your default out.width. For example, if your default
+# fig.width is 6 and out.width is 0.7, when you set out.width = "50%" you’ll
+# need to set fig.width to 4.3 (6 * 0.5 / 0.7).
+# plots
+
+
+
+```
+
+```{r data-timeline, echo=FALSE}
+# Check if the problem is that dates need to be character vectors
+
+timeline <- tribble(
+  ~n,  ~mlst,  ~extra, ~task,                     ~date_start,    ~date_end,    ~progress,  ~note,
+   1,   F,     F,      "Build forestr",           "2017-02-01",  "2017-08-07",  "done",     "also ctfs",
+   1,   F,     F,      "Maintain forestr",        "2017-02-01",  "2018-05-01",  "cont",     "",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-08-05",  "2017-09-15",  "todo",     "abundance, n = 8",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-09-15",  "2017-10-15",  "todo",     "biomass & mortality, n = 8",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-10-15",  "2017-11-15",  "todo",     "growth, n = 7",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-11-15",  "2017-12-15",  "todo",     "demochange & topography, n = 9",
+  
+   1,   T,     F,      "Maintain forestr",        "2017-12-15",  "2018-05-01",  "todo",     "remaining modules",
+  
+  
+  
+   2,   F,     F,      "Host on GitHub",          "2017-02-01",  "2017-08-07",  "done",     "forstr",
+   3,   F,     F,      "Document functions",      "2017-02-01",  "2018-05-01",  "cont",     "reviews welcome",
+   4,   F,     F,      "Optimize for speed",      "2018-02-01",  "2018-05-01",  "cont",     "human brain, code",
+   
+   5,   F,     F,      "Add contributions",       "2017-03-09",  "2018-05-01",  "cont",     "ttt, Ervan, other",
+   5,   T,     F,      "Add contributions",       "2017-03-09",  "2017-09-15",  "cont",     "ttt",
+  
+   6,   F,     F,      "Interact with database",  "2017-07-21",  "2018-05-01",  "cont",     "~rtbl?, confirm task and prioriry",
+  
+   7,   F,     F,      "Wrangle data",            "2017-07-21",  "2018-05-01",  "todo",     "~rtbl?, confirm task and prioriry",
+   7,   T,     F,      "Wrangle data",            "2017-07-21",  "2017-11-01",  "todo",     "rtbl.bci",
+   
+   # Other important stuff that is not in job description
+   8,   F,     T,     "Package example data",    "2017-07-28",  "2017-09-15",  "todo",     "bciex",
+   9,   F,     T,     "Provide beta access",     "2017-07-29",  "2017-07-30",  "cont",     "try",
+  10,   F,     T,     "Meet PIs",                "2017-09-29",  "2017-09-29",  "todo",     "Krista (SCBI)"
+)
+timeline <- timeline %>% 
+  mutate_at(c("date_start", "date_end"), lubridate::as_date) %>% 
+  mutate(task = forcats::fct_reorder(as.factor(task), rev(n)))
+```
+
+# Workplan Until May 1, 2018 | Review and Discuss
+
+### https://bookdown.org/forestgeoguest/workplan_ml
+
+
+
+
+
+
+## Functions count in CTFS R Package and forestr
+
+```{r all-functions-count}
+total_functions_n <- functions_priority %>% nrow()
+```
+### In CTFS R Package: `r total_functions_n`
+
+```{r selected-functions, echo=FALSE}
+selected_functions <- functions_priority %>% filter(priority %in% c("a", "b"))
+selected_functions_n <- nrow(selected_functions)
+
+value <- round(selected_functions_n / total_functions_n * 100)
+```
+### Selected for __forestr__: `r selected_functions_n` (`r paste0(value, "%")`)
+
+
+
+##
+
+```{r funs-per-module}
+selected_functions %>% 
+  dplyr::count(folder) %>% 
+  dplyr::filter(!is.na(folder)) %>% 
+  arrange(n) %>% 
+  kable(caption = "__forestr__: functions count per module.")
+```
+
+
+
+## Task Listed in the Job Description
+
+\* __Build forestr.__ Produce and maintain a package _sensu stricto_.
+
+\* __Host on GitHub.__ Set up a fully documented and active code repository.
+
+\* __Document functions.__ Fully document the functions including help files.
+
+\* __Optimize for speed__. Optimize code for speed.
+
+\* __Add contributions.__ Integrate code written by other researchers.
+
+\! __Interact with database.__ Write functions to interact directly with output tables from the MySQL database. 
+
+\! __Wrangle data.__ Write functions to pre-process and format CTFS-ForestGEO data.
+
+--
+
+\! Please clarify.
+
+
+
+## Timeline of tasks listed in job description
+
+```{r timeline-listed}
+aesthetics <- aes(x = task, y = date_start, xend = task, yend = date_end, linetype = progress, colour = progress)
+coords <- coord_flip(ylim = lubridate::as_date(c("2017-02-01", c("2018-07-01"))))
+segment_end <-   geom_hline(
+    yintercept = as.numeric(lubridate::as_date("2018-05-01")),
+    colour = "white", size = 3
+  )
+
+milestones <- filter(timeline, mlst, !extra)
+
+timeline %>% 
+  filter(!mlst, !extra) %>% 
+  ggplot() +
+  geom_segment(aesthetics, size = .75) +
+  geom_hline(
+    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
+    colour = "white", size = 3
+  ) +
+  segment_end +
+  geom_segment(aesthetics, size = .75) +
+  geom_point(data = milestones, aes(x = task, y = date_end)) +
+  geom_text(data = milestones, aes(x = task, y = date_end, label = note), angle = 40, size = 1.5, hjust = -0.15) +
+  labs(y = "date") +
+  coords
+```
+
+
+
+## Example: functions in the module abundance
+
+```{r depencencies-abundance}
+selected_functions %>% 
+  filter(folder %in% "abundance") %>% 
+  select(-notes) %>% 
+  kable()
+```
+
+
+
+## Example: dependencies of `abundanceperquad()`
+
+```{r, include=FALSE}
+explore_dependencies("ctfs", "abundanceperquad")
+```
+
+![](abundanceperquad.png)
+
+
+
+## Example of some extra tasks
+
+```{r timeline-extras, warning=FALSE}
+timeline %>% 
+  filter(!mlst, extra) %>% 
+  ggplot() +
+  geom_segment(aesthetics, size = .75) +
+  geom_hline(
+    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
+    colour = "white", size = 2
+  ) +
+  geom_segment(aesthetics, size = .75) +
+  segment_end +
+  geom_point(aesthetics) +
+  geom_text(aes(x = task, y = date_start, label = note), vjust = -1) +
+  labs(y = "date") +
+  coords
+```
+
+
+
+## Thanks for helping and sharing your ideas!
+
+```{r, out.width="35%"}
+include_graphics(c("change_1.png", "change_2.png"))
+```
+
+[Brake down of goals listed in job description](https://bookdown.org/forestgeoguest/workplan_goals/)
+
+
+
+# 
+
+end
+
+# 
+
+Leftovers
+
+
+
+## Example: functions in the module mortality
+
+```{r dependencies-mortality}
+selected_functions %>% 
+  filter(folder %in% "mortality") %>% 
+  select(-notes) %>% 
+  kable()
+```
+
+
+
+## Example: dependencies of `mortality()`
+
+```{r, include=FALSE}
+explore_dependencies("ctfs", "mortality")
+```
+
+![](mortality.png)
+
+
+
+## Excluded functions of priority c
+
+```{r}
+functions_priority %>% 
+  filter(priority %in% c("c")) %>% 
+  pull(fun) %>% 
+  paste(collapse = ", ")
+```
+
+## Excluded functions of priority d
+
+```{r}
+functions_priority %>% 
+  filter(priority %in% c("d")) %>% 
+  pull(fun) %>% 
+  paste(collapse = ", ")
+```

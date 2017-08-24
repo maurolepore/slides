@@ -1,0 +1,76 @@
+# Brake down of main goals listed in job description
+
+## Update the package.
+
+1. update the package.
+    1. curate: decide what functions are useful and worthwhile keeping. DONE
+    1. document: improve help files.
+        1. titles, description and details.
+        1. argumets (reuse templates)
+        1. authors
+        1. group related functions in one place
+        1. add examples
+        1. build a website
+    1. validate: validate inputs or warn and err accoridingly. This helps users
+       to understand what went wrong.
+    1. test: This helps developers to notice that something  went wrong so they 
+       can promptly fix it.
+        1. regression tests: check old and new versions of a function output the
+           same.
+        1. test that functions do what they are expected to do.
+        1. checks: devtools::check()
+        1. __lintr__ to check for style
+        1. __goodpractice::gp()__ to check for general good practices
+        1. TravisCI to check package builds on all platforms.
+    1. refactor: re-write code to improve it. E.g.
+        1. names: make them more elocuent, consistent
+        1. arguments: 
+            1. name arguments more elocuently
+            1. order arguments more sensibly (data, details)
+            1. give arguments most common or safest defaults
+        1. code: 
+            1. improve style for better readability and consistency with modern
+               style guides.
+            1. improve safety
+            1. reduce complexity
+                1. reduce nestedness (mostly unnecessary _if_ blocks)
+                1. remove the boilperate code of `for` loops by replaceing `for`
+                   loops by functional programming approaches (most generally,
+                   calls  to `lapply(X, FUN)`)
+            1. improve clarity
+
+
+
+## Optimize the package.
+
+1. Human brain(human brain): make useful code easier to find and use.
+    1. naming functions better.
+    1. grouping functions coherently.
+    1. writting more complete and clearer documentation (goepen)
+    1. facilitating access to documentation via websites
+    1. announcing advances on twitter, workshops
+    1. facilitating disussions on GitHub
+    1. building capacity via code reviews, workshops, seminars, tutorials.
+1. Access to data:
+    1. provide easy access to data for examples (__bci__, __bciex__).
+    1. help the community to develop their own data packages.
+    1. help the community to develop a friction-less workflow
+1. Code speed
+    1. provide light data for examples and tests to run fast (__bciex__) 
+    1. identify speed bottlenecks (__profviz__)
+    1. replace slow by fast code. E.g. compare __base__ vs. __dplyr__ vs. __data.table__
+
+
+
+## Establish a framework for future maintenance and expansion.
+
+1. build R packages _sensu stricto_
+1. create platforms for:
+    1. github.com/forestgeo:
+        1. hosting code repositories, packages and package websites
+        1. discussing current issues, proposed changes, collaboration, etc.
+        1. managing collaboration
+    1. (rpubs.com/forestgeo): publishing R products publicly
+    1. bookdown.com/forestgeoguest: publishing R products 
+       with privileges control
+    1. @forestgeo, #forestgeo, #forestr, etc.: announcing developments.

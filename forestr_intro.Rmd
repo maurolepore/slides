@@ -1,0 +1,424 @@
+---
+title: rpubs.com/forestgeo/update
+author: "Record audio?"
+output:
+  ioslides_presentation:
+    css: idigbio_styles.css
+    smaller: yes
+    widescreen: yes
+  beamer_presentation: default
+---
+
+```{r removeSlideNumbers, include=FALSE}
+# From https://github.com/rstudio/rmarkdown/issues/244
+# To remove slide numbers to one of two things:
+
+# One: Place this under the yamal header of the .Rmd file
+
+# <style type="text/css">
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+# </style>
+
+
+
+# Or, two: Place this in a separate mystyle.css file (remove <style> tag)
+
+# slides > slide:not(.nobackground):after {
+#   content: '';
+# }
+
+# For approach two, the yamal header should look like this:
+# ---
+# output:
+#   ioslides_presentation:
+    # css: mystyles.css
+# ---
+```
+
+```{r setup, include=FALSE}
+library(knitr)
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  # fig.align = "center",
+  fig.asp = 0.618,
+  fig.width = 6,
+  out.width = "100%",
+  cache = TRUE,
+  echo = FALSE 
+  )
+# If you want to make sure the font size is consistent across all your figures,
+# whenever you set out.width, you’ll also need to adjust fig.width to maintain
+# the same ratio with your default out.width. For example, if your default
+# fig.width is 6 and out.width is 0.7, when you set out.width = "50%" you’ll
+# need to set fig.width to 4.3 (6 * 0.5 / 0.7).
+# plots
+```
+
+
+
+# Good-Code Reuse with GitHub & R | Update & How You Can Contribute
+
+### __\@mauro_lepore__
+
+<div class="notes">
+
+If you reuse good code you can be more productive.
+
+GitHub and R packages can help you do that.
+
+</div>
+
+
+
+## Overview
+
+__My goal: to learn how I can help you__
+
+- Show progress and outline future direction
+
+- Show how you can contribute
+
+- Discussion focused on the why and what, not how
+
+- Mechanics via listed resources or see me later
+
+
+
+## Do you use the CTFS R package? What functions?
+
+
+
+# Update | forestgeo & forestr
+
+
+
+## A good system lets you fail safely
+
+```{r error-field-guide}
+knitr::include_graphics("error.png")
+```
+
+
+
+## Fast failure means fast feedback
+
+```{r fail-safely}
+knitr::include_graphics("fail.png")
+```
+
+
+
+## You should fall effortlessly into the pit of success
+
+```{r fall-in-pit-of-success, out.width="70%", fig.align="center"}
+knitr::include_graphics("pit.jpg")
+```
+
+
+# GitHub | github.com/forestgeo
+
+### [Why?](https://goo.gl/PRtpmZ) & [How?](http://r-pkgs.had.co.nz/git.html)
+
+
+
+## You may have a good system already
+
+```{r projects-how-we-manage}
+knitr::include_graphics("framework.png")
+```
+
+
+
+## Real projects are complex | Is there a better system?
+
+```{r projects-not-linear}
+knitr::include_graphics("branch.png")
+```
+
+[Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans), Alice Bartlett.
+
+
+
+## GitHub gives you research super-powers
+
+```{r control}
+knitr::include_graphics("dogit.png")
+```
+
+
+
+## 
+
+```{r overview-github}
+knitr::include_graphics("github_what.png")
+```
+
+[Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
+
+
+
+## Data and metadata stay synchronized
+
+```{r discuss-change, out.width="95%", fig.align="center"}
+knitr::include_graphics("metadata.png")
+```
+
+Photo from [Happy Git and GitHub for the R useR](https://speakerdeck.com/jennybc/happy-git-and-github-for-the-user) by  Jenny Bryan.
+
+
+
+## We have public and private repos (see enterprise)
+
+```{r gitub-forestgeo}
+include_graphics("forestgeo.png")
+```
+
+
+
+# R packages | github.com/forestgeo/forestr
+
+
+
+## ___The single biggest way to improve both the quality of your code and your productivity is to reuse good code.___
+
+### -― from "[Code Complete (Developer Best Practices)](https://goo.gl/83hsHb)"
+
+
+
+## Wouldn't this be nice?
+
+```{r rstudio-help}
+include_graphics("forestr_rstudio.jpg")
+```
+
+
+
+```{r website-refs}
+include_graphics("forestr_refs.png")
+```
+
+
+
+## 
+
+```{r website-funs-help}
+include_graphics("forestr_fun.png")
+```
+
+
+
+## 
+
+```{r articles-eda}
+include_graphics("eda.png")
+```
+
+
+
+## `devtools::create("bci")` [r-pkgs.had.co.nz](http://r-pkgs.had.co.nz/)
+
+```{r data-packages-bci}
+include_graphics("bci-rstudio.png")
+```
+
+
+
+# How You Can Contribute
+
+
+
+## Share R products: they are easy to publish 
+
+```{r publish-rpubs-button}
+include_graphics("rpubs_publish.png")
+```
+
+
+
+## Publish publicly
+
+```{r publish-rpubs}
+include_graphics("rpubs.png")
+```
+
+
+
+## Publish privately
+
+```{r publish-bookdown}
+include_graphics("bookdown.png")
+```
+
+
+
+## File issues ([ template](https://github.com/forestgeo/learn/issues/20))
+
+```{r report-issues-forestr}
+include_graphics("forestr_issues.png")
+```
+
+
+
+## Issues: use your account or forestgeoguest
+
+```{r report-issues-misc}
+include_graphics("issues_guest.png")
+```
+
+
+
+## Contribute code
+
+```{r ttt}
+include_graphics("ttt.png")
+```
+
+
+
+## Get emails about packages you like
+
+```{r follow-watch-forestr}
+include_graphics("forestr_watch.png")
+```
+
+
+
+## Keep updated
+
+```{r follow-search-twitter}
+include_graphics("twitter_search.png")
+```
+
+
+
+## Summary
+
+### You already have some new tools
+
+### More tools are comming
+
+### You have multiple ways to help
+
+### Stay tuned
+
+
+
+## Thank you all; also thanks to:
+
+Supported the project with code or ideas: 
+
+### __Gabriel Arellano, Sabrina Russo, SeanMcMahon and lab, Suzanne Lao, Kristina Teixeira and other participants of the databases workshop 2017, Stuart Davies.__
+
+.
+
+Supported me with administration:
+
+###__Smithsonian HR, Adriana Bilgray and team, Haley Overstreet, Lauren Krizel.__
+
+
+
+# Discussion | __\@mauro_lepore__
+
+### We may also meet during this workshop
+
+
+
+# Resources
+
+
+
+##
+
+Books: excellent and free
+
+- [R for data science](http://r4ds.had.co.nz/)
+  
+- [R packages](http://r-pkgs.had.co.nz/)
+  
+    - chapter on [Git and GitHub](http://r-pkgs.had.co.nz/git.html)
+      
+- [Advanced R](http://adv-r.had.co.nz/)
+    
+
+[Some excellent Webinars](https://www.rstudio.com/resources/webinars/); see rstudio conference 2017
+
+[Data Science in the Tidyverse – Hadley Wickham](https://www.rstudio.com/resources/videos/data-science-in-the-tidyverse/),  by Hadley Wickham
+
+__[The tidyverse style guide](http://style.tidyverse.org/)__
+
+
+
+
+
+
+
+
+
+
+
+
+# 
+
+end
+
+
+
+## Topics that may be useful to share
+
+
+- project management (RStudio, r projects and packages)
+- github
+- tidyverse
+
+
+
+## Tips that may be useful to share
+
+- how to find stuff
+- recommend use of tags (shortcut `Ctrl+Alt+x`)
+- reprex::reprex()
+- shortcuts, how to find all of them and 
+- cheetsheets
+- webinars
+- free private repositories on github academic
+- free private repositories on bitbucket
+- how to create a package
+- tidyr
+- dplyr
+- readr
+- ggplot2
+- write an outline of your script with
+    - sections Ctrl + Shift+ O
+    - and shortcut Ctrl + Shift + O
+- package data
+    
+
+
+
+# Misc
+
+```{r}
+# knitr::include_graphics("some_image.png")
+```
+
+<div class="notes">
+
+Invisible notes.
+
+</div>
+
+
+
+# xxxcont.
+
+```{r}
+xxxcont <- "cont.here"
+```
+
+- Show how to pull request edits to documentation and code
+
+- shall we have meetings during this workshop?

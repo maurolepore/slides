@@ -1,0 +1,76 @@
+---
+title: "Resources to visualize and manipulate data in R"
+author: "Mauro Lepore (maurolepore@gmail.com)"
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+```{r setup, include=FALSE}
+# knitr ----
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  fig.align = "center",
+  fig.asp = 0.618,
+  fig.width = 6,
+  out.width = "80%",
+  cache = TRUE,
+  echo = FALSE 
+  )
+# If you want to make sure the font size is consistent across all your figures,
+# whenever you set out.width, you’ll also need to adjust fig.width to maintain
+# the same ratio with your default out.width. For example, if your default
+# fig.width is 6 and out.width is 0.7, when you set out.width = "50%" you’ll
+# need to set fig.width to 4.3 (6 * 0.5 / 0.7).
+```
+
+## [Introduction](http://r4ds.had.co.nz/introduction.html)
+
+```R
+install.packages("tidyverse")
+```
+
+```{r, out.width="100%", echo=FALSE}
+knitr::include_graphics("data-science.png")
+```
+
+##
+
+### [Data visualisation](http://r4ds.had.co.nz/data-visualisation.html)
+
+```R
+install.packages("ggplot2")
+
+# Or the the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("tidyverse/ggplot2")
+```
+
+
+### [Data transformation](http://r4ds.had.co.nz/transform.html#select-columns-with-select)
+
+```R
+# If needed
+# install.packages("dplyr")
+# install.packages("nycflights13")
+
+# Load packages
+library(dplyr)
+library("nycflights13")
+```
+
+### [Exploratory Data Analysis](http://r4ds.had.co.nz/exploratory-data-analysis.html)
+
+### [Relational data](http://r4ds.had.co.nz/relational-data.html)
+
+## More on [Dplyr: (a grammar of data manipulation)](https://github.com/hadley/dplyr)
+
+From R
+
+```R
+library(dplyr)
+vignette("databases")
+browseVignettes("dplyr")
+```
