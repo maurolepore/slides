@@ -1,4 +1,4 @@
-# Main goals listed in job description
+# Brake down of main goals listed in job description
 
 ## Update the package.
 
@@ -15,7 +15,7 @@
        to understand what went wrong.
     1. test: This helps developers to notice that something  went wrong so they 
        can promptly fix it.
-        1. regression tests: check old and new versions of a function outut the
+        1. regression tests: check old and new versions of a function output the
            same.
         1. test that functions do what they are expected to do.
         1. checks: devtools::check()
