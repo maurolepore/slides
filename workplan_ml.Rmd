@@ -74,43 +74,7 @@ knitr::opts_chunk$set(
 
 ```
 
-## All successful software gets changed
-
-```{r, out.width="35%"}
-include_graphics(c("change_1.png", "change_2.png"))
-```
-
-
-
-# Workplan Until May 1'18 | Review and Discuss
-
-### https://bookdown.org/forestgeoguest/workplan_ml
-
-
-
-## Task Listed in the Job Description
-
-1. __Build forestr.__ Produce and maintain a package sensu stricto.
-
-1. __Host on GitHub.__ Set up a fully documented and active code repository.
-
-1. __Document functions.__ Fully document the functions including help files.
-
-1. __Optimize for speed__. Add contributions.
-
-1. __Add contributions.__ Integrate code written by other researchers.
-
-1. __\* Interact with database.__ Write functions to interact directly with output tables from the MySQL database. 
-
-1. __\* Wrangle data.__ Write functions to pre-process and format CTFS-ForestGEO data.
-
-* Please clarify.
-
-
-
-## Timeline of tasks listed in job description
-
-```{r timeline, echo=FALSE}
+```{r data-timeline, echo=FALSE}
 # Check if the problem is that dates need to be character vectors
 
 timeline <- tribble(
@@ -118,15 +82,13 @@ timeline <- tribble(
    1,   F,     F,      "Build forestr",           "2017-02-01",  "2017-08-07",  "done",     "also ctfs",
    1,   F,     F,      "Maintain forestr",        "2017-02-01",  "2018-05-01",  "cont",     "",
   
-   1,   T,     F,      "Maintain forestr",        "2017-08-05",  "2017-09-15",  "todo",     "module abundance (8 funs)",
+   1,   T,     F,      "Maintain forestr",        "2017-08-05",  "2017-09-15",  "todo",     "abundance, n = 8",
   
-   1,   T,     F,      "Maintain forestr",        "2017-09-15",  "2017-10-15",  "todo",     "module biomass (3 funs)",
-   1,   T,     F,      "Maintain forestr",        "2017-09-15",  "2017-10-15",  "todo",     "module mortality (5 funs)",
+   1,   T,     F,      "Maintain forestr",        "2017-09-15",  "2017-10-15",  "todo",     "biomass & mortality, n = 8",
   
-   1,   T,     F,      "Maintain forestr",        "2017-10-15",  "2017-11-15",  "todo",     "module growth (7 funs)",
+   1,   T,     F,      "Maintain forestr",        "2017-10-15",  "2017-11-15",  "todo",     "growth, n = 7",
   
-   1,   T,     F,      "Maintain forestr",        "2017-11-15",  "2017-12-15",  "todo",     "module demochange (3 funs)",
-   1,   T,     F,      "Maintain forestr",        "2017-11-15",  "2017-12-15",  "todo",     "module topography (6 funs)",
+   1,   T,     F,      "Maintain forestr",        "2017-11-15",  "2017-12-15",  "todo",     "demochange & topography, n = 9",
   
    1,   T,     F,      "Maintain forestr",        "2017-12-15",  "2018-05-01",  "todo",     "remaining modules",
   
@@ -154,45 +116,12 @@ timeline <- timeline %>%
   mutate(task = forcats::fct_reorder(as.factor(task), rev(n)))
 ```
 
-```{r timeline-listed}
-aesthetics <- aes(x = task, y = date_start, xend = task, yend = date_end, linetype = progress, colour = progress)
+# Workplan Until May 1'18 | Review and Discuss
 
-milestones <- filter(timeline, mlst, !extra)
-
-timeline %>% 
-  filter(!mlst, !extra) %>% 
-  ggplot() +
-  geom_segment(aesthetics, size = .75) +
-  geom_hline(
-    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
-    colour = "white", size = 2
-  ) +
-  geom_segment(aesthetics, size = .75) +
-  geom_point(data = milestones, aes(x = task, y = date_end)) +
-  geom_text(data = milestones, aes(x = task, y = date_end, label = note), angle = 45, size = 2, hjust = -0.15) +
-  labs(y = "date") +
-  coord_flip()
-```
+### https://bookdown.org/forestgeoguest/workplan_ml
 
 
 
-## Example of some extra tasks
-
-```{r timeline-extras, warning=FALSE}
-timeline %>% 
-  filter(!mlst, extra) %>% 
-  ggplot() +
-  geom_segment(aesthetics, size = .75) +
-  geom_hline(
-    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
-    colour = "white", size = 2
-  ) +
-  geom_segment(aesthetics, size = .75) +
-  geom_point(aesthetics) +
-  geom_text(aes(x = task, y = date_start, label = note), vjust = -1) +
-  labs(y = "date") +
-  coord_flip(ylim = as_date(c("2017-02-01", "2018-05-01")))
-```
 
 
 
@@ -225,6 +154,58 @@ selected_functions %>%
 
 
 
+## Task Listed in the Job Description
+
+\* __Build forestr.__ Produce and maintain a package sensu stricto.
+
+\* __Host on GitHub.__ Set up a fully documented and active code repository.
+
+\* __Document functions.__ Fully document the functions including help files.
+
+\* __Optimize for speed__. Add contributions.
+
+\* __Add contributions.__ Integrate code written by other researchers.
+
+\! __Interact with database.__ Write functions to interact directly with output tables from the MySQL database. 
+
+\! __Wrangle data.__ Write functions to pre-process and format CTFS-ForestGEO data.
+
+--
+
+\! Please clarify.
+
+
+
+## Timeline of tasks listed in job description
+
+```{r timeline-listed}
+aesthetics <- aes(x = task, y = date_start, xend = task, yend = date_end, linetype = progress, colour = progress)
+coords <- coord_flip(ylim = lubridate::as_date(c("2017-02-01", c("2018-07-01"))))
+segment_end <-   geom_hline(
+    yintercept = as.numeric(lubridate::as_date("2018-05-01")),
+    colour = "white", size = 3
+  )
+
+milestones <- filter(timeline, mlst, !extra)
+
+timeline %>% 
+  filter(!mlst, !extra) %>% 
+  ggplot() +
+  geom_segment(aesthetics, size = .75) +
+  geom_hline(
+    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
+    colour = "white", size = 3
+  ) +
+  segment_end +
+  geom_segment(aesthetics, size = .75) +
+  geom_point(data = milestones, aes(x = task, y = date_end)) +
+  geom_text(data = milestones, aes(x = task, y = date_end, label = note), angle = 40, size = 1.5, hjust = -0.15) +
+  labs(y = "date") +
+  coords
+```
+
+
+
 ## Example: functions in the module abundance
 
 ```{r depencencies-abundance}
@@ -246,167 +227,44 @@ explore_dependencies("ctfs", "abundanceperquad")
 
 
 
+## Example of some extra tasks
 
-
-
-# Discussion Task by Task
-
-
-
-
-# Main Goals
-
-## update the package.
-
-1. update the package.
-    1. curate: decide what functions are useful and worthwhile keeping. DONE
-    1. document: improve help files.
-        1. titles, description and details.
-        1. argumets (reuse templates)
-        1. authors
-        1. group related functions in one place
-        1. add examples
-        1. build a website
-    1. validate: validate inputs or warn and err accoridingly. This helps users
-       to understand what went wrong.
-    1. test: This helps developers to notice that something  went wrong so they 
-       can promptly fix it.
-        1. regression tests: check old and new versions of a function outut the
-           same.
-        1. test that functions do what they are expected to do.
-        1. checks: devtools::check()
-        1. __lintr__ to check for style
-        1. __goodpractice::gp()__ to check for general good practices
-        1. TravisCI to check package builds on all platforms.
-    1. refactor: re-write code to improve it. E.g.
-        1. names: make them more elocuent, consistent
-        1. arguments: 
-            1. name arguments more elocuently
-            1. order arguments more sensibly (data, details)
-            1. give arguments most common or safest defaults
-        1. code: 
-            1. improve style for better readability and consistency with modern
-               style guides.
-            1. improve safety
-            1. reduce complexity
-                1. reduce nestedness (mostly unnecessary _if_ blocks)
-                1. remove the boilperate code of `for` loops by replaceing `for`
-                   loops by functional programming approaches (most generally,
-                   calls  to `lapply(X, FUN)`)
-            1. improve clarity
-
-
-
-## optimize the package.
-
-    1. Human brain(human brain): make useful code easier to find and use.
-        1. naming functions better.
-        1. grouping functions coherently.
-        1. writting more complete and clearer documentation (goepen)
-        1. facilitating access to documentation via websites
-        1. announcing advances on twitter, workshops
-        1. facilitating disussions on GitHub
-        1. building capacity via code reviews, workshops, seminars, tutorials.
-    1. Access to data:
-        1. provide easy access to data for examples (__bci__, __bciex__).
-        1. help the community to develop their own data packages.
-        1. help the community to develop a friction-less workflow
-    1. Code speed
-        1. provide light data for examples and tests to run fast (__bciex__) 
-        1. identify speed bottlenecks (__profviz__)
-        1. replace slow by fast code. E.g. compare __base__ vs. __dplyr__ vs.
-           __data.table__
-
-## establish a framework for future maintenance and expansion.
-
-    1. build R packages _sensu stricto__
-    1. create platforms for:
-        1. github.com/forestgeo:
-            1. hosting code repositories, packages and package websites
-            1. discussing current issues, proposed changes, collaboration, etc.
-            1. managing collaboration
-        1. (rpubs.com/forestgeo): publishing R products publicly
-        1. bookdown.com/forestgeoguest: publishing R products 
-           with privileges control
-        1. @forestgeo, #forestgeo, #forestr, etc.: announcing developments.
-
-
-
-
-
-
-# Summary
-
-```{r}
-caption <- "Summary of work plan for Sep'17-May'18."
-tribble(
-  
-  ~task, ~priority, ~note,
-  # -----------------------------------------------------------------------
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz",
-  "xxx", "yyy", "zzz"
-  # -----------------------------------------------------------------------
-)
+```{r timeline-extras, warning=FALSE}
+timeline %>% 
+  filter(!mlst, extra) %>% 
+  ggplot() +
+  geom_segment(aesthetics, size = .75) +
+  geom_hline(
+    yintercept = as.numeric(lubridate::as_date(lubridate::today())),
+    colour = "white", size = 2
+  ) +
+  geom_segment(aesthetics, size = .75) +
+  segment_end +
+  geom_point(aesthetics) +
+  geom_text(aes(x = task, y = date_start, label = note), vjust = -1) +
+  labs(y = "date") +
+  coords
 ```
-
 
 
 
 ## Thanks for helping and sharing your ideas!
 
-#
+```{r, out.width="35%"}
+include_graphics(c("change_1.png", "change_2.png"))
+```
 
-end.
-
-
-
-
+[Brake down of goals listed in job description](https://bookdown.org/forestgeoguest/workplan_goals/)
 
 
 
+# 
 
+end
 
+# 
 
-
-
-
-## Comments about TASKS
-
-Catagories
-
-(1) Produce and maintain a package sensu stricto
-
-Optimization and expantion is important but some updates come first (documentation, assertions, tests)
-
-
-(4) Optimize code for speed.
-
-If time allows, do this towards the end of the first period
-
-
-(7) Write new functions to help in the pre-processing and formatting of CTFS-ForestGEO data. 
-
-Assuming these functions are the ones that Suzanne shared with me, i.e. those which purpose is to produce r-tables from database data (__rtbl__)
-
-Probabbly after releasing some module of __forestr__, e.g. after releasing abundance. If so, I may work on __rtbl__ during October and hav it finished by the end of October.
-
-
-
-
-
-
-
-
-
-
-
-# Leftovers
+Leftovers
 
 
 
@@ -448,41 +306,3 @@ functions_priority %>%
   pull(fun) %>% 
   paste(collapse = ", ")
 ```
-
-
-
-
-
-
-
-
-
-## GENERAL TRAITS
-
-Clearly document help pages.
-Write easy-to-read code.
-Communicate and understand the needs of a broad range of researchers and students.
-
-
-
-# SKILLS
-
-## Required skills: 
-
-(1) Experience in building R packages, good understanding of S3 and S4 methods, and knowledge of generic R work as well as R environments. 
-
-(2) Experience in git and github. 
-
-(3) Experience in code debugging, profiling, and optimizing. 
-
-(4) Strong attention to detail and organizational skills. 
-
-
-
-## Desirable skills: 
-
-(1) Experience with R Markdown and Shiny. 
-
-(2) Experience with lower level languages, ideally C++. 
-
-(3) Previous experience with forest ecology or plant dynamics.
